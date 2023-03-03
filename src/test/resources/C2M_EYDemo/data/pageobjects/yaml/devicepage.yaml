@@ -21,3 +21,14 @@ DevicePage:
     partiallinktext: ""
     tagname: ""
 
+  - element_type: ""
+    variable: device_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1DVC_AN_LBL"]/table/tbody/tr[2]/td
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

@@ -10,6 +10,7 @@ C2M_HOME:
   C2MDEMO2: https://ovxc2m1a.csu.org:9601/ouaf/cis.jsp
   #https://10.0.24.7:6501/ouaf/cis.jsp
   #https://ovxc2m1a.csu.org:9601/ouaf/
-  C2MTEST: https://ovtc2m1o.csu.org:9660/ouaf
+  C2MTEST: https://10.0.24.7:6501/ouaf/cis.jsp
+  #https://ovtc2m1o.csu.org:9660/ouaf
   C2MQA: https://ovqc2m1o.csu.org:9660/ouaf
   #https://ovqc2m1o.csu.org:9660/ouaf/cis.jsp

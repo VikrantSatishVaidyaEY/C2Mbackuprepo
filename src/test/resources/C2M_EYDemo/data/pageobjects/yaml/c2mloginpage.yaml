@@ -3845,7 +3845,7 @@ C2M:
 Credentials:
   - element_type: ""
     variable: user
-    value: vvaidya
+    value: SYSUSER
     id: ""
     class: ""
     name: ""
@@ -3856,7 +3856,7 @@ Credentials:
     tagname: ""
   - element_type: ""
     variable: pass
-    value: Winter20220123!
+    value: sysuser00
     id: ""
     class: ""
     name: ""

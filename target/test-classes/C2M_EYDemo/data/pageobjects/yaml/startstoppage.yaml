@@ -69,7 +69,8 @@ StartStopPage:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="SA_TO_STRT$SA_TYPE_CD"]  #update xpath for C2MDEV
+    xpath: //*[@id="SA_TO_STRT$START_OPT_CD"]
+    #//*[@id="SA_TO_STRT$SA_TYPE_CD"]  #update xpath for C2MDEV
 #    xpath: //*[@id="SA_TO_STRT$START_OPT_CD"]
     css: ""
     linktext: ""
@@ -141,8 +142,102 @@ StartStopPage:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="IM_SA_TO_STRT$START_OPT_CD"]
+    xpath: //*[@id="START_OPT_CD"]
+    #//*[@id="IM_SA_TO_STRT$START_OPT_CD"]
     css: ""
     linktext: ""
     partiallinktext: ""
     tagname: ""
+
+
+  - element_type: ""
+    variable: start_option_residential_basic
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SEARCH_RESULTS:1$DESCR90"]
+    #//*[@id="IM_SA_TO_STRT$START_OPT_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: start_option_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BU_Main_search"]
+    #//*[@id="IM_SA_TO_STRT$START_OPT_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: popup_start
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="START_SELECT_SA_SW"]
+    #//*[@id="IM_SA_TO_STRT$START_OPT_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: pendingSA_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PENDSA_TLBL"]/table/tbody/tr[2]/td
+    #//*[@id="IM_SA_TO_STRT$START_OPT_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: sa_info
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_PEND_SS$SA_ID_CTX_MENU"]
+    #//*[@id="IM_SA_TO_STRT$START_OPT_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: go_to_sa
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTSERVICEAGREEMENT_subMenuItem0x0"]
+    #//*[@id="IM_SA_TO_STRT$START_OPT_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: activate_sa
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACTIVATE_SW"]
+    #//*[@id="IM_SA_TO_STRT$START_OPT_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

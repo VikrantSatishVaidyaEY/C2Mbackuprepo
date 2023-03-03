@@ -1091,3 +1091,16 @@ SubMenu:
     linktext: ""
     partiallinktext: ""
     tagname: ""
+
+  - element_type: ""
+    variable: go_to_install_event
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_INSTALLATION_subMenuItem1x1"]/span[1]
+    #//*[@id="IM_SA_TO_STRT$START_OPT_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

@@ -253,3 +253,39 @@ PremisePage:
     partiallinktext: ""
     tagname: ""
 
+  - element_type: ""
+    variable: address_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BU_Section1_altrSearch"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: first_result
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SEARCH_RESULTS:0$ADDR_INFO"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: premise_tree_sa_link
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ouaf_premiseTree_3"]/div/div/a
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

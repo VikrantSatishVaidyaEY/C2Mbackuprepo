@@ -52,7 +52,8 @@ InstallEvent:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="installDateTime_date"] #update xpath for C2MDEV
+    xpath: //*[@id="boGroup_installDateTime_date"]
+    #//*[@id="installDateTime_date"] #update xpath for C2MDEV
 #    xpath: //*[@id="boGroup_installDateTime_date"]
     css: ""
     linktext: ""
@@ -77,7 +78,8 @@ InstallEvent:
     id: ""
     class: ""
     name: ""
-    xpath: /html/body/table[2]/tbody/tr[15]/td/table/tbody/tr/td/input[1] #update xpath for C2MDEV
+    xpath: /html/body/table[2]/tbody/tr[14]/td/table/tbody/tr/td/input[1]
+    #/html/body/table[2]/tbody/tr[15]/td/table/tbody/tr/td/input[1] #update xpath for C2MDEV
 #    xpath: /html/body/table[2]/tbody/tr[14]/td/table/tbody/tr/td/input[1]
     css: ""
     linktext: ""

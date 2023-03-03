@@ -111,7 +111,7 @@ Dashboard:
    id: ""
    class: ""
    name: ""
-   xpath: //*[@id="oraTableContextContainer"]/tbody/tr[2]/td[2]/img
+   xpath: //*[@id="oraTableContextContainer"]/tbody/tr[4]/td[2]/a
    css: ""
    linktext: ""
    partiallinktext: ""

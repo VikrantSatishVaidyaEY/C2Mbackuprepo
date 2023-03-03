@@ -55,3 +55,16 @@ AssetQueryPage:
     linktext: ""
     partiallinktext: ""
     tagname: ""
+
+
+  - element_type:
+    variable: badge_number
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="adhocValueIdentifier_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

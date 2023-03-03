@@ -21,3 +21,14 @@ DeviceConfigurationPage:
     partiallinktext: ""
     tagname: ""
 
+  - element_type: ""
+    variable: enter_new_read
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="zoneHeader3"]/table/tbody/tr/td[2]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

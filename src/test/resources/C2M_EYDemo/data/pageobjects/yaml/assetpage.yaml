@@ -454,3 +454,29 @@ AssetPage:
     linktext: ""
     partiallinktext: ""
     tagname: ""
+
+
+  - element_type:
+    variable: expand_record_information
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: /html/body/div[2]/div[2]/h1/img
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type:
+    variable: asset_service_location
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition_StorageLocation_IC"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

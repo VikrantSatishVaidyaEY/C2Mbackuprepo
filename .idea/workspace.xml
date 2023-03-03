@@ -4,158 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d260e4-a5da-46b3-89f2-b8341f51828f" name="Changes" comment=" changes related to CC001 test cases">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Billing" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm003_createcustomercontactforbudgetremoval.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Measurement and Usage" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Meter Operations" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Meter Operations/mtr_createhazardfieldactivity.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/To Do" afterDir="true" />
-      <change beforePath="$PROJECT_DIR$/Configuration.properties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commons/PropertiesFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commons/PropertiesFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cucumber.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN010TransferringABalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN010TransferringABalance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/environments.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/environments.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/360degreeviewpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/360degreeviewpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/adjustmentpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/adjustmentpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/assetpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/assetpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/assetquerypage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/assetquerypage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/c2mloginpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/c2mloginpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/contextmenu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/contextmenu.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/controlcentralsearchpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/controlcentralsearchpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/customercontactpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/customercontactpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/fieldactivitypage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/fieldactivitypage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/mainmenu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/mainmenu.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/paymentpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/paymentpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/submenu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/submenu.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/CC013_modifyseveranceeventtriggerdate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/CC013_modifyseveranceeventtriggerdate.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/CM217_02 _generateinterimbillforcustomerthathasnetmeter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/CM217_02 _generateinterimbillforcustomerthathasnetmeter.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/CM248_addfieldtool.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/CM248_addfieldtool.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/CM248_issueandretirefieldtool.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/CM248_issueandretirefieldtool.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/CM248_updatefieldtool.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/CM248_updatefieldtool.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/bil001_manuallygenerateabill.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Billing/bil001_manuallygenerateabill.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/bil002_cancelabillsegment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Billing/bil002_cancelabillsegment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/bil003_cancelrebilbillsegment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Billing/bil003_cancelrebilbillsegment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/bil004_settingamaximumbillthreshold.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Billing/bil004_settingamaximumbillthreshold.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/bil005_servicecycleupdatesbillingcycle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Billing/bil005_servicecycleupdatesbillingcycle.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/bil006createhighbillcomplaint.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Billing/bil006createhighbillcomplaint.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/bil007_ratechangeproperlysyncsratehistory.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Billing/bil007_ratechangeproperlysyncsratehistory.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc001_addcollectionreferralagency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc001_addcollectionreferralagency.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc002_addpayplan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc002_addpayplan.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc003_cancelingapayplan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc003_cancelingapayplan.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc004_addingapaymentarrangementrequest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc004_addingapaymentarrangementrequest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc005_addingcollectionprocess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc005_addingcollectionprocess.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc006_addingseveranceprocess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc006_addingseveranceprocess.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc007_addingawriteoffprocess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc007_addingawriteoffprocess.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc008_cancellingcollectionprocess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc008_cancellingcollectionprocess.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc009_cancellingseveranceprocess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc009_cancellingseveranceprocess.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc010_cancellingawriteoffprocess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc010_cancellingawriteoffprocess.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc011_manuallyaddingcreditpoints.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc011_manuallyaddingcreditpoints.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc012_modifyingcollectioneventtriggerdate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc012_modifyingcollectioneventtriggerdate.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cc014_modifyingawriteoffeventtriggerdate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Credit and Collection/cc014_modifyingawriteoffeventtriggerdate.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/ci001_addpersonandaccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci001_addpersonandaccount.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/ci002_addpremise.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci002_addpremise.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/ci003_addservicepoint.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci003_addservicepoint.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/ci004_personproperlysyncsfromc2mtomdm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci004_personproperlysyncsfromc2mtomdm.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/ci005_startserviceagreement.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci005_startserviceagreement.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/ci007_stopserviceagreement.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci007_stopserviceagreement.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/ci008_createadepositsa.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci008_createadepositsa.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/ci009_serviceagreementsyncsfromc2mtomdm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci009_serviceagreementsyncsfromc2mtomdm.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/ci010_addchildpremisetoparentpremise.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci010_addchildpremisetoparentpremise.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/ci011_addpremisetoexistinglandlordagreement.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci011_addpremisetoexistinglandlordagreement.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm003_createcustomercontactforbudgetremoval.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm100_retrievespanddeviceinfo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm217_generateclosingbillforcustomerwithnetmeter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm217_generateclosingbillforcustomerwithnetmeter.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm248_reissuefieldtool.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm248_reissuefieldtool.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm287_createalertwhenpersonandpremisecharsupdated.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm287_createalertwhenpersonandpremisecharsupdated.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm287_createalertwhenpersoncharsupdated.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm287_createalertwhenpersoncharsupdated.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm287_createalertwhenpremisecharsupdated.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm287_createalertwhenpremisecharsupdated.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm345_validatealertiscreatedwhenaccountcharacteristicsupdated.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm345_validatealertiscreatedwhenaccountcharacteristicsupdated.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm353_validatebackflowletterwithmultipleSP.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm353_validatebackflowletterwithmultipleSP.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm353_validatebackflowletterwithsingleSP.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm353_validatebackflowletterwithsingleSP.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm361_discardpendingimd.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm361_discardpendingimd.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm363_createmv90asset.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm363_createmv90asset.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm369validatetodoafterdeviceevent_.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm369validatetodoafterdeviceevent_.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm370_createwatermodule.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm370_createwatermodule.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/cm405_updatedspdonotestimateflag.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm405_updatedspdonotestimateflag.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/dm001_adddevice.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm001_adddevice.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/dm002_installeventsyncsfrommdmtodm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm002_installeventsyncsfrommdmtodm.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/dm003_updatemeasuringcomponent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm003_updatemeasuringcomponent.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/dm004_createassetgasdevicetypexxxmeter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm004_createassetgasdevicetypexxxmeter.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/dm005_createassetgasdevicetypexxxequipment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm005_createassetgasdevicetypexxxequipment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/dm006_createassetelectricdevicetypexxxmeter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm006_createassetelectricdevicetypexxxmeter.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/dm007_createassetelectricdevicetypexxxequipment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm007_createassetelectricdevicetypexxxequipment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/dm008_createassetwaterdevicetypexxxmeter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm008_createassetwaterdevicetypexxxmeter.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/dm009_createassetwaterdevicetypexxxequipment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm009_createassetwaterdevicetypexxxequipment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/dm010_createassetelectricdevicetypexxxcomponent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm010_createassetelectricdevicetypexxxcomponent.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/fin002_cancelanadjustment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin002_cancelanadjustment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/fin003_adddepositortendercontrol.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin003_adddepositortendercontrol.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/fin004_addpaymentevent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin004_addpaymentevent.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/fin005_addapaymenttomultipleaccounts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin005_addapaymenttomultipleaccounts.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/fin006_cancellingapaymentevent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin006_cancellingapaymentevent.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/fin007_searchingforapayment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin007_searchingforapayment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/fin008_settingupautopay.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin008_settingupautopay.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/fin009_cancellingautopay.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin009_cancellingautopay.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/fin010_transferringabalance.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin010_transferringabalance.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/mtr001_createinstallmeterfieldactivity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Meter Operations/mtr001_createinstallmeterfieldactivity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/mtr002_createexchangemeterfieldactivity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Meter Operations/mtr002_createexchangemeterfieldactivity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/mtr003_removemeterfieldactivity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Meter Operations/mtr003_removemeterfieldactivity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/mtr004_createcustomercontactforoutage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Meter Operations/mtr004_createcustomercontactforoutage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/mtr005_updateassetlocation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Meter Operations/mtr005_updateassetlocation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/mu001_addmeterreadviameterreadpage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Measurement and Usage/mu001_addmeterreadviameterreadpage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/mu002_addmeterreadviacreateoverride.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Measurement and Usage/mu002_addmeterreadviacreateoverride.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/tds001_addmanualtodo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/To Do/tds001_addmanualtodo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/tds002_completetodo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/To Do/tds002_completetodo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/tds003_assigningtodoentries.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/To Do/tds003_assigningtodoentries.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/testdata_inputfilebuilder_scenario.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/testdata_inputfilebuilder_scenario.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cucumber.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumberHtmlReport" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumberHtmlReport" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/PageObjects.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/PageObjects.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/environments.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/environments.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/accountpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/accountpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/c2mloginpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/c2mloginpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/account.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/account.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FeatureRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FeatureRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.class" afterDir="false" />
-    </list>
+    <list default="true" id="c6d260e4-a5da-46b3-89f2-b8341f51828f" name="Changes" comment=" changes related to CC001 test cases" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm405_updatedspdonotestimateflag.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm008_createassetwaterdevicetypexxxmeter.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm003_createcustomercontactforbudgetremoval.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin002_cancelanadjustment.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm353_validatebackflowletterwithmultipleSP.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm006_createassetelectricdevicetypexxxmeter.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm287_createalertwhenpersoncharsupdated.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Configuration.properties.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin008_settingupautopay.feature" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Billing/bil007_ratechangeproperlysyncsratehistory.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/accountpage.yaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm363_createmv90asset.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm370_createwatermodule.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/frameobjects.yaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm007_createassetelectricdevicetypexxxequipment.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm287_createalertwhenpersonandpremisecharsupdated.feature" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm005_createassetgasdevicetypexxxequipment.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm002_installeventsyncsfrommdmtodm.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin008_settingupautopay.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm006_createassetelectricdevicetypexxxmeter.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm370_createwatermodule.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm405_updatedspdonotestimateflag.feature" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/contextmenu.yaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm004_createassetgasdevicetypexxxmeter.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm345_validatealertiscreatedwhenaccountcharacteristicsupdated.feature" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/dashboard.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm345_validatealertiscreatedwhenaccountcharacteristicsupdated.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Configuration.properties.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm353_validatebackflowletterwithmultipleSP.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm003_createcustomercontactforbudgetremoval.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm287_createalertwhenpersoncharsupdated.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm004_createassetgasdevicetypexxxmeter.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm363_createmv90asset.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm007_createassetelectricdevicetypexxxequipment.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin002_cancelanadjustment.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm002_installeventsyncsfrommdmtodm.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/accountpage.yaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/controlcentralpage.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm008_createassetwaterdevicetypexxxmeter.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/frameobjects.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm287_createalertwhenpersonandpremisecharsupdated.feature" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -201,7 +79,7 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="197" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BillcompareNewcode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -231,36 +109,16 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: mtr_createhazardfieldactivity">
-    <configuration name="Feature: fin001_addanadjustment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: EndToEndScriptDemo">
+    <configuration name="Feature: EndToEndScriptDemo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin001_addanadjustment.feature" />
-      <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env stepimplementation" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Demos/EndToEndScriptDemo.feature" />
+      <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions stepimplementation" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="nextgen-testing-platform" />
+      <module name="ngtp-official315" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="ARGS_FILE" />
-      <option name="SUGGESTED_NAME" value="Feature: fin001_addanadjustment" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: fin004_addpaymentevent" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin004_addpaymentevent.feature" />
-      <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env stepimplementation" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="nextgen-testing-platform" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="ARGS_FILE" />
-      <option name="SUGGESTED_NAME" value="Feature: fin004_addpaymentevent" />
+      <option name="SUGGESTED_NAME" value="Feature: EndToEndScriptDemo" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -321,6 +179,27 @@
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="ARGS_FILE" />
       <option name="SUGGESTED_NAME" value="Feature: mtr_createhazardfieldactivity" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Installing and activating the device" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Demos/EndToEndScriptDemo.feature" />
+      <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions stepimplementation" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ngtp-official315" />
+      <option name="NAME_FILTER" value="^Installing and activating the device$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Installing and activating the device$&quot;" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Installing and activating the device" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -409,22 +288,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: fin001_addanadjustment" />
-      <item itemvalue="Cucumber Java.Feature: fin004_addpaymentevent" />
       <item itemvalue="Cucumber Java.Feature: fin006_cancellingapaymentevent" />
       <item itemvalue="Cucumber Java.Feature: fin008_settingupautopay" />
       <item itemvalue="Cucumber Java.Feature: mtr_createhazardfieldactivity" />
       <item itemvalue="JUnit.FeatureRunner" />
       <item itemvalue="TestNG.FunctionalCukesTest" />
       <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="Cucumber Java.Feature: EndToEndScriptDemo" />
+      <item itemvalue="Cucumber Java.Scenario: Installing and activating the device" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: EndToEndScriptDemo" />
+        <item itemvalue="Cucumber Java.Scenario: Installing and activating the device" />
         <item itemvalue="Cucumber Java.Feature: mtr_createhazardfieldactivity" />
         <item itemvalue="Cucumber Java.Feature: fin008_settingupautopay" />
         <item itemvalue="Cucumber Java.Feature: fin006_cancellingapaymentevent" />
-        <item itemvalue="Cucumber Java.Feature: fin004_addpaymentevent" />
-        <item itemvalue="Cucumber Java.Feature: fin001_addanadjustment" />
       </list>
     </recent_temporary>
   </component>
@@ -432,24 +311,6 @@
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\vvaidya\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\ngtp-official315" />
-          <option name="myCopyRoot" value="D:\ngtp-official315" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\ngtp-official315" />
-          <option name="myCopyRoot" value="D:\ngtp-official315" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -853,37 +714,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>201</line>
+          <line>203</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>222</line>
+          <line>224</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>217</line>
+          <line>219</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>218</line>
+          <line>220</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>32</line>
+          <line>34</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>208</line>
+          <line>210</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>41</line>
+          <line>43</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -903,12 +764,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>138</line>
+          <line>140</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>141</line>
+          <line>143</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>

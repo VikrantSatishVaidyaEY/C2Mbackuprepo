@@ -8,10 +8,12 @@ import etaf.helperutils.datahelpers.StringHelperUtils;
 import etaf.helperutils.elementHelper.ElementObject;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import methods.CaptureData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import stepimplementation.InputElementStepDefs;
 import utils.helpers.pageobjechelpers.PageObjectGenerator;
 
 import creditcollection.CreditCollection;
@@ -227,6 +229,22 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
 //
 //        }
 //    }
+
+
+    //new code
+    @Then("^I save the device configuration id$")public void saveAssetConfigID()
+    {    String configID = driver.findElement(By.xpath("//span[@id='bsDeviceConfigId']")).getText();
+        CaptureData.addData("DevConfigID",configID);
+
+    }
+
+    @Then("^I enter saved configuration id into input element (.*)$")
+    public void enterSavedDetails(String element)
+    {    String configID = CaptureData.getData("DevConfigID");
+        InputElementStepDefs I = new InputElementStepDefs(driverUtil);
+        I.enter_text(configID,element);
+
+    }
 
 
 }
