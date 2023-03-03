@@ -1,0 +1,8 @@
+element_type	variable	value	id	class	name	xpath	css	linktext	partiallinktext	tagname
+link	search_result					"(//div[@data-cel-widget=""search_result_::index::""]//a)[2]"				
+link	asus_zenbook					"(//*[contains(text(),'ASUS ZenBook 13')])[1]"				
+link	echo_dot					"(//*[contains(text(), 'Echo Dot (3rd Gen)')])[1]"				
+link	rich_dad					"//*[contains(text(), 'Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!')]"				
+link	four_disciplines					"//*[contains(text(), 'The 4 Disciplines of Execution: Achieving Your Wildly Important Goals')]"				
+link	google_netbook					"(//*[contains(text(),'Google Pixelbook')])[1]"				
+link	google_pixelbook_go					"(//*[contains(text(),'Google Pixelbook Go -')])[1]"				

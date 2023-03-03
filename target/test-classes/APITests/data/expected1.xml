@@ -1,0 +1,3 @@
+<m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+    <m:NumberToWordsResult><response></m:NumberToWordsResult>
+</m:NumberToWordsResponse>

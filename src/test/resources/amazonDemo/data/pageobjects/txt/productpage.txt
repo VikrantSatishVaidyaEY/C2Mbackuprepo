@@ -1,0 +1,18 @@
+element_type	variable	value	id	class	name	xpath	css	linktext	partiallinktext	tagname
+div	product_title		productTitle							
+div	product_price		priceblock_ourprice							
+button	add_to_cart		add-to-cart-button							
+div	total_customer_reviews		acrCustomerReviewText							
+span	view_cart		nav-cart							
+link	close_side_pane		attach-close_sideSheet-link							
+button	proceed								checkout	
+button	insurance_yes		attachSiAddCoverage							
+button	insurance_no					"//button[contains(@id,""NoCoverage-announce"")]"				
+button	echo_color_charcoal		color_name_0							
+button	echo_color_heather_gray		color_name_1							
+button	echo_color_sandstone		color_name_3							
+button	alexa_continue			a-button-input						
+radioButton	echo_add_protection					"//*[@id=""abb-intl-product-view-B07G267D8S""]/div[2]/div/div/div/div/label/input"				
+button	echo_color_plumb		color_name_2							
+	echo_try					"//*[@id=""abb-intl-product-view-B07G267D8S""]/div[2]/div/div/div/div/label"				
+	echo_add_protection					"//*[@id=""abb-intl-product-view-B07G267D8S""]/div[2]/div/div/div/div/label"				

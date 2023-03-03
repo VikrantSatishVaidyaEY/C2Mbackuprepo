@@ -1,0 +1,133 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		             Reason:
+# 2022-05-20	  JLonga		             Initial Version.
+######################################################################################
+
+PersonPage:
+  - element_type: ""
+    variable: per_name
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PER_NAME:0$ENTITY_NAME"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: per_contact_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PER_CONT_DETL:0$COMM_RTE_TYPE_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: per_contact_value
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PER_CONT_DETL:0$CONTACT_VALUE"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: per_primary_sw
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PER_CONT_DETL:0$CND_PRIMARY_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: per_id_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PER_IDENTIFIER:0$ID_TYPE_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: per_id_value
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PER_IDENTIFIER:0$PER_ID_NBR"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: characteristics_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PERCHAR_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: characteristics_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PER_CHAR:0$CHAR_TYPE_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: characteristics_val
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PER_CHAR:0$CHAR_VAL"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: input
+    variable: per_info_save
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@name="Save"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+
+
+

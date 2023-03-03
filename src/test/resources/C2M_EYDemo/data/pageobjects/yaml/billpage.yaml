@@ -1,0 +1,121 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-05-12	  JLonga		Initial Version.
+# 2022-05-25    CTongo    Arrange search bill elements
+#####################################################################################
+
+BillPage:
+#Bill Page
+  - element_type:
+    variable: generate_bill_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    #Search Menu
+    xpath: //*[@id="ACTION_GENERATE_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: cutoff_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    #Search Menu
+    xpath: //*[@id="CUTOFF_DT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: freeze_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    #Search Menu
+    xpath: //*[@id="ACTION_FREEZE_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: complete_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACTION_COMPLETE_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: complete_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="OBC_BILL_DT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: bseg_link
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[@id="BILL_SEG:0$BSEG_INFO"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: specific_bseg_link
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[contains(text(),'')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Search Bill Pop Up Page
+  - element_type:
+    variable: bill_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BILL_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: bill_search_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BU_Main_bsBiSrBtn"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

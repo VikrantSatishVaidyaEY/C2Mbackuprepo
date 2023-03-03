@@ -1,0 +1,1284 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-27T01:46:05.525Z",
+        "before": [
+          {
+            "result": {
+              "duration": 57001400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "seleniumutils.applicationlayer.ETLValidation.stepdefinitions.ETLReusableStepDefinitions.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 791003200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "methods.Hooks.JarInitialize()"
+            }
+          },
+          {
+            "output": [
+              "Assertion Type is set to : hard"
+            ],
+            "result": {
+              "duration": 4274197200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepimplementation.ValidationStepDefs.setSoftAssert(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1999800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepimplementation.InputElementStepDefs.getScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "application.ETLStepDefinitions.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 78,
+        "name": "Verify User is able to Add an Adjustment",
+        "description": "",
+        "id": "t1674783921-0t-temp;verify-user-is-able-to-add-an-adjustment;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepimplementation.ValidationStepDefs.softassertall()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 465004000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to C2M_HOME page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "C2M_HOME",
+                  "offset": 14
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.navigate_toURL(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 674002500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter credentials.user into input field c2m.username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "credentials.user",
+                  "offset": 8
+                },
+                {
+                  "val": "c2m.username",
+                  "offset": 42
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_text_from_input_data(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 647005000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter credentials.pass into input field c2m.password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "credentials.pass",
+                  "offset": 8
+                },
+                {
+                  "val": "c2m.password",
+                  "offset": 42
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_text_from_input_data(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 672006500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on element c2m.sign_in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c2m.sign_in",
+                  "offset": 19
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.click(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5008716000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I wait for 5 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "stepimplementation.WaitStepDefs.wait(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219028100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I switch to frame frame.main_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.main_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5006101800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I wait for 5 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "stepimplementation.WaitStepDefs.wait(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 552006000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on element main.main_menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "main.main_menu",
+                  "offset": 19
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.click(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193991200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "element main.control_central should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "main.control_central",
+                  "offset": 8
+                }
+              ],
+              "location": "stepimplementation.ValidationStepDefs.check_element_presence(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 503005200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on element main.control_central",
+            "match": {
+              "arguments": [
+                {
+                  "val": "main.control_central",
+                  "offset": 19
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.click(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3011015300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I wait for 3 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                }
+              ],
+              "location": "stepimplementation.WaitStepDefs.wait(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287009300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see page title as \"Control Central Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Control Central Search",
+                  "offset": 28
+                }
+              ],
+              "location": "stepimplementation.ValidationStepDefs.check_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5994800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I switch to main content",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_default_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50003500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I switch to frame frame.main_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.main_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94997400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I switch to frame frame.tabpage_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.tabpage_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 505001300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I select \"Account ID\" option by text from dropdown controlcentralsearch.search_by",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account ID",
+                  "offset": 10
+                },
+                {
+                  "val": "controlcentralsearch.search_by",
+                  "offset": 51
+                }
+              ],
+              "location": "stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 698902000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "element controlcentralsearch.account_id should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "controlcentralsearch.account_id",
+                  "offset": 8
+                }
+              ],
+              "location": "stepimplementation.ValidationStepDefs.check_element_presence(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 495001000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter \"0707403459\" into input field controlcentralsearch.account_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0707403459",
+                  "offset": 9
+                },
+                {
+                  "val": "controlcentralsearch.account_id",
+                  "offset": 38
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 542008100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I select \"Colorado Springs Utilities\" option by text from dropdown controlcentralsearch.cis_division",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Colorado Springs Utilities",
+                  "offset": 10
+                },
+                {
+                  "val": "controlcentralsearch.cis_division",
+                  "offset": 67
+                }
+              ],
+              "location": "stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 662407300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click element controlcentralsearch.search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "controlcentralsearch.search",
+                  "offset": 16
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000734200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I wait for 3 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                }
+              ],
+              "location": "stepimplementation.WaitStepDefs.wait(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7015995100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I wait for 7 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 11
+                }
+              ],
+              "location": "stepimplementation.WaitStepDefs.wait(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21999300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I switch to main content",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_default_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46002600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I switch to frame frame.main_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.main_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56992700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I switch to frame frame.dashboard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.dashboard",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 646003200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click element controlcentral.account_context_menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "controlcentral.account_context_menu",
+                  "offset": 16
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10002900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I switch to main content",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_default_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46998900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I switch to frame frame.main_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.main_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 358006200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I hover over element context.acctctx_gotoadjustment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "context.acctctx_gotoadjustment",
+                  "offset": 21
+                }
+              ],
+              "location": "stepimplementation.SelectionElementStepDefs.hover_over_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 557999200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click element context.add",
+            "match": {
+              "arguments": [
+                {
+                  "val": "context.add",
+                  "offset": 16
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3002145900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I wait for 3 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                }
+              ],
+              "location": "stepimplementation.WaitStepDefs.wait(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45005500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I switch to frame frame.tabpage_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.tabpage_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 572000300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter \"FEEREI\" into input field adjustmentpage.adjustment_type_field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FEEREI",
+                  "offset": 9
+                },
+                {
+                  "val": "adjustmentpage.adjustment_type_field",
+                  "offset": 34
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 230006500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I press \"TAB\" key into input field adjustmentpage.adjustment_type_field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TAB",
+                  "offset": 9
+                },
+                {
+                  "val": "adjustmentpage.adjustment_type_field",
+                  "offset": 35
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_key(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 303999800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I clear input field adjustmentpage.amount",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adjustmentpage.amount",
+                  "offset": 20
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.clear_text(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 474007500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter \"10\" into input field adjustmentpage.amount",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 9
+                },
+                {
+                  "val": "adjustmentpage.amount",
+                  "offset": 30
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 777011900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click element adjustmentpage.generate_btn",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adjustmentpage.generate_btn",
+                  "offset": 16
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58003900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I switch to main content",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_default_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90994400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I switch to new window",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_new_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 654000200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click element adjustmentpage.calculate_btn",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adjustmentpage.calculate_btn",
+                  "offset": 16
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58003300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I switch to previous window",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_old_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108004000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I switch to main content",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_default_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254996600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I switch to frame frame.main_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.main_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76008100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I switch to frame frame.tabpage_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.tabpage_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1752017600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on element adjustmentpage.submit_approval_btn",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adjustmentpage.submit_approval_btn",
+                  "offset": 19
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.click(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4011012100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I wait for 4 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "stepimplementation.WaitStepDefs.wait(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13004900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I switch to main content",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_default_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38003700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I switch to frame frame.main_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.main_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54002300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I switch to frame frame.tabmenu_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.tabmenu_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 589004100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click element tabs.approval_tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tabs.approval_tab",
+                  "offset": 16
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7994600,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I switch to main content",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_default_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82999200,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I switch to frame frame.main_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.main_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289003400,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I switch to frame frame.tabpage_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.tabpage_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195000600,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "element frame.zonemapframe_2_frame should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.zonemapframe_2_frame",
+                  "offset": 8
+                }
+              ],
+              "location": "stepimplementation.ValidationStepDefs.check_element_presence(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273999000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I switch to frame frame.zonemapframe_2_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.zonemapframe_2_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 722005100,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I click element adjustmentpage.approve_btn",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adjustmentpage.approve_btn",
+                  "offset": 16
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6002500,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I switch to main content",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_default_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45001000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I switch to frame frame.main_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.main_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47013000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I switch to frame frame.tabmenu_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.tabmenu_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 868920700,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I click element tabs.main_tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tabs.main_tab",
+                  "offset": 16
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129006300,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I switch to main content",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_default_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371007900,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I switch to frame frame.main_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.main_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47001400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I switch to frame frame.tabpage_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.tabpage_frame",
+                  "offset": 18
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30646074600,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click element adjustmentpage.freeze_btn",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adjustmentpage.freeze_btn",
+                  "offset": 16
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3001036900,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I wait for 3 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                }
+              ],
+              "location": "stepimplementation.WaitStepDefs.wait(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7087400,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I switch to main content",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_default_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18939100,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I switch to new window",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_new_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 549598600,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I click element adjustmentpage.save_btn",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adjustmentpage.save_btn",
+                  "offset": 16
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82996000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I switch to previous window",
+            "match": {
+              "location": "stepimplementation.NavigationStepDefs.switch_to_old_window()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FIN001_NGTPUI"
+          },
+          {
+            "name": "@regression_NGTPUI"
+          },
+          {
+            "name": "@NGTPUI_NGTPUI"
+          }
+        ]
+      }
+    ],
+    "name": "T1674783921_0T_temp",
+    "description": "",
+    "id": "t1674783921-0t-temp",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/C2M_EYDemo/features/C2M_EYDemo_temp/T1674783921_0T_temp.feature",
+    "tags": []
+  }
+]

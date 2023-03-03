@@ -1,0 +1,456 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-13	  AThott		Initial Version.
+# 2022-04-25    CTongo    Add Asset UI page / Add Asset Type Mapping
+# 2022-05-18    CTongo    Update/Add Asset UI page / Asset Type Mapping aligned from addassetpage.yaml and analogmeterpage.yaml
+# 2022-05-23    JLonga    Add Asset BO Status Mapping
+# 2022-06-07    CTongo    Add change asset location button and asset location Ui map elements
+# 2022-08-23    AThott    Added change asset store location elements
+######################################################################################
+
+AssetPage:
+#Asset Main Tab Page
+  - element_type:
+    variable: asset_store
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="TRANSITION_1"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: edit
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="EDIT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_device
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: /html/body/div[1]/div[1]/div[7]/div/span/a
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_change_location_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@value="Change Location"]
+    #//*[@id="changeLocationCB"]
+    #//*[@id="ChangeLocation"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Get the text f badge number
+  - element_type:
+    variable: badge_number
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="badgeNo"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Add Asset Ui Map Page
+  - element_type:
+    variable: cal_img
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="oraDateTimeContainer"]/img
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition/effectiveDateTime_date"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_time
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition/effectiveDateTime_time"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_assetType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_service_location
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition_storageLocationId"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_ok_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="oraButtonList"]//*[@type="button"]
+#    xpath: /html/body/div[9]/div/input[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Add Asset Type Ui Map Page
+  - element_type:
+    variable: asset_creation_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_creationDateTime_date"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_creation_time
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_creationDateTime_time"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_spec
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_specification"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_type_badge_number
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_badgeNo"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_type_serial_number
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_serialNo"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_type_metrology_firmware_version
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_metrologyFirmware"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_type_nic_firmware_version
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_nicFirmware"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_type_measurement_configuration
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_configuration"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_type_save_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SAVE_BTN_MP"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Asset UI Page Store
+  - element_type:
+    variable: store_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id="newAssetDisposition_effectiveDateTime_date"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: store_time
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition_effectiveDateTime_time"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_store_new_location
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition_StorageLocation_IC"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_store_save_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@value="Save"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_bo_status
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boStatus"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_type_communication_component_firmware_version
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_firmware"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type:
+    variable: asset_issued
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@value="Issued"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type:
+    variable: outofservicelocation
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition_StorageLocation_IC"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: retire_asset
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@value="Retire"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: out_of_service_location
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition_StorageLocation_NIC"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type:
+    variable: edit_electrickh
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Electric KH"]//following::img
+    #//img[@title="Edit - Asset Attributes - row 7"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: electrickh_save
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SAVE_BTN_FRG"]
+    #//label[text()="Value"]//following::input
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: electrickh_value
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="attributeAHValue"]
+    #//label[text()="Value"]//following::input
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: edit_gearratio
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Electric Primary Gear Ratio (999:99)"]//following::img
+    #//img[@title="Edit - Asset Attributes - row 8"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: edit_registerratio
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Electric Register Ratio (9999:999/999)"]//following::img
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: failure_dropdown
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="failure"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

@@ -1,0 +1,60 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-07	  CTongo		Initial Version.
+#
+#####################################################################################
+
+PaymentPage:
+#Payment Main Tab
+  - element_type: ""
+    variable: tenders
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="TENDERS_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Search Payment Pop up
+  - element_type: ""
+    variable: payment_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY_EVENT_ID"]
+    #//*[@id="PAY_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Search Payment Pop up
+  - element_type: ""
+    variable: payment_id_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: payment_id_search_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BU_Main_payEvtSrch"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

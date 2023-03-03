@@ -1,0 +1,204 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-05-27	  AThott		Initial Version.
+
+######################################################################################
+
+ProcessPage:
+
+#Person context menu image
+  - element_type: ""
+    variable: address
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="address1"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: premise_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="search_premiseId"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: premiseid_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="search_button"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: enable_address
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="address_radio_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: next
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ui-id-5"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: continue
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="customerIdentificationContinueButton"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: check_deposit_requirement
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="eligibleAccountCheckDepositRequirementButton"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: start_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="serviceStartDate_datePicker"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: requested_by
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="requestedBy"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: person_contact_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="personContactTypeEmail_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: contact_information
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="contactDetailValue_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: comment
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="otherAccountDetails_customerContact_customerContactComments"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: finish
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ui-id-6"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: servicestartdate
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="serviceStartDate"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: today
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[text()="Today"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: servicestartdatespan
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="serviceStartDate_span"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: requestedby
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="requestedBy"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

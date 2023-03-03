@@ -1,0 +1,2 @@
+element_type	variable	value	id	class	name	xpath	css	linktext	partiallinktext	tagname
+button	price					"//*[@id=""flt-app""]/div[2]/main[4]/div[7]/div[1]/div[5]/div[1]/ol/li/div/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]"				

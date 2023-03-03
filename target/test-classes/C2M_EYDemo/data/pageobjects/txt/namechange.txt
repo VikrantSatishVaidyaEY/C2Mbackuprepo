@@ -1,0 +1,4 @@
+element_type	variable	value	id	class	name	xpath	css	linktext	partiallinktext	tagname
+	name_change					"//*[@id=""ap_customer_name""]"				
+	account_name	Chase Kopp								
+	save_changes		cnep_1C_submit_button							

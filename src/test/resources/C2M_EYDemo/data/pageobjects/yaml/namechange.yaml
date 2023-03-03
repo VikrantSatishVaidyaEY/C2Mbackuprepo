@@ -1,0 +1,34 @@
+NameChange:
+  - element_type: ""
+    variable: name_change
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ap_customer_name"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: account_name
+    value: Test Name
+    id: ""
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: save_changes
+    value: ""
+    id: cnep_1C_submit_button
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

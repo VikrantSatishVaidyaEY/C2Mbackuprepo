@@ -1,0 +1,134 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		  Reason:
+# 2022-05-23	  JLongakit		Initial Version.
+# 2022-06-01    CTongo      Add element Connect button
+######################################################################################
+
+InstallEvent:
+#Install Event Pop Up Page
+  - element_type:
+    variable: dvc_cfg_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="deviceConfigurationId"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: sp_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="spId"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: button
+    variable: ok_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: /html/body/table[2]/tbody/tr[3]/td/table/tbody/tr/td/input[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Manual Meter Install Event Pop Up Page
+  - element_type:
+    variable: install_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="installDateTime_date"] #update xpath for C2MDEV
+#    xpath: //*[@id="boGroup_installDateTime_date"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: install_constant
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="installationConstant"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: save_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: /html/body/table[2]/tbody/tr[15]/td/table/tbody/tr/td/input[1] #update xpath for C2MDEV
+#    xpath: /html/body/table[2]/tbody/tr[14]/td/table/tbody/tr/td/input[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Install Event Main Page
+  - element_type: button
+    variable: turn_on_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: /html/body/div[2]/div[1]/div/input[3]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: turn_on_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="eventDateTime_date"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: button
+    variable: connect_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: /html/body/div[2]/div[1]/div/input[3]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: button
+    variable: pop_ok_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: /html/body/table[2]/tbody/tr[3]/td/table/tbody/tr/td/input[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

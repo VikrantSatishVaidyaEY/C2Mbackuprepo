@@ -1,0 +1,142 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-05-13	  CTongo		Initial Version.
+#####################################################################################
+
+PaymentArrangementPage:
+
+#Payment Arrangement Ui Map
+  - element_type: ""
+    variable: pa_request_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="paRequestType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: ok_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="OK_BTN_MP"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Payment Arrangement Page
+  - element_type: ""
+    variable: pa_reason
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="paReason"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: next_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="NextStep"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: next_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="NextStep"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: pa_sa_check_box
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="isSelected_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: pa_selected_sa_change_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="changeDebt_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: pa_selected_sa_check_box
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="checkedForPAWork_0_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: pa_selected_sa_check_box_ok_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="OK_LBL_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: pa_number_of_installments
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="numberOfInstallments"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: pa_finish_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="Finish"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

@@ -1,0 +1,8 @@
+element_type	variable	value	id	class	name	xpath	css	linktext	partiallinktext	tagname
+div	verify_product_in_cart		huc-v2-order-row-confirm-text							
+button	proceed_to_checkout				proceedToCheckout					
+button	cart_price					"//*[@id=""hlb-subcart""]/div[1]/span/span[2]"				
+button	delete						span[class='a-size-small sc-action-delete']			
+	quantity_dd				quantity					
+	quantity_0									
+string	subtotal		sc-subtotal-amount-activecart							

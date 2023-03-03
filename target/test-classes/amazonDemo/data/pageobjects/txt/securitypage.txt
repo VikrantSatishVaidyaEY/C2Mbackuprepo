@@ -1,0 +1,5 @@
+element_type	variable	value	id	class	name	xpath	css	linktext	partiallinktext	tagname
+	edit_name		auth-cnep-edit-name-button							
+	success_verification					"//*[@id=""auth-success-message-box""]/div/h4"				
+	name					"//*[@id=""cnep_1a_name_form""]/div/div/div[1]/div[2]"				
+	email					"//*[@id=""cnep_1a_email_form""]/div/div/div[1]/div[2]"				

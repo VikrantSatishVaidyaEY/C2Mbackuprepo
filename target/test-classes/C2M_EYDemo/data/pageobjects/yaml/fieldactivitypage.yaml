@@ -1,0 +1,357 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		    Reason:
+# 2022-04-25	  AThott		    Initial Version.
+# 2022-05-20	  CTongo		    Update alignment of elements
+######################################################################################
+
+FieldActivityPage:
+#Add Activity Ui Map Page
+  - element_type: select
+    variable: actvity_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //select[@id='desc']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: actvity_type_ok
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@class='oraButton oraDefault' and @value='OK']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: servicedate_box
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='startDateTime_date']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: servicepoint_box
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='boGroup_spId']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: fieldtask_dropdown
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //select[@id='fieldTaskType']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+# Main Tab
+  - element_type: ""
+    variable: main
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="inactiveTab" and text()="Main"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: input
+    variable: complete
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACTION_COMPLETE_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: to_do_save_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SAVE_BTN_MP"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type:
+    variable: select_activity_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="desc"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: service_date_time
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="startDateTime_date"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: service_time
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="startDateTime_time"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type:
+    variable: hazard_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Hazard Type"]//following::select
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: hazard_tag_number
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Hazard Tag Number"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: appliance
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Appliance/Condition"]//following::select
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: hazard_code
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Hazard Code"]//following::select
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: other
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Other/Details"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type:
+    variable: classified_by
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Classified By"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: reported_by
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Reported By"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: contact_person
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Contact Person"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type:
+    variable: contact_person_phone
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Contact Person Telephone Number"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: property_owner
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Property Owner"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: property_owner_address
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Property Owner's Address"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: hazard_cust_contact_letter
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Hazard Customer Contact/Letter"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type:
+    variable: hazard_cust_contact_letter
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Hazard Customer Contact/Letter"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+
+  - element_type:
+    variable: receipt_number
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Receipt Number"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: assign_to
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Assign To"]//following::input
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: instructions
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Instructions"]//following::textarea
+    #//*[@id="boGroup_cmCharacteristics_hazardType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

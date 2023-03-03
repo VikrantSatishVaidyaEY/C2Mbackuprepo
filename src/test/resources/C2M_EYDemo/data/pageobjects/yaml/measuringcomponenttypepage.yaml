@@ -1,0 +1,24 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-28	  CTongo		Initial Version.
+#
+#####################################################################################
+
+MeasuringComponentTypePage:
+
+#Device Configuration List
+  - element_type: ""
+    variable: measuring_component_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="measuringComponentType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+

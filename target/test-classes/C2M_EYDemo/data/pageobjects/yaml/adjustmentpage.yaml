@@ -1,0 +1,296 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-08	  CTongo		Initial Version.
+# 2022-05-17    SAhmad    Add Adjustment and Adjustment Type field elements
+# 2022-05-18    SAhmad    Add Adjustment and Adjustment Approval Tab, Approve Button and Adjustment Status
+# 2022-05-18    SAhmad    Cancel Adjustment and Adjustment Search Window, Adjustment Cancel reason Window, Cancel button and Adjustment Status Elements
+#####################################################################################
+
+AdjustmentPage:
+
+#Adjustment Main Tab
+  - element_type: ""
+    variable: adjustment_service_agreement_id_main_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_SA_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: adjustment_type_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_ADJ_TYPE_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: amount
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BASE_AMT_WRK"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: generate_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="GENERATE_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: freeze_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="FREEZE_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: adjustment_type_field
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='ADJ_TYPE_CD']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: submit_approval_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='SUBMIT_APPR_SW']
+    #input[@title='Submit for Approval']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: adjustment_status
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[@id='ADJ_STATUS_FLG']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: freeze_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='FREEZE_SW']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: cancel_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='CANCEL_SW']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: adjustment_status
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[@id='ADJ_STATUS_FLG']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Adjustment Transfer Adjustment Tab
+  - element_type: ""
+    variable: adjustment_service_agreement_id_transfer_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_SA_ID2"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Adjustment Type Search Pop up
+  - element_type: ""
+    variable: adjustment_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ADJ_TYPE_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: adjustment_type_search_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BU_Main_search"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: search_result
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SEARCH_RESULTS|0|1"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Generate Adjustment Pop up
+  - element_type: ""
+    variable: calculate_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="GENERATE_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Adjustment Type Service Agreement Window
+  - element_type:
+    variable: sa_id_field
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='SA_ID']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+ #Adjustment Approval Tab
+  - element_type:
+    variable: approve_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='button1']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+ #Adjustment Search Window
+  - element_type:
+    variable: adjustment_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='ADJ_ID']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: adjustment_search_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='BU_Main_mainSrch']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: save_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="saveButton"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+ #Adjustment Cancel reason Window
+  - element_type:
+    variable: cancel_reason
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //select[@id='CAN_RSN_CD']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: cancelreason_ok_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='CANCEL_SW']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

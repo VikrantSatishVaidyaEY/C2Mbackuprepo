@@ -1,0 +1,246 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		 Reason:
+# 2022-05-12	  CTongo	   Adding Account Credit and Collections Tab items
+# 2022-08-12	  SAhmad	   Added account_char_type and account_char_value in account page characteristic Tab
+######################################################################################
+
+AccountPage:
+#Account Main Page
+  - element_type: ""
+    variable: login_security
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="a-page"]/div[1]/div/div[2]/div[2]/a
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Account Autopay Tab Page
+  - element_type: ""
+    variable: autopay_start_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACCT_APAY$START_DT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: autopay_end_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACCT_APAY$END_DT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: autopay_source_code_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_ACCT_APAY$APAY_SRC_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: autopay_external_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACCT_APAY$EXT_ACCT_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: autopay_name
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACCT_APAY$ENTITY_NAME"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Account Autopay Source Code Search
+  - element_type: ""
+    variable: autopay_source_code_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="APAY_SRC_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: autopay_source_code_search_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BU_Main_autoPaySrI"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Account Credits and Collections Tab
+  - element_type: ""
+    variable: credit_rating_start_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CR_RAT_HIST$START_DT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: credit_rating_end_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CR_RAT_HIST$END_DT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: credit_rating
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CR_RAT_HIST$CR_RATING_PTS"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: comments
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CR_RAT_HIST$COMMENTS"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Account Search Pop up
+  - element_type: ""
+    variable: account_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACCT_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: account_id_search_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BU_Main_search"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Account Page Characteristics Tab
+  - element_type: ""
+    variable: account_char_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: /html/body/span[2]/div/table/tbody/tr/td[4]/select
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: account_char_value
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACCT_CHAR:0$CHAR_VAL"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Account Page Budget Tab
+  - element_type: ""
+    variable: account_budget
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BUDGET_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+#Account page Recommend budget button
+  - element_type: ""
+    variable: recommend_budget
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@title="Recommend Budget"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+#Account page Cancel budget button
+  - element_type: ""
+    variable: cancel_budget
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CANCEL_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+

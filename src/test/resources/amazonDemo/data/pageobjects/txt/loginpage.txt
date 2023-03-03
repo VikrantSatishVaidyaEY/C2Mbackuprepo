@@ -1,0 +1,10 @@
+element_type	variable	value	id	class	name	xpath	css	linktext	partiallinktext	tagname
+input	username				email					
+input	password				password					
+button	sign_in		signInSubmit							
+button	continue		continue							
+	email_box		ap_email							
+	login_email	chasekopp6@gmail.com								
+	continue		continue							
+	login_pwd	TikiBarber63								
+	password_box		ap_password							

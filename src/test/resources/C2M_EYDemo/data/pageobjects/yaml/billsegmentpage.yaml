@@ -1,0 +1,95 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-05-13	  JLonga		Initial Version.
+# 2022-05-25	  CTongo		Add elements rebill reason, rebill and calculate button
+# 2022-05-26	  CTongo		Add elements bseg status
+#####################################################################################
+
+BillSegmentPage:
+#Bill Segment Page
+  - element_type:
+    variable: init_cancel_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACTION_INIT_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: cancel_reason
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //select[@id='CAN_RSN_CD']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: cancel_bill_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACTION_CANCEL_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: rebill_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACTION_REBILL_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: bseg_status
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BSEG_STAT_DESC"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Rebill Pop Up Page
+  - element_type:
+    variable: rebill_reason
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CAN_RSN_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: calculate_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACTION_REBILL_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

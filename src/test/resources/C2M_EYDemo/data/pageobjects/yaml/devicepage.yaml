@@ -1,0 +1,23 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-05-26	  CTongo		Initial Version.
+#
+#####################################################################################
+
+DevicePage:
+
+#Device Configuration List
+  - element_type: ""
+    variable: device_configuration
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="dataExplorerTableBody2"]/tr/td[3]/a/span
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

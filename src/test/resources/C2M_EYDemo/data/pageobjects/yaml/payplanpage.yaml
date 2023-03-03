@@ -1,0 +1,94 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-05-19	  CTongo		Initial Version.
+# 2022-05-24	  SAhmad		Add A Pay Plan and Type, Sheduled Date, Sheduled Amount and pay method Elements
+#####################################################################################
+
+PayplanPage:
+  - element_type: input
+    variable: cancel_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@title='Cancel']
+    #//*[@id="CANCEL_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='PP_TYPE_CD']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: sheduled_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='PPS:0$PP_SCHED_DT']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: sheduled_amount
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='PPS:0$PP_SCHED_AMT']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: comment
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //textarea[@id='COMMENTS']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: pay_method
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //select[@id='PAY_METH_CD']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: active_payplan
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Active"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

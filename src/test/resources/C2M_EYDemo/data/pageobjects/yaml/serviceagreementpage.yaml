@@ -1,0 +1,275 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-08	  CTongo		Initial Version.
+# 2022-04-27	  AThott		Added elements for start service agreement
+# 2022-05-20	  SAhmad		Added Create Deposit SA and CIS Division and other elements
+# 2022-05-16	  CTongo		Add Activate SA
+# 2022-05-19	  CTongo		Add Rate Info add icon, date and rate
+# 2022-05-25	  CTongo		Add max bill threshold element
+# 2022-08-12	  SAhmad		Added Service Agreement Search Window sa_id and sa_search_button elements
+# 2022-08-12	  SAhmad		Added Service Agreement Search Window sa_id and sa_search_button elements
+# 2022-08-12	  SAhmad		Added element sa_characteristic_value, sa_characteristic_typ
+#####################################################################################
+
+ServiceAgreementPage:
+
+#Service Agreement Main Tab
+  - element_type: ""
+    variable: activate_sa
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACTIVATE_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: sa_ctx_menu
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_SaInfo_saCnxt"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: start_pending
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Pending Start"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: stop
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="STOP_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: stop_pending
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Pending Stop"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: stop_sa
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="STOP_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: max_bill_threshold
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="HIGH_BILL_AMT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Service Agreement Search Pop up
+  - element_type: ""
+    variable: account_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACCT_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: account_id_search_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BU_Altr2_search"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Service Agreement Rate Info Tab
+  - element_type: ""
+    variable: rateinfo_plusicon
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SA_RS_HIST|0|1"]/img
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: rateinfo_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="dataTableBody"]/tr[2]/td[3]/div/input
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: rateinfo_rate
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="dataTableBody"]/tr[2]/td[4]/input
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: select
+    variable: cis_division
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CIS_DIVISION"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: sa_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id='SA_TYPE_CD']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: char_premiseid
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='CHAR_PREM_ID']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: deposit_amount
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='TOT_TO_BILL_AMT']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Service Agreement Chars, Qty & Rec. Charges
+
+  - element_type:
+    variable: chars_qty_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //td[@id="CHAR_QTY_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+#Service Agreement Search Window
+  - element_type:
+    variable: sa_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='SA_ID']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: sa_search_button
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='BU_Main_search']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Service Agreement Chars, Qty & Rec. Charges Tab
+  - element_type:
+    variable: sa_characteristic_typ
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SA_CHAR:0$CHAR_TYPE_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: sa_characteristic_value
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SA_CHAR:0$CHAR_VAL"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

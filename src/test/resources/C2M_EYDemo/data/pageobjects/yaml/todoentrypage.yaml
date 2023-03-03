@@ -1,0 +1,169 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		            Reason:
+# 2022-04-10	  AThott		Initial Version.
+# 2022-04-18	  AThott  	Complete Manual To DO.
+# 2022-05-11    CTongo    Update Comments / Added To Do Entry UI Map Page Save Button Mapping
+#####################################################################################
+
+TODOEntryPage:
+
+#To DO Entry UI Map Page
+  - element_type:
+    variable: todo_subject
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //div[@class="oraSectionFull"]/div[3]/span//*[@class="oraInput oraDefault"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: override_priority
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="addGroup_overridePriority"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: todo_comments
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="addGroup_addComments"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: select
+    variable: search_by_list
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="multiQueryZoneFilters1"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: account_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="filter1.F1"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: button
+    variable: todo_entry_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="anTLZ1Refresh"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: to_do_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="selectedType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: characteristic_value
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="characteristicValueForeignKey1_search_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: to_do_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="selectedType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: to_do_type_ok
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="oraButton oraDefault" and @value="OK"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: to_do_save_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SAVE_BTN_MP"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+#To Do Entry Page
+  - element_type:
+    variable: todo_id_link
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="grid paddedCell explorerGrid nowrap cursorDefault clickable"]/a/span
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: todo_complete
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="COMPLETE"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

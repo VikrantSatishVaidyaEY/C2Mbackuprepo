@@ -1,0 +1,22 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-05-02	  AThott		Initial Version.
+#
+#####################################################################################
+
+CompleteTODOEntryPage:
+  - element_type:
+    variable: todo_logentry
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id='addUserLog']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+

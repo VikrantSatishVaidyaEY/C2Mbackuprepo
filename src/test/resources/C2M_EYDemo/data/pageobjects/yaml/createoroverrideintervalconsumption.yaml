@@ -1,0 +1,128 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		  Reason:
+# 2022-05-13	  AThott    	Initial Version.
+######################################################################################
+
+CreateIntervalConsumption:
+
+  - element_type: ""
+    variable: create_override_startdate
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //html/body/div/div[2]/span//*[@id='startDateTime_date']
+    #//*[@id='startDateTime_date']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: create_override_enddate_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id='endDateTime_date']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: create_override_enddate
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //div[@class="oraSection"]//div[3]//span//div//*[@id='endDateTime_date']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: uncheck_measurement
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id='shouldCopyExistingCurve']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: total_consumption_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='consumption']
+    #//input[@id='totalConsumption']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: total_consumption
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='totalConsumption']
+    #//input[@id='totalConsumption']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: select
+    variable: consumption_condition_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //select[@id='measurementCondition']
+    #//select[@id='condition']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: select
+    variable: consumption_condition
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //select[@id='condition']
+    #//select[@id='condition']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: select
+    variable: conversion_method
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //select[@id='conversionMethodValue']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: meter_ok
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@type="button" and @value="OK"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

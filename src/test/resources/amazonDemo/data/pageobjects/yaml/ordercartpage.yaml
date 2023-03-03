@@ -1,0 +1,78 @@
+OrderCartPage:
+  - element_type: div
+    variable: verify_product_in_cart
+    value: ""
+    id: huc-v2-order-row-confirm-text
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: proceed_to_checkout
+    value: ""
+    id: ""
+    class: ""
+    name: proceedToCheckout
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: cart_price
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="hlb-subcart"]/div[1]/span/span[2]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: delete
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: ""
+    css: span[class='a-size-small sc-action-delete']
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: quantity_dd
+    value: ""
+    id: ""
+    class: ""
+    name: quantity
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: quantity_0
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: string
+    variable: subtotal
+    value: ""
+    id: sc-subtotal-amount-activecart
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

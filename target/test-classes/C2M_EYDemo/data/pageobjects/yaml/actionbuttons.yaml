@@ -1,0 +1,20 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-08	  CTongo		Initial Version.
+# 2022-05-11	  CTongo		Transfer To Do Entry UI Map Page Save Button Mapping to To Do Entry Page
+#####################################################################################
+
+ActionButtons:
+  - element_type: ""
+    variable: save
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_SAVE"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

@@ -1,0 +1,56 @@
+{
+  "SecurityPage": [
+    {
+      "element_type": "",
+      "variable": "edit_name",
+      "value": "",
+      "id": "auth-cnep-edit-name-button",
+      "class": "",
+      "name": "",
+      "xpath": "",
+      "css": "",
+      "linktext": "",
+      "partiallinktext": "",
+      "tagname": ""
+    },
+    {
+      "element_type": "",
+      "variable": "success_verification",
+      "value": "",
+      "id": "",
+      "class": "",
+      "name": "",
+      "xpath": "//*[@id=\"auth-success-message-box\"]/div/h4",
+      "css": "",
+      "linktext": "",
+      "partiallinktext": "",
+      "tagname": ""
+    },
+    {
+      "element_type": "",
+      "variable": "name",
+      "value": "",
+      "id": "",
+      "class": "",
+      "name": "",
+      "xpath": "//*[@id=\"cnep_1a_name_form\"]/div/div/div[1]/div[2]",
+      "css": "",
+      "linktext": "",
+      "partiallinktext": "",
+      "tagname": ""
+    },
+    {
+      "element_type": "",
+      "variable": "email",
+      "value": "",
+      "id": "",
+      "class": "",
+      "name": "",
+      "xpath": "//*[@id=\"cnep_1a_email_form\"]/div/div/div[1]/div[2]",
+      "css": "",
+      "linktext": "",
+      "partiallinktext": "",
+      "tagname": ""
+    }
+  ]
+}

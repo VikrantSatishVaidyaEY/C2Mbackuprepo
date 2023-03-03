@@ -1,0 +1,12 @@
+element_type	variable	value	id	class	name	xpath	css	linktext	partiallinktext	tagname
+input	full_name				enterAddressFullName					
+input	address_line				enterAddressAddressLine::index::					
+input	city				enterAddressCity					
+input	state				enterAddressStateOrRegion					
+input	zip				enterAddressPostalCode					
+select	country				enterAddressCountryCode					
+input	phone_number				enterAddressPhoneNumber					
+input	delivery_instructions				AddressInstructions					
+input	gate_code				GateCode					
+link	sign_out		nav-item-signout							
+link	account_list		nav-link-accountList							

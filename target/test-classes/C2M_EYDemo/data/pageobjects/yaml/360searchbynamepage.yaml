@@ -1,0 +1,45 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-05-25	  CTongo		Initial Version.
+######################################################################################
+
+360SearchByNamePage:
+#360 Search By Name Main Tab Page
+  - element_type: ""
+    variable: search_name
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="name"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: search_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="anTLZ1Refresh"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: search_usage_subscription
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="dataExplorerTableBody1"]/tr[1]/td[2]/a/span
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

@@ -1,0 +1,21 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-05-13	  SAhmad		Initial Version.
+#####################################################################################
+
+DepositControl:
+
+#Main tab
+  - element_type:
+    variable: deposit_cntrl_cntxt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //img[@id='IM_Section1_dcCntxt']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

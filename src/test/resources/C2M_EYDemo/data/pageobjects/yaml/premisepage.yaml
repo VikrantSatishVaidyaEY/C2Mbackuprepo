@@ -1,0 +1,255 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		 Reason:
+# 2022-04-13	  AThott		 Initial Version.
+# 2022-05-25	  CTongo		 Update Premise ID and Search Button in Search Premise Pop up page, Update Premise Context menu xpath
+# 2022-05-25	  CTongo		 removing premise_context_gotosp element as this was redundant tagging from context.yaml
+######################################################################################
+
+PremisePage:
+  - element_type: select
+    variable: addpremise_search_by_list
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PREM_TYPE_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: addpremise_zipcode_details
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="POSTAL"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: addpremise_address_details
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ADDRESS1"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: addpremise_city_name
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CITY"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: addpremise_county_name
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="COUNTY"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: addpremise_state_name
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="STATE"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: select
+    variable: cis_division
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CIS_DIVISION"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: premise_context_menu
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_Main_premCnxt"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: add
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: '//span[text()="Add"]'
+    #/html/body/div[3]/ul/li[2]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Search Premise Pop Up Page
+  - element_type: ""
+    variable: premise_id_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PREM_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: premise_id_search_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BU_premId_premSrch"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: String
+    variable: premid
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Premise ID"]//following::input
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type: String
+    variable: premidval
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: characteristics_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CHAR_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: characteristics_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PREM_CHAR:0$CHAR_TYPE_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: characteristics_val
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PREM_CHAR:0$CHAR_VAL"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: input
+    variable: per_info_save
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@name="Save"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: geo_data_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[text()="Geographic Data"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: select
+    variable: geo_data_dropdown
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PREM_GEO:0$GEO_TYPE_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type: ""
+    variable: parcelnumber
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: '//span[text()="Geographic Value"]/following::input'
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

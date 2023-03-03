@@ -1,0 +1,19 @@
+# Wait Commands
+ImplicitWait=30
+ExplicitWait=60
+
+# Database Credentials C2MDEV
+#dbHost=c2m-dev-scan.csu.org
+#dbPort=1521
+#dbServiceName=dsc2m.world
+#dbUsername=cisread
+#dbPassword=cisreadD24U
+
+
+
+# Database Credentials C2MTEST
+dbHost=c2m-test-scan.csu.org
+dbPort=1521
+dbServiceName=tsc2m.world
+dbUsername=cisuser
+dbPassword=cisusrtst

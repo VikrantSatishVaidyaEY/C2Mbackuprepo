@@ -1,0 +1,61 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-05-23	  CTongo		Initial Version.
+#
+#####################################################################################
+
+MeasuringComponentPage:
+
+#Measuring Component Record Action Buttons
+  - element_type: ""
+    variable: measuring_component_edit_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="EDIT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Measuring Component Edit UI Map Page
+  - element_type: ""
+    variable: register_multiplier_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_registerMultiplier"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: channel_multiplier
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_channelMultiplier"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: edit_mc_save_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SAVE_BTN_MP"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+

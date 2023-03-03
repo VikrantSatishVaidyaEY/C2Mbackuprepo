@@ -1,0 +1,198 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-13	  AThott		Initial Version.
+# 2022-05-13	  CTongo		Add new reading element
+# 2022-06-05	  AThott		Added elements as per C2MDEV
+# 2022-08-14	  AThott		Added elements for Received and Delivered measuring components
+# 2022-08-22	  SAhmad		Added elements interval_channel_recieved,goto_360_view, interval_data_slct_fnction, interval_channel_delivered as per C2MDEV
+######################################################################################
+
+360DegreeViewPage:
+  - element_type:
+    variable: device_link
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="oraSection oraFlexColumn"]/div/span/a
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: reading_link_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="dataExplorerTableBody2"]/tr[2]/td[5]/a/span
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: reading_link
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="pseudoLink"]//span[text()="New Reading"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: reading
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="reading_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: select
+    variable: measure_condition
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="measurementCondition_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: reading_save
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: /html/body/div[2]/div/div/input[@type='button']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: finalvalues_img
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //img[@title='Select Function']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: create_override
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id='functionList']/tbody[2]/tr/td[2]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: measuring_component_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[text()="Measuring Component"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: goto_360_view
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_MC_subMenuItem0x1"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: new_reading
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="New Reading"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: interval_meter
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[contains(text(),'Electric KWH  - 15min')]//following-sibling::img
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: interval_meter_received
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[contains(text(),'Electric KWH Received- 15min')]//following-sibling::img
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type: ""
+    variable: interval_data_slct_fnction
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ora360Chart_TOUOverlay"]/div[2]/div[1]/table[1]/tbody/tr/td[2]/img
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: interval_channel_delivered
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="dataExplorerTableBody2"]/tr[7]/td[3]/a/img
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: read_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="readDateTime_date"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

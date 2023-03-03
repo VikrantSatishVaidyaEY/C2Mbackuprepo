@@ -1,0 +1,7 @@
+﻿scenario_no,memeberIdentification,accountType,accountNumber,statusCode,accountStatus
+1,061103852,Current,11101011,400,'Enabled'
+2,061103852,Current,11101013,200,'Enabled'
+3,061103852,Current,11101015,200,'Enabled'
+4,061103852,Savings,11101016,200,'Enabled'
+5,061103852,Current,11101017,200,'Disabled'
+6,061103852,Savings,11101019,404,null

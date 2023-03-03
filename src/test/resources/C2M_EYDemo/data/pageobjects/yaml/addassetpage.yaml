@@ -1,0 +1,167 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-21	  AThott		Initial Version.
+# 2022-05-18	  CTongo		Replicate all element mapping to assetpage.yaml, will need review before removing
+######################################################################################
+
+AddAssetPage:
+#Add Asset Ui Map Page
+  - element_type:
+    variable: asset_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition/effectiveDateTime_date"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_time
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition/effectiveDateTime_time"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_assetType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_service_location
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition_storageLocationId"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_ok
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="oraButtonList"]//*[@type="button"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Add Meter Ui Map Page
+  - element_type:
+    variable: cal_img
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="oraDateTimeContainer"]/img
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_creation_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_creationDateTime_date"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_creation_time
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_creationDateTime_time"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_spec
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_specification"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_badgeno
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_badgeNo"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: asset_serialno
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_serialNo"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: measurement_config
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="boGroup_configuration"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: add_meter_page_save_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SAVE_BTN_MP"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

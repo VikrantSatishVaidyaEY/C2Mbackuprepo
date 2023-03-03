@@ -1,0 +1,188 @@
+ProductPage:
+  - element_type: div
+    variable: product_title
+    value: ""
+    id: productTitle
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: div
+    variable: product_price
+    value: ""
+    id: priceblock_ourprice
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: add_to_cart
+    value: ""
+    id: add-to-cart-button
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: div
+    variable: total_customer_reviews
+    value: ""
+    id: acrCustomerReviewText
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: span
+    variable: view_cart
+    value: ""
+    id: nav-cart
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: link
+    variable: close_side_pane
+    value: ""
+    id: attach-close_sideSheet-link
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: proceed
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: checkout
+    tagname: ""
+  - element_type: button
+    variable: insurance_yes
+    value: ""
+    id: attachSiAddCoverage
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: insurance_no
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //button[contains(@id,'NoCoverage-announce')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: echo_color_charcoal
+    value: ""
+    id: color_name_0
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: echo_color_heather_gray
+    value: ""
+    id: color_name_1
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: echo_color_sandstone
+    value: ""
+    id: color_name_3
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: alexa_continue
+    value: ""
+    id: ""
+    class: a-button-input
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: radioButton
+    variable: echo_add_protection
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="abb-intl-product-view-B07G267D8S"]/div[2]/div/div/div/div/label/input
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: echo_color_plumb
+    value: ""
+    id: color_name_2
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: echo_try
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="abb-intl-product-view-B07G267D8S"]/div[2]/div/div/div/div/label
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: echo_add_protection
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="abb-intl-product-view-B07G267D8S"]/div[2]/div/div/div/div/label
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>CucumberBDD</td>
+      <td>26 Jan 2023, 18:47</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">application.ETLStepDefinitions.before(io.cucumber.java.Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">methods.Hooks.JarInitialize()</td>
+              <td>1</td>
+              <td class="duration" data-value="791003200">0.791</td>
+              <td class="duration" data-value="791003200">0.791</td>
+              <td class="duration" data-value="791003200">0.791</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">seleniumutils.applicationlayer.ETLValidation.stepdefinitions.ETLReusableStepDefinitions.before(io.cucumber.java.Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="57001400">0.057</td>
+              <td class="duration" data-value="57001400">0.057</td>
+              <td class="duration" data-value="57001400">0.057</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.ClickElementStepDefs.click(java.lang.String)</td>
+              <td>4</td>
+              <td class="duration" data-value="869758825">0.869</td>
+              <td class="duration" data-value="869758825">1.752</td>
+              <td class="duration" data-value="3479035300">3.479</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)</td>
+              <td>10</td>
+              <td class="duration" data-value="3667302490">3.667</td>
+              <td class="duration" data-value="3667302490">30.646</td>
+              <td class="duration" data-value="36673024900">36.673</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.InputElementStepDefs.clear_text(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="303999800">0.303</td>
+              <td class="duration" data-value="303999800">0.303</td>
+              <td class="duration" data-value="303999800">0.303</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.InputElementStepDefs.enter_key(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="230006500">0.230</td>
+              <td class="duration" data-value="230006500">0.230</td>
+              <td class="duration" data-value="230006500">0.230</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="513669600">0.513</td>
+              <td class="duration" data-value="513669600">0.572</td>
+              <td class="duration" data-value="1541008800">1.541</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.InputElementStepDefs.enter_text_from_input_data(java.lang.String,java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="660503750">0.660</td>
+              <td class="duration" data-value="660503750">0.674</td>
+              <td class="duration" data-value="1321007500">1.321</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.InputElementStepDefs.getScenario(io.cucumber.java.Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="1999800">0.001</td>
+              <td class="duration" data-value="1999800">0.001</td>
+              <td class="duration" data-value="1999800">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.NavigationStepDefs.navigate_toURL(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="465004000">0.465</td>
+              <td class="duration" data-value="465004000">0.465</td>
+              <td class="duration" data-value="465004000">0.465</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)</td>
+              <td>18</td>
+              <td class="duration" data-value="118781350">0.118</td>
+              <td class="duration" data-value="118781350">0.371</td>
+              <td class="duration" data-value="2138064300">2.138</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.NavigationStepDefs.switch_to_default_content()</td>
+              <td>10</td>
+              <td class="duration" data-value="36710060">0.036</td>
+              <td class="duration" data-value="36710060">0.129</td>
+              <td class="duration" data-value="367100600">0.367</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.NavigationStepDefs.switch_to_new_window()</td>
+              <td>2</td>
+              <td class="duration" data-value="54966750">0.054</td>
+              <td class="duration" data-value="54966750">0.090</td>
+              <td class="duration" data-value="109933500">0.109</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.NavigationStepDefs.switch_to_old_window()</td>
+              <td>2</td>
+              <td class="duration" data-value="70499650">0.070</td>
+              <td class="duration" data-value="70499650">0.082</td>
+              <td class="duration" data-value="140999300">0.140</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.SelectionElementStepDefs.hover_over_element(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="358006200">0.358</td>
+              <td class="duration" data-value="358006200">0.358</td>
+              <td class="duration" data-value="358006200">0.358</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="523504700">0.523</td>
+              <td class="duration" data-value="523504700">0.542</td>
+              <td class="duration" data-value="1047009400">1.047</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.ValidationStepDefs.check_element_presence(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="362631266">0.362</td>
+              <td class="duration" data-value="362631266">0.698</td>
+              <td class="duration" data-value="1087893800">1.087</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.ValidationStepDefs.check_title(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="287009300">0.287</td>
+              <td class="duration" data-value="287009300">0.287</td>
+              <td class="duration" data-value="287009300">0.287</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.ValidationStepDefs.setSoftAssert(io.cucumber.java.Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="4274197200">4.274</td>
+              <td class="duration" data-value="4274197200">4.274</td>
+              <td class="duration" data-value="4274197200">4.274</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.ValidationStepDefs.softassertall()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepimplementation.WaitStepDefs.wait(java.lang.String)</td>
+              <td>8</td>
+              <td class="duration" data-value="4132094662">4.132</td>
+              <td class="duration" data-value="4132094662">7.015</td>
+              <td class="duration" data-value="33056757300">33.056</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>22</td>
+            <td>75</td>
+            <td class="duration">1.169</td>
+            <td class="duration">36.673</td>
+            <td class="duration">1:27.730</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

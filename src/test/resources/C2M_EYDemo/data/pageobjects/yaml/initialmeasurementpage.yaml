@@ -1,0 +1,102 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		  Reason:
+# 2022-05-13	  AThott    	Initial Version.
+######################################################################################
+
+InitialMeasurement:
+
+  - element_type: ""
+    variable: perform_vee
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="oraButton oraDefault" and @value="Perform VEE"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: imd_search_by
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="multiQueryZoneFilters1"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: imd_search_box
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //label[text()="Initial Measurement Data ID"]/following::input
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: imd_search_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="anTLZ1Refresh"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: go_to_imd
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[@title="Go To Initial Measurement "]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: delete
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@value="Delete"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type: ""
+    variable: ok
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_OK"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+
+
+
+
+
+

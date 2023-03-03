@@ -1,0 +1,33 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-05-13	  SAhmad		Initial Version.
+#####################################################################################
+
+TenderControl:
+
+#Main tab
+  - element_type:
+    variable: tndr_sourc_field
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='TNDR_SOURCE_CD']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: strting_bal_field
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id='START_BALANCE']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

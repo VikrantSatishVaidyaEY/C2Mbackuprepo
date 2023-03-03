@@ -1,0 +1,4 @@
+# Created at 2023-01-26T18:45:56.441
+Boot Manifest-JAR contains absolute paths in classpath 'D:\ngtp-official315\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

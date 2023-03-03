@@ -1,0 +1,67 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-12	  AThott		Initial Version.
+# 2022-05-24	  CTongo		Replicate all element mapping to severanceprocesspage.yaml, will need review before removing
+#####################################################################################
+
+
+SeveranceEventTriggerDate:
+  - element_type: span #can be retrieved from dashboard.yaml
+    variable: severance_alert
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //html/body/table[2]/tbody/tr/td/a/span
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: "" #can be retrieved from tabs.yaml
+    variable: tabs
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="EVENTS_TLBL"]/table/tbody/tr[2]//td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: input #can be retrieved from severanceprocesspage.yaml
+    variable: event_sequence
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id="EVT$EVT_SEQ"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: input #moved to severanceprocesspage.yaml
+    variable: event_trigger_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //input[@id="EVT$TRIGGER_DT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: input
+    variable: event_trigger_seq_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //img[@id="IM_EVT_DEL_BTN"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

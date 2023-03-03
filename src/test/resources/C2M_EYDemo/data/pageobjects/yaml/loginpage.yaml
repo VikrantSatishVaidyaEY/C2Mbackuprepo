@@ -1,0 +1,100 @@
+LoginPage:
+  - element_type: input
+    variable: username
+    value: ""
+    id: ""
+    class: ""
+    name: email
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: input
+    variable: password
+    value: ""
+    id: ""
+    class: ""
+    name: password
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: sign_in
+    value: ""
+    id: signInSubmit
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: button
+    variable: continue
+    value: ""
+    id: continue
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: email_box
+    value: ""
+    id: ap_email
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: login_email
+    value: chasekopp6@gmail.com
+    id: ""
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: continue
+    value: ""
+    id: continue
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: login_pwd
+    value: TikiBarber63
+    id: ""
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: password_box
+    value: ""
+    id: ap_password
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

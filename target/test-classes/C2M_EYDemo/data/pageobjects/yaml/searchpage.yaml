@@ -1,0 +1,80 @@
+SearchPage:
+  - element_type: link
+    variable: search_result
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: (//div[@data-cel-widget="search_result_::index::"]//a)[2]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: link
+    variable: asus_zenbook
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: (//*[contains(text(),'ASUS ZenBook 13')])[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: link
+    variable: echo_dot
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: (//*[contains(text(), 'Echo Dot (3rd Gen)')])[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: link
+    variable: rich_dad
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: "//*[contains(text(), 'Rich Dad Poor Dad: What the Rich Teach Their Kids
+      About Money That the Poor and Middle Class Do Not!')]"
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: link
+    variable: four_disciplines
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: "//*[contains(text(), 'The 4 Disciplines of Execution: Achieving Your
+      Wildly Important Goals')]"
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: link
+    variable: google_netbook
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: (//*[contains(text(),'Google Pixelbook')])[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: link
+    variable: google_pixelbook_go
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: (//*[contains(text(),'Google Pixelbook Go -')])[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

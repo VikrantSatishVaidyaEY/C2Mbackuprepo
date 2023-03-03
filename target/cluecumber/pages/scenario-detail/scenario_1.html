@@ -1,0 +1,2188 @@
+
+    <!--
+    Copyright 2019 trivago N.V.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <base href="../..">
+    <head title="Cluecumber Report - Scenario Detail">
+        <title>Cluecumber Report - Scenario Detail</title>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Security-Policy" content="default-src *  data: blob: 'unsafe-inline' 'unsafe-eval';
+script-src * data: blob: 'unsafe-inline' 'unsafe-eval';
+connect-src * data: blob: 'unsafe-inline';
+img-src * data: blob: 'unsafe-inline';
+frame-src * data: blob: ;
+style-src * data: blob: 'unsafe-inline';
+font-src * data: blob: 'unsafe-inline';"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Cluecumber Report">
+<meta name="author" content="Cluecumber Report Plugin version 2.7.1">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/datatables.min.css">
+<link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+<link rel="stylesheet" href="css/cluecumber.css" type="text/css">
+<link rel="stylesheet" href="css/cluecumber-custom.css"/>
+<link rel="stylesheet" href="css/cluecumber-additional.css"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/datatables.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/Chart.bundle.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+            // Data tables
+            $('.renderAsDataTable').on('draw.dt', function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            }).DataTable({
+                "oLanguage": {
+                    "sSearch": "Search:"
+                },
+                "pageLength": 25,
+                "responsive": true
+            });
+
+            $('.collapse').on('shown.bs.collapse', function (e) {
+                $(e.target).find("iframe").each(function (index, iframe) {
+                    resizeIframe(iframe);
+                })
+            });
+
+            // Lightbox
+            $("a.grouped_elements").fancybox();
+
+            // Tool tips
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Chart
+            var canvas = document.getElementById('chart-area');
+            var ctx = canvas.getContext("2d");
+            var chart = new Chart(ctx, {
+  "data": {
+    "labels": [
+      "seleniumutils.applicationlayer.ETLValidation.stepdefinitions.ETLReusableStepDefinitions.before(io.cucumber.java.Scenario)",
+      "methods.Hooks.JarInitialize()",
+      "stepimplementation.ValidationStepDefs.setSoftAssert(io.cucumber.java.Scenario)",
+      "stepimplementation.InputElementStepDefs.getScenario(io.cucumber.java.Scenario)",
+      "application.ETLStepDefinitions.before(io.cucumber.java.Scenario)",
+      "I navigate to C2M_HOME page",
+      "I enter credentials.user into input field c2m.username",
+      "I enter credentials.pass into input field c2m.password",
+      "I click on element c2m.sign_in",
+      "I wait for 5 sec",
+      "I switch to frame frame.main_frame",
+      "I wait for 5 sec",
+      "I click on element main.main_menu",
+      "element main.control_central should be present",
+      "I click on element main.control_central",
+      "I wait for 3 sec",
+      "I should see page title as \"Control Central Search\"",
+      "I switch to main content",
+      "I switch to frame frame.main_frame",
+      "I switch to frame frame.tabpage_frame",
+      "I select \"Account ID\" option by text from dropdown controlcentralsearch.search_by",
+      "element controlcentralsearch.account_id should be present",
+      "I enter \"0707403459\" into input field controlcentralsearch.account_id",
+      "I select \"Colorado Springs Utilities\" option by text from dropdown controlcentralsearch.cis_division",
+      "I click element controlcentralsearch.search",
+      "I wait for 3 sec",
+      "I wait for 7 sec",
+      "I switch to main content",
+      "I switch to frame frame.main_frame",
+      "I switch to frame frame.dashboard",
+      "I click element controlcentral.account_context_menu",
+      "I switch to main content",
+      "I switch to frame frame.main_frame",
+      "I hover over element context.acctctx_gotoadjustment",
+      "I click element context.add",
+      "I wait for 3 sec",
+      "I switch to frame frame.tabpage_frame",
+      "I enter \"FEEREI\" into input field adjustmentpage.adjustment_type_field",
+      "I press \"TAB\" key into input field adjustmentpage.adjustment_type_field",
+      "I clear input field adjustmentpage.amount",
+      "I enter \"10\" into input field adjustmentpage.amount",
+      "I click element adjustmentpage.generate_btn",
+      "I switch to main content",
+      "I switch to new window",
+      "I click element adjustmentpage.calculate_btn",
+      "I switch to previous window",
+      "I switch to main content",
+      "I switch to frame frame.main_frame",
+      "I switch to frame frame.tabpage_frame",
+      "I click on element adjustmentpage.submit_approval_btn",
+      "I wait for 4 sec",
+      "I switch to main content",
+      "I switch to frame frame.main_frame",
+      "I switch to frame frame.tabmenu_frame",
+      "I click element tabs.approval_tab",
+      "I switch to main content",
+      "I switch to frame frame.main_frame",
+      "I switch to frame frame.tabpage_frame",
+      "element frame.zonemapframe_2_frame should be present",
+      "I switch to frame frame.zonemapframe_2_frame",
+      "I click element adjustmentpage.approve_btn",
+      "I switch to main content",
+      "I switch to frame frame.main_frame",
+      "I switch to frame frame.tabmenu_frame",
+      "I click element tabs.main_tab",
+      "I switch to main content",
+      "I switch to frame frame.main_frame",
+      "I switch to frame frame.tabpage_frame",
+      "I click element adjustmentpage.freeze_btn",
+      "I wait for 3 sec",
+      "I switch to main content",
+      "I switch to new window",
+      "I click element adjustmentpage.save_btn",
+      "I switch to previous window",
+      "stepimplementation.ValidationStepDefs.softassertall()"
+    ],
+    "datasets": [
+      {
+        "data": [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          5,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)"
+        ],
+        "label": "passed",
+        "stack": "complete"
+      },
+      {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)"
+        ],
+        "label": "failed",
+        "stack": "complete"
+      },
+      {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)"
+        ],
+        "label": "skipped",
+        "stack": "complete"
+      }
+    ]
+  },
+  "options": {
+    "scales": {
+      "xAxes": [
+        {
+          "ticks": {
+            "min": 0,
+            "stepSize": 0,
+            "display": false
+          },
+          "stacked": true,
+          "scaleLabel": {
+            "display": true,
+            "labelString": "Steps"
+          },
+          "stepSize": 0.0
+        }
+      ],
+      "yAxes": [
+        {
+          "ticks": {
+            "min": 0,
+            "stepSize": 30,
+            "display": true
+          },
+          "stacked": true,
+          "scaleLabel": {
+            "display": true,
+            "labelString": "Step Runtime (seconds)"
+          },
+          "stepSize": 0.0
+        }
+      ]
+    },
+    "events": [
+      "click",
+      "mousemove"
+    ]
+  },
+  "type": "bar"
+});
+
+            var original;
+            if (chart.config.type === "pie") {
+                original = Chart.defaults.pie.legend.onClick;
+            } else {
+                original = Chart.defaults.global.legend.onClick;
+            }
+
+            chart.options.onClick = function (evt, elements) {
+                if (chart.config.type !== "pie") return;
+                chartArea = elements[0];
+                if (chartArea === undefined) return;
+                chartArea.hidden = !chartArea.hidden;
+                chart.update();
+                toggleVisibilityByStatus(chartArea._model.label, !chartArea.hidden)
+            };
+
+            chart.options.legend.onClick = function (evt, label) {
+                original.call(this, evt, label);
+                toggleVisibilityByStatus(label.text, label.hidden);
+            };
+
+            function toggleVisibilityByStatus(statusText, show) {
+                var card = $("#card_" + statusText);
+                if (card !== undefined) {
+                    if (show) {
+                        card.show();
+                    } else {
+                        card.hide();
+                    }
+                }
+
+                var row = $(".table-row-" + statusText);
+                if (row !== undefined) {
+                    if (show) {
+                        row.show();
+                    } else {
+                        row.hide();
+                    }
+                }
+            }
+
+
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='before-after-hooks-button']").click();
+            }
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='step-hooks-button']").click();
+            }
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='doc-strings-button']").click();
+            }
+        }
+    );
+
+    function resizeIframe(iframe) {
+        iframe.style.height = (iframe.contentWindow.document.body.scrollHeight + 25) + 'px';
+    }
+</script>    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/scenario-summary.html">All Scenarios</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/scenario-sequence.html">Scenario Sequence</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/tag-summary.html">All Tags</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/step-summary.html">All Steps</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/feature-summary.html">All Features</a>
+                    </li>
+            </ul>
+            <span class="text-light">2023-01-26 18:47:38</span>
+        </div>
+    </nav>
+    <main role="main" class="container">
+        <div class="cluecumber-template">
+            <div class="pb-2 mt-4 mb-2 border-bottom">
+                    <h5>
+                            <a href="pages/feature-scenarios/feature_0.html">T1674783921_0T_temp</a>
+                        <span class="small">file:src/test/resources/C2M_EYDemo/features/C2M_EYDemo_temp/T1674783921_0T_temp.feature</span>
+                    </h5>
+                    <h3>Verify User is able to Add an Adjustment</h3>
+            </div>
+
+    <div class="row" id="scenario-detail">
+    <div class="col-sm-6  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Step Results</div>
+            <div class="card-body">
+    <div id="canvas-holder" class="w-100 text-center" style="min-height: 15rem;" data-cluecumber-item="chart">
+        <canvas id="chart-area" class="w-100"></canvas>
+    </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Scenario Info</div>
+            <div class="card-body">
+                <li class="list-group-item">Started on:<br>2023-01-26 18:46:05</li>
+                <li class="list-group-item">Ended on:<br>2023-01-26 18:47:33</li>
+            <li class="list-group-item">Test Runtime:<br>1m 27s 730ms</li>
+            <li class="list-group-item">
+                    <a href="pages/tag-scenarios/tag_FIN001_NGTPUI.html">@FIN001_NGTPUI</a>,
+
+                    <a href="pages/tag-scenarios/tag_regression_NGTPUI.html">@regression_NGTPUI</a>,
+
+                    <a href="pages/tag-scenarios/tag_NGTPUI_NGTPUI.html">@NGTPUI_NGTPUI</a>            </li>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Step Summary</div>
+            <div class="card-body">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    69         Steps
+
+                </li>
+                <li class="list-group-item">
+                    69 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+
+                    <br>
+                    0 failed     <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
+       title="failed"><span style="display:none">failed</span></i>
+
+                    <br>
+                    0 skipped     <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+
+                </li>
+            </ul>
+                <button class="btn btn-outline-secondary btn-block collapsed" type="button" data-toggle="collapse"
+                        aria-expanded="true" data-cluecumber-item="before-after-hooks-button"
+                        data-target=".scenarioHook">Scenario Hooks with content
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <ul class="list-group list-group-flush">
+    <div class="col-sm-12 scenarioHook collapse h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Before Hooks</div>
+            <div class="card-body">
+                <li class="list-group-item">
+                            <div class="row row_passed table-row-passed">
+                                <div class="col-9 text-left">
+                                    <span class="text-left">3.</span>
+                                    <i>stepimplementation.ValidationStepDefs.setSoftAssert(io.cucumber.java.Scenario)</i>
+                                </div>
+                                <div class="col-2 text-left small">
+                                    0m 04s 274ms
+                                </div>
+                                <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                                </div>
+        <div class="row w-100 p-3 m-0 scenarioOutput">
+            <div class="w-100 text-left small p-2">Assertion Type is set to : hard</div>
+        </div>
+                            </div>
+                </li>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-sm-12  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Steps</div>
+            <div class="card-body">
+                <li class="list-group-item">
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">1.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.navigate_toURL(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_509934513.html"><span
+                                                class="keyword">Given </span> I navigate to <span class="parameter">C2M_HOME</span> page</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 465ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">2.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_text_from_input_data(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_1062405609.html"><span
+                                                class="keyword">When </span> I enter <span class="parameter">credentials.user</span> into input field <span class="parameter">c2m.username</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 674ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">3.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_text_from_input_data(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_1062405609.html"><span
+                                                class="keyword">And </span> I enter <span class="parameter">credentials.pass</span> into input field <span class="parameter">c2m.password</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 647ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">4.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.click(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0594343437.html"><span
+                                                class="keyword">And </span> I click on element <span class="parameter">c2m.sign_in</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 672ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">5.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.WaitStepDefs.wait(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0783171777.html"><span
+                                                class="keyword">And </span> I wait for <span class="parameter">5</span> sec</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 05s 008ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">6.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.main_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 219ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">7.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.WaitStepDefs.wait(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0783171777.html"><span
+                                                class="keyword">And </span> I wait for <span class="parameter">5</span> sec</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 05s 006ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">8.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.click(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0594343437.html"><span
+                                                class="keyword">And </span> I click on element <span class="parameter">main.main_menu</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 552ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">9.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ValidationStepDefs.check_element_presence(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_1480767163.html"><span
+                                                class="keyword">And </span> element <span class="parameter">main.control_central</span> should be present</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 193ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">10.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.click(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0594343437.html"><span
+                                                class="keyword">And </span> I click on element <span class="parameter">main.control_central</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 503ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">11.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.WaitStepDefs.wait(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0783171777.html"><span
+                                                class="keyword">And </span> I wait for <span class="parameter">3</span> sec</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 03s 011ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">12.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ValidationStepDefs.check_title(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_01304635151.html"><span
+                                                class="keyword">Then </span> I should see page title as "<span class="parameter">Control Central Search</span>"</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 287ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">13.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_default_content()">
+                                    <a href="pages/step-scenarios/step_01270360302.html"><span
+                                                class="keyword">And </span> I switch to main content</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 005ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">14.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.main_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 050ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">15.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.tabpage_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 094ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">16.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_01032894717.html"><span
+                                                class="keyword">And </span> I select "<span class="parameter">Account ID</span>" option by text from dropdown <span class="parameter">controlcentralsearch.search_by</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 505ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">17.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ValidationStepDefs.check_element_presence(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_1480767163.html"><span
+                                                class="keyword">And </span> element <span class="parameter">controlcentralsearch.account_id</span> should be present</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 698ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">18.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_781015678.html"><span
+                                                class="keyword">And </span> I enter "<span class="parameter">0707403459</span>" into input field <span class="parameter">controlcentralsearch.account_id</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 495ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">19.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_01032894717.html"><span
+                                                class="keyword">And </span> I select "<span class="parameter">Colorado Springs Utilities</span>" option by text from dropdown <span class="parameter">controlcentralsearch.cis_division</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 542ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">20.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_558368549.html"><span
+                                                class="keyword">And </span> I click element <span class="parameter">controlcentralsearch.search</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 662ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">21.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.WaitStepDefs.wait(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0783171777.html"><span
+                                                class="keyword">And </span> I wait for <span class="parameter">3</span> sec</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 03s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">22.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.WaitStepDefs.wait(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0783171777.html"><span
+                                                class="keyword">And </span> I wait for <span class="parameter">7</span> sec</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 07s 015ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">23.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_default_content()">
+                                    <a href="pages/step-scenarios/step_01270360302.html"><span
+                                                class="keyword">And </span> I switch to main content</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 021ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">24.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.main_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 046ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">25.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.dashboard</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 056ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">26.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_558368549.html"><span
+                                                class="keyword">And </span> I click element <span class="parameter">controlcentral.account_context_menu</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 646ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">27.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_default_content()">
+                                    <a href="pages/step-scenarios/step_01270360302.html"><span
+                                                class="keyword">And </span> I switch to main content</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 010ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">28.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.main_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 046ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">29.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.SelectionElementStepDefs.hover_over_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_42016771.html"><span
+                                                class="keyword">And </span> I hover over element <span class="parameter">context.acctctx_gotoadjustment</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 358ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">30.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_558368549.html"><span
+                                                class="keyword">And </span> I click element <span class="parameter">context.add</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 557ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">31.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.WaitStepDefs.wait(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0783171777.html"><span
+                                                class="keyword">And </span> I wait for <span class="parameter">3</span> sec</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 03s 002ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">32.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.tabpage_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 045ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">33.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_781015678.html"><span
+                                                class="keyword">And </span> I enter "<span class="parameter">FEEREI</span>" into input field <span class="parameter">adjustmentpage.adjustment_type_field</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 572ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">34.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_key(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_1592346590.html"><span
+                                                class="keyword">And </span> I press "<span class="parameter">TAB</span>" key into input field <span class="parameter">adjustmentpage.adjustment_type_field</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 230ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">35.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.clear_text(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_01508116564.html"><span
+                                                class="keyword">And </span> I clear input field <span class="parameter">adjustmentpage.amount</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 303ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">36.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_781015678.html"><span
+                                                class="keyword">And </span> I enter "<span class="parameter">10</span>" into input field <span class="parameter">adjustmentpage.amount</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 474ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">37.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_558368549.html"><span
+                                                class="keyword">And </span> I click element <span class="parameter">adjustmentpage.generate_btn</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 777ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">38.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_default_content()">
+                                    <a href="pages/step-scenarios/step_01270360302.html"><span
+                                                class="keyword">And </span> I switch to main content</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 058ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">39.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_new_window()">
+                                    <a href="pages/step-scenarios/step_1972229688.html"><span
+                                                class="keyword">And </span> I switch to new window</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 090ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">40.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_558368549.html"><span
+                                                class="keyword">And </span> I click element <span class="parameter">adjustmentpage.calculate_btn</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 654ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">41.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_old_window()">
+                                    <a href="pages/step-scenarios/step_1846344081.html"><span
+                                                class="keyword">And </span> I switch to previous window</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 058ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">42.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_default_content()">
+                                    <a href="pages/step-scenarios/step_01270360302.html"><span
+                                                class="keyword">And </span> I switch to main content</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 108ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">43.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.main_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 254ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">44.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.tabpage_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 076ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">45.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.click(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0594343437.html"><span
+                                                class="keyword">And </span> I click on element <span class="parameter">adjustmentpage.submit_approval_btn</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 01s 752ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">46.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.WaitStepDefs.wait(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0783171777.html"><span
+                                                class="keyword">And </span> I wait for <span class="parameter">4</span> sec</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 04s 011ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">47.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_default_content()">
+                                    <a href="pages/step-scenarios/step_01270360302.html"><span
+                                                class="keyword">And </span> I switch to main content</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 013ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">48.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.main_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 038ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">49.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.tabmenu_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 054ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">50.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_558368549.html"><span
+                                                class="keyword">And </span> I click element <span class="parameter">tabs.approval_tab</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 589ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">51.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_default_content()">
+                                    <a href="pages/step-scenarios/step_01270360302.html"><span
+                                                class="keyword">And </span> I switch to main content</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 007ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">52.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.main_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 082ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">53.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.tabpage_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 289ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">54.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ValidationStepDefs.check_element_presence(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_1480767163.html"><span
+                                                class="keyword">And </span> element <span class="parameter">frame.zonemapframe_2_frame</span> should be present</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 195ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">55.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.zonemapframe_2_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 273ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">56.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_558368549.html"><span
+                                                class="keyword">And </span> I click element <span class="parameter">adjustmentpage.approve_btn</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 722ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">57.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_default_content()">
+                                    <a href="pages/step-scenarios/step_01270360302.html"><span
+                                                class="keyword">And </span> I switch to main content</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 006ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">58.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.main_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 045ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">59.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.tabmenu_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 047ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">60.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_558368549.html"><span
+                                                class="keyword">And </span> I click element <span class="parameter">tabs.main_tab</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 868ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">61.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_default_content()">
+                                    <a href="pages/step-scenarios/step_01270360302.html"><span
+                                                class="keyword">And </span> I switch to main content</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 129ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">62.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.main_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 371ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">63.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_frame_by_element(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0528805700.html"><span
+                                                class="keyword">And </span> I switch to frame <span class="parameter">frame.tabpage_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 047ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">64.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_558368549.html"><span
+                                                class="keyword">And </span> I click element <span class="parameter">adjustmentpage.freeze_btn</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 30s 646ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">65.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.WaitStepDefs.wait(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0783171777.html"><span
+                                                class="keyword">And </span> I wait for <span class="parameter">3</span> sec</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 03s 001ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">66.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_default_content()">
+                                    <a href="pages/step-scenarios/step_01270360302.html"><span
+                                                class="keyword">And </span> I switch to main content</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 007ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">67.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_new_window()">
+                                    <a href="pages/step-scenarios/step_1972229688.html"><span
+                                                class="keyword">And </span> I switch to new window</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 018ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">68.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.clickUsingSelenium(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_558368549.html"><span
+                                                class="keyword">And </span> I click element <span class="parameter">adjustmentpage.save_btn</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 549ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-9 text-left">
+                                <span class="text-left">69.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.switch_to_old_window()">
+                                    <a href="pages/step-scenarios/step_1846344081.html"><span
+                                                class="keyword">And </span> I switch to previous window</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 082ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    </ul>
+        </div>
+    </main>
+
+<footer class="footer navbar-dark">
+    <div class="container-fluid">
+        <span>Cluecumber Report Plugin version 2.7.1 - Report generated on 2023-01-26 18:47:38.</span>
+    </div>
+</footer>    </body>
+    </html>
+

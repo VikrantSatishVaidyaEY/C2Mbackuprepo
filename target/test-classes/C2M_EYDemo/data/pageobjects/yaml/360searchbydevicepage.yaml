@@ -1,0 +1,91 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-13	  Athott		Initial Version.
+# 2022-06-05	  AThott		Added elements as per C2MDEV
+######################################################################################
+
+360SearchByDevicePage:
+  - element_type: select
+    variable: search_identifiertype
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="deviceIdType"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: search_identifiervalue
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="deviceIdValue"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: search_device
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="anTLZ1Refresh"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type:
+    variable: scalar_device_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="pseudoLink"]//span[contains(text(),'Gas Hundred Cubic Feet')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: measuring_interval
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="dataExplorerTableBody1"]/tr/td[3]/a/span
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: interval_device_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="pseudoLink"]//span[contains(text(),'Gas Hundred Cubic Feet - Hourly')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: device_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@class="pseudoLink"]//span[contains(text(),'Electric Type 72R')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

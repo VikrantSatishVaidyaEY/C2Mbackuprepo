@@ -1,0 +1,192 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-07	  CTongo		Initial Version.
+# 2022-04-29    SAhmad    Collection Process SAS Tab
+# 2022-05-18    SAhmad    Add Adjustment Approval Tab
+# 2022-05-19	  CTongo		Add SA Rate Info, 360 Degree View Contact Tab, WO SAs Tab
+# 2022-08-11    SAhmad    Add Characteristics Tab in Account page
+# 2022-08-17    SAhmad    Add Chars, Qty & Rec. Charges Tab in Service Agreement page
+#####################################################################################
+
+Tabs:
+
+#Main Tab
+  - element_type: ""
+    variable: main
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="MAIN_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Account Tabs
+  - element_type: ""
+    variable: autopay
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="AUTOPAY_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: creditsandcollections
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CRRATING_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: characteristics
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACCTCHAR_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Adjustment Tabs
+  - element_type: ""
+    variable: transfer_adjustment
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="TRANSFER_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Payment Event Tabs
+  - element_type: ""
+    variable: tenders
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="TENDERS_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+# Collection process Event Tab:
+  - element_type: ""
+    variable: events
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="EVENTS_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  #Collection process SAS Tab:
+  - element_type: ""
+    variable: sas
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //td[@class='inactiveTab' and @title='SAs']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  #Write Off process SAS Tab:
+  - element_type: ""
+    variable: wo_sas_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SAS_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+ #Add Adjustment Approval Tab
+  - element_type:
+    variable: approval_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //td[@class='inactiveTab' and @title='Approval']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  #Add Adjustment Approval Tab
+  - element_type: ""
+    variable: main_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="MAIN_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  #Service Agreement Tab
+  - element_type: ""
+    variable: rateinfo_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="RATE_INFO_LBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: chars_qty_rec_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CHAR_QTY_TLBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  #360 Degree view tab
+  - element_type: ""
+    variable: contact_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTACT_LBL"]/table/tbody/tr[2]/td
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

@@ -1,0 +1,424 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		              Reason:
+# 2022-04-06		JLonga		            Initial Version.
+# 2022-04-25		AThott		            Added communication main menu
+# 2022-04-27		CTongo		            Added main frame go back button
+#####################################################################################
+Main:
+  - element_type: ""
+    variable: main_menu
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_menuButton"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: main_go_back_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_GOBACK"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: threesixty_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: asset_management
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: communication
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: control_central
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Control Central Search"]
+    #//*[@id="CI_MAINMENU_topMenuItem0x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: credit_collection
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Credit & Collection"]
+    #//*[@id="CI_MAINMENU_topMenuItem0x5"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: cube_view
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x6"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: customer_information
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Customer Information"]
+    #//*[@id="CI_MAINMENU_topMenuItem0x7"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: dashboards
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x8"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: data_synchronization
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x9"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: device
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Device"]
+    #//*[@id="CI_MAINMENU_topMenuItem0x10"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: device_installation
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Device Installation"]
+    #//*[@id="CI_MAINMENU_topMenuItem0x11"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: financial
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Financial"]
+    #//*[@id="CI_MAINMENU_topMenuItem0x12"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: financial_query
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x14"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: init_msrmt_data
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath:  //*[text()="Initial Measurement Data"]
+    #//*[@id="CI_MAINMENU_topMenuItem0x16"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: init_msrmt_snapshot
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x17"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: insights
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x18"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: inventory
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x19"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: mrkt_trans_mgmt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x20"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: process_flow
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x22"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: rates
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x24"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: resource_mgmt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x25"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: sales_marketing
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x26"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: self_service
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x27"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: to_do
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="To Do"]
+    #//*[@id="CI_MAINMENU_topMenuItem0x29"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: totals_trends
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x30"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: umbrella_agmt_mgmt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x31"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: usage
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x32"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: workflow_notification
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x33"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: my_preferences
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x34"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: tools
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x35"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: integration
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x36"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: business_flag
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_MAINMENU_topMenuItem0x37"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
