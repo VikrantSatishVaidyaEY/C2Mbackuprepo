@@ -3846,6 +3846,7 @@ Credentials:
   - element_type: ""
     variable: user
     value: SYSUSER
+    #SYSUSER
     id: ""
     class: ""
     name: ""
@@ -3857,6 +3858,7 @@ Credentials:
   - element_type: ""
     variable: pass
     value: sysuser00
+    #sysuser00
     id: ""
     class: ""
     name: ""
@@ -4078,6 +4080,34 @@ Credentials:
     linktext: ""
     partiallinktext: ""
     tagname: ""
+
+  - element_type: ""
+    variable: vikrant
+    value: ""
+    #SYSUSER
+    id: ""
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type: ""
+    variable: oracle
+    value: ""
+    #SYSUSER
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Oracle Utilities Customer To Meter"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
 
 #_________________________________________SHANAWAZ YAML CODE________________________________________________________________________
 
@@ -6860,6 +6890,56 @@ C2M:
     class: ""
     name: ""
     xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#C2M EYDEMO Credentials
+  - element_type: ""
+    variable: c2meydemouser
+    value: SYSUSER
+    #SYSUSER
+    id: ""
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: c2meydemopass
+    value: sysuser00
+    #sysuser00
+    id: ""
+    class: ""
+    name: ""
+    xpath: ""
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: advanced
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="details-button"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type:
+    variable: proceedlink
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="proceed-link"]
     css: ""
     linktext: ""
     partiallinktext: ""

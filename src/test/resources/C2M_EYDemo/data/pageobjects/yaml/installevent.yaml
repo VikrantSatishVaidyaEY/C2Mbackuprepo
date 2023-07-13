@@ -40,6 +40,8 @@ InstallEvent:
     class: ""
     name: ""
     xpath: /html/body/table[2]/tbody/tr[3]/td/table/tbody/tr/td/input[1]
+    #//input[@value="OK"]
+        #/html/body/table[2]/tbody/tr[3]/td/table/tbody/tr/td/input[1]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -78,7 +80,8 @@ InstallEvent:
     id: ""
     class: ""
     name: ""
-    xpath: /html/body/table[2]/tbody/tr[14]/td/table/tbody/tr/td/input[1]
+    xpath: //input[@value="Save"]
+    #/html/body/table[2]/tbody/tr[14]/td/table/tbody/tr/td/input[1]
     #/html/body/table[2]/tbody/tr[15]/td/table/tbody/tr/td/input[1] #update xpath for C2MDEV
 #    xpath: /html/body/table[2]/tbody/tr[14]/td/table/tbody/tr/td/input[1]
     css: ""

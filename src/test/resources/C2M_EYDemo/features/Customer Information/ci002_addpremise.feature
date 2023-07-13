@@ -15,15 +15,16 @@ Feature: Verify User can add Premise
 
     #User is Logged In
     Given I navigate to C2M_HOME page
-    When I enter credentials.user into input field c2m.username
-    And I enter credentials.pass into input field c2m.password
+    When I enter credentials.c2meydemouser into input field c2m.username
+    And I enter credentials.c2meydemopass into input field c2m.password
     And I click on element c2m.sign_in
 
     #Add a Premise
     And I switch to frame frame.main_frame
     And I click on element main.main_menu
     And element main.customer_information should be present
-    And I hover over element main.customer_information
+      # And I hover over element main.customer_information
+    And I click on element  main.customer_information
    # And element submenu.premise_demo should be present
    # And I hover over element submenu.premise_demo
     And element submenu.premise should be present
@@ -76,6 +77,7 @@ Feature: Verify User can add Premise
     And I click element c2mlogout.english_system
     And I click element c2mlogout.logout
     #And I close browser
+    And I quit browser
 
 #C2MDEMO
 #    Examples:

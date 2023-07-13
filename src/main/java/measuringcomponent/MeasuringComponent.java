@@ -1,11 +1,11 @@
-/*
- *************************************************************************************
- * CHANGE HISTORY:
- *
- * Date:       	by:    		Reason:
- * 2022-04-27	CTongo		Initial Version.
- *************************************************************************************
- */
+///*
+// *************************************************************************************
+// * CHANGE HISTORY:
+// *
+// * Date:       	by:    		Reason:
+// * 2022-04-27	CTongo		Initial Version.
+// *************************************************************************************
+// */
 
 package measuringcomponent;
 
@@ -37,11 +37,12 @@ public class MeasuringComponent extends MeasuringComponentType{
             } catch (TimeoutException var5) {
                 return false;
             }
-            return true;
+                   return true;
         } else {
             return false;
         }
     }
+//        }
 
     public String initialize_mc_xpath(String xpath, int mcCounter) {
         String eVariable = xpath;

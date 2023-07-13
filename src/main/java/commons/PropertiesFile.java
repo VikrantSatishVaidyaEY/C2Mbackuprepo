@@ -25,7 +25,7 @@ public class PropertiesFile {
         BufferedReader reader;
 
         // This holds the information of the configuration file path.
-        File file = new File("D:\\ngtp-official315\\Configuration.properties.txt");
+        File file = new File("C:\\Users\\FH352RA\\OneDrive - EY\\Documents\\GitHub\\C2Mbackuprepo\\Configuration.properties.txt");
         fileName = file.getName();
 
         try {

@@ -49,7 +49,8 @@ Main:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="CI_MAINMENU_topMenuItem0x1"]/span[1]
+    xpath: //span[text()="Asset Management"]
+    #//*[@id="CI_MAINMENU_topMenuItem0x1"]/span[1]
     css: ""
     linktext: ""
     partiallinktext: ""

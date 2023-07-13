@@ -289,3 +289,15 @@ PremisePage:
     partiallinktext: ""
     tagname: ""
 
+  - element_type: ""
+    variable: premise_icon
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_PRNT_PREM_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

@@ -1,11 +1,11 @@
-/*
- *************************************************************************************
- * CHANGE HISTORY:
- *
- * Date:       	by:    		Reason:
- * 2022-05-04	CTongo		Initial Version.
- *************************************************************************************
- */
+///*
+// *************************************************************************************
+// * CHANGE HISTORY:
+// *
+// * Date:       	by:    		Reason:
+// * 2022-05-04	CTongo		Initial Version.
+// *************************************************************************************
+// */
 
 package commons;
 
@@ -13,6 +13,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
+
 
 public class CustomConditions {
 

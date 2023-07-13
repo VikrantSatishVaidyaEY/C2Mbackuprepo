@@ -3,7 +3,7 @@
 #
 # Date:       	by:    		Reason:
 # 2022-05-22	SAhmad		Initial Version.
-#
+# 2022-06-14	VVaidya		Updated code for Xpath changes in Navigation to Financials page
 #####################################################################################
 
 Feature: Cancel an Adjustment
@@ -12,11 +12,14 @@ Feature: Cancel an Adjustment
   Scenario Outline: Verify User is able to Cancel an Adjustment
 
     #Login C2M
-    Given I navigate to C2M_HOME page
-    When I enter credentials.user into input field c2m.username
-    And I enter credentials.pass into input field c2m.password
-    And I click on element c2m.sign_in
+#    Given I navigate to C2M_HOME page
+#    When I enter credentials.user into input field c2m.username
+#    And I enter credentials.pass into input field c2m.password
+#    And I click on element c2m.sign_in
 
+    Given I connect to db
+    Given I load data from "<word>" db and "<word>" table
+    Given I load the data for feature "FIN002"
     #Cancel an Adjustment
 
     And I switch to frame frame.main_frame
@@ -30,7 +33,8 @@ Feature: Cancel an Adjustment
     And I wait for 5 sec
     And I switch to new window
     And I wait for 3 sec
-    And I enter "<ADJUSTMENT ID>" into input field adjustmentpage.adjustment_id
+    And I enter "ADJ_ID" from test data in input field adjustmentpage.adjustment_id
+   # And I enter "<ADJUSTMENT ID>" into input field adjustmentpage.adjustment_id
     And I click element adjustmentpage.adjustment_search_btn
     And I switch to previous window
     And I switch to main content

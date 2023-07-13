@@ -14,12 +14,18 @@ Feature: Verify User can add Person and Account
   Scenario Outline: Verify User can add Person and Account
 
     #User is Logged In
+#    Then I enter todays date into input field c2m.username
     Given I navigate to C2M_HOME page
+    And I wait for 10 sec
     When I enter credentials.user into input field c2m.username
     And I enter credentials.pass into input field c2m.password
     And I click on element c2m.sign_in
 
-    #Click Add Person Submenu
+    And I wait for 10 sec
+  # And I get the text from element credentials.c2meydemouser and store it in memory as "vikrant" data
+ # And I retrieve text from element credentials.oracle and store it in memory as credentials.vikrant data
+  #  And I retrieve credentials.vikrant data from memory and enter retrieved text into input field c2m.password
+#    #Click Add Person Submenu
     And I wait for 5 sec
     And I switch to frame frame.main_frame
     And I wait for 3 sec
@@ -68,13 +74,14 @@ Feature: Verify User can add Person and Account
     And I switch to main content
     And I switch to frame frame.main_frame
     And I click element actionbuttons.save
-    
-    # Logout C2M
-    And I switch to main content
-    And I switch to frame frame.main_frame
-    And I click element c2mlogout.english_system
-    And I click element c2mlogout.logout
-    #And I close browser
+#
+#    # Logout C2M
+#    And I switch to main content
+#    And I switch to frame frame.main_frame
+#    And I click element c2mlogout.english_system
+#    And I click element c2mlogout.logout
+#    #And I close browser
+#    And I quit browser
 
     Examples:
       | PersonName      | ContactType | ContactValue   | IdType               | IdValue     |
