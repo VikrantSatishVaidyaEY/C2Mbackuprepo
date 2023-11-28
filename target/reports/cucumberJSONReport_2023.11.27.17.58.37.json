@@ -1,0 +1,492 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-27T23:58:25.586Z",
+        "before": [
+          {
+            "result": {
+              "duration": 104094000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "seleniumutils.applicationlayer.ETLValidation.stepdefinitions.ETLReusableStepDefinitions.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 918096500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "methods.Hooks.JarInitialize()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Failed to create Chrome process.\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027US3179122W2\u0027, ip: \u0027192.168.0.187\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.2\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tGetHandleVerifier [0x0022DCE3+50899]\n\t(No symbol) [0x001BE111]\n\t(No symbol) [0x000C5588]\n\t(No symbol) [0x000E15A6]\n\t(No symbol) [0x000DF479]\n\t(No symbol) [0x00111FFE]\n\t(No symbol) [0x00111CEC]\n\t(No symbol) [0x0010B6F6]\n\t(No symbol) [0x000E7708]\n\t(No symbol) [0x000E886D]\n\tGetHandleVerifier [0x00493EAE+2566302]\n\tGetHandleVerifier [0x004C92B1+2784417]\n\tGetHandleVerifier [0x004C327C+2759788]\n\tGetHandleVerifier [0x002C5740+672048]\n\t(No symbol) [0x001C8872]\n\t(No symbol) [0x001C41C8]\n\t(No symbol) [0x001C42AB]\n\t(No symbol) [0x001B71B7]\n\tBaseThreadInitThunk [0x768AFCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77587C6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77587C3E+238]\n\t(No symbol) [0x00000000]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat env.DriverUtil.a(SourceFile:149)\r\n\tat env.DriverUtil.getDefaultDriver(SourceFile:91)\r\n\tat baseinitializers.StepImplementationBase.\u003cinit\u003e(StepImplementationBase.java:122)\r\n\tat stepimplementation.ValidationStepDefs.\u003cinit\u003e(ValidationStepDefs.java:30)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)\r\n\tat org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)\r\n\tat org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)\r\n\tat org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)\r\n\tat org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)\r\n\tat org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)\r\n\tat org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)\r\n\tat org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)\r\n\tat org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)\r\n\tat org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)\r\n\tat io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:49)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)\r\n\tat io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)\r\n\tat io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:98)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "duration": 4268150300,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepimplementation.ValidationStepDefs.setSoftAssert(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Failed to create Chrome process.\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027US3179122W2\u0027, ip: \u0027192.168.0.187\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.2\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tGetHandleVerifier [0x0022DCE3+50899]\n\t(No symbol) [0x001BE111]\n\t(No symbol) [0x000C5588]\n\t(No symbol) [0x000E15A6]\n\t(No symbol) [0x000DF479]\n\t(No symbol) [0x00111FFE]\n\t(No symbol) [0x00111CEC]\n\t(No symbol) [0x0010B6F6]\n\t(No symbol) [0x000E7708]\n\t(No symbol) [0x000E886D]\n\tGetHandleVerifier [0x00493EAE+2566302]\n\tGetHandleVerifier [0x004C92B1+2784417]\n\tGetHandleVerifier [0x004C327C+2759788]\n\tGetHandleVerifier [0x002C5740+672048]\n\t(No symbol) [0x001C8872]\n\t(No symbol) [0x001C41C8]\n\t(No symbol) [0x001C42AB]\n\t(No symbol) [0x001B71B7]\n\tBaseThreadInitThunk [0x768AFCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77587C6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77587C3E+238]\n\t(No symbol) [0x00000000]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat env.DriverUtil.a(SourceFile:149)\r\n\tat env.DriverUtil.getDefaultDriver(SourceFile:91)\r\n\tat baseinitializers.StepImplementationBase.\u003cinit\u003e(StepImplementationBase.java:122)\r\n\tat stepimplementation.InputElementStepDefs.\u003cinit\u003e(InputElementStepDefs.java:33)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)\r\n\tat org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)\r\n\tat org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)\r\n\tat org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)\r\n\tat org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)\r\n\tat org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)\r\n\tat org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)\r\n\tat org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)\r\n\tat org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)\r\n\tat org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)\r\n\tat io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:49)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)\r\n\tat io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)\r\n\tat io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:98)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "duration": 2922930200,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepimplementation.InputElementStepDefs.getScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 499300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "application.ETLStepDefinitions.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 86,
+        "name": "Create Person with Account and Start Service Enabled",
+        "description": "",
+        "id": "create-person-with-account-and-start-service-enabled;create-person-with-account-and-start-service-enabled;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Failed to create Chrome process.\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027US3179122W2\u0027, ip: \u0027192.168.0.187\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.2\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tGetHandleVerifier [0x0022DCE3+50899]\n\t(No symbol) [0x001BE111]\n\t(No symbol) [0x000C5588]\n\t(No symbol) [0x000E15A6]\n\t(No symbol) [0x000DF479]\n\t(No symbol) [0x00111FFE]\n\t(No symbol) [0x00111CEC]\n\t(No symbol) [0x0010B6F6]\n\t(No symbol) [0x000E7708]\n\t(No symbol) [0x000E886D]\n\tGetHandleVerifier [0x00493EAE+2566302]\n\tGetHandleVerifier [0x004C92B1+2784417]\n\tGetHandleVerifier [0x004C327C+2759788]\n\tGetHandleVerifier [0x002C5740+672048]\n\t(No symbol) [0x001C8872]\n\t(No symbol) [0x001C41C8]\n\t(No symbol) [0x001C42AB]\n\t(No symbol) [0x001B71B7]\n\tBaseThreadInitThunk [0x768AFCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77587C6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77587C3E+238]\n\t(No symbol) [0x00000000]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat env.DriverUtil.a(SourceFile:149)\r\n\tat env.DriverUtil.getDefaultDriver(SourceFile:91)\r\n\tat baseinitializers.StepImplementationBase.\u003cinit\u003e(StepImplementationBase.java:122)\r\n\tat stepimplementation.ValidationStepDefs.\u003cinit\u003e(ValidationStepDefs.java:30)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)\r\n\tat org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)\r\n\tat org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)\r\n\tat org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)\r\n\tat org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)\r\n\tat org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)\r\n\tat org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)\r\n\tat org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)\r\n\tat org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)\r\n\tat org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)\r\n\tat io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:49)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)\r\n\tat io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)\r\n\tat io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:110)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "duration": 2935209200,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepimplementation.ValidationStepDefs.softassertall()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1047700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I navigate to CCB_HOME page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CCB_HOME",
+                  "offset": 14
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.navigate_toURL(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I wait for 10 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 11
+                }
+              ],
+              "location": "stepimplementation.WaitStepDefs.wait(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466300,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter credentials.user into input field c2m.username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "credentials.user",
+                  "offset": 8
+                },
+                {
+                  "val": "c2m.username",
+                  "offset": 42
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_text_from_input_data(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter credentials.pass into input field c2m.password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "credentials.pass",
+                  "offset": 8
+                },
+                {
+                  "val": "c2m.password",
+                  "offset": 42
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_text_from_input_data(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I click on element c2m.sign_in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c2m.sign_in",
+                  "offset": 19
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.click(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I wait for 10 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 11
+                }
+              ],
+              "location": "stepimplementation.WaitStepDefs.wait(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I move to frame frame.dashboard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.dashboard",
+                  "offset": 16
+                }
+              ],
+              "location": "seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.moveToTargetFrame(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I wait for 3 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                }
+              ],
+              "location": "stepimplementation.WaitStepDefs.wait(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I click on element home.add_person",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home.add_person",
+                  "offset": 19
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.click(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194400,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I select \"Person\" option by text from dropdown personpage.per_business_flg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Person",
+                  "offset": 10
+                },
+                {
+                  "val": "personpage.per_business_flg",
+                  "offset": 47
+                }
+              ],
+              "location": "stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 498800,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I move to frame frame.pername_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.pername_frame",
+                  "offset": 16
+                }
+              ],
+              "location": "seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.moveToTargetFrame(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 406500,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I select \"Primary\" option by text from dropdown personpage.nametype_dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Primary",
+                  "offset": 10
+                },
+                {
+                  "val": "personpage.nametype_dropdown",
+                  "offset": 48
+                }
+              ],
+              "location": "stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I enter \"CCB_John\" into input field personpage.per_name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CCB_John",
+                  "offset": 9
+                },
+                {
+                  "val": "personpage.per_name",
+                  "offset": 36
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I move to frame frame.percontact_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.percontact_frame",
+                  "offset": 16
+                }
+              ],
+              "location": "seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.moveToTargetFrame(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I select \"Cell Phone\" option by text from dropdown personpage.per_contact_type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cell Phone",
+                  "offset": 10
+                },
+                {
+                  "val": "personpage.per_contact_type",
+                  "offset": 51
+                }
+              ],
+              "location": "stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I enter \"738-264-4725\" into input field personpage.per_contact_value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "738-264-4725",
+                  "offset": 9
+                },
+                {
+                  "val": "personpage.per_contact_value",
+                  "offset": 40
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I check the checkbox personpage.per_primary_sw",
+            "match": {
+              "arguments": [
+                {
+                  "val": "personpage.per_primary_sw",
+                  "offset": 21
+                }
+              ],
+              "location": "stepimplementation.SelectionElementStepDefs.check_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497000,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I move to frame frame.perid_frame",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frame.perid_frame",
+                  "offset": 16
+                }
+              ],
+              "location": "seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.moveToTargetFrame(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I select \"Social security number\" option by text from dropdown personpage.per_id_type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Social security number",
+                  "offset": 10
+                },
+                {
+                  "val": "personpage.per_id_type",
+                  "offset": 63
+                }
+              ],
+              "location": "stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "I put random number into input field personpage.per_id_value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "personpage.per_id_value",
+                  "offset": 37
+                }
+              ],
+              "location": "seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.enter_random_number_into_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "checkbox home.start_service_checkbox should be checked",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home.start_service_checkbox",
+                  "offset": 9
+                },
+                {
+                  "val": "checked",
+                  "offset": 47
+                }
+              ],
+              "location": "stepimplementation.ValidationStepDefs.is_checkbox_checked(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CCB001"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Create Person with Account and Start Service Enabled",
+    "description": "",
+    "id": "create-person-with-account-and-start-service-enabled",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/CCB/features/createPersonWithAccount.feature",
+    "tags": []
+  }
+]

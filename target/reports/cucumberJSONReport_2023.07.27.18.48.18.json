@@ -1,0 +1,284 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-27T23:47:37.734Z",
+        "before": [
+          {
+            "result": {
+              "duration": 60817300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "seleniumutils.applicationlayer.ETLValidation.stepdefinitions.ETLReusableStepDefinitions.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 674593000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "methods.Hooks.JarInitialize()"
+            }
+          },
+          {
+            "output": [
+              "Assertion Type is set to : hard"
+            ],
+            "result": {
+              "duration": 11222335400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepimplementation.ValidationStepDefs.setSoftAssert(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 979200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepimplementation.InputElementStepDefs.getScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "application.ETLStepDefinitions.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify Amazon Product page shows the correct title for Amazon Echo Dot",
+        "description": "",
+        "id": "ordering-an-echo-dot-in-amazon;verify-amazon-product-page-shows-the-correct-title-for-amazon-echo-dot;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2420900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepimplementation.ValidationStepDefs.softassertall()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1824066100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to amazon_home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amazon_home",
+                  "offset": 14
+                }
+              ],
+              "location": "stepimplementation.NavigationStepDefs.navigate_toURL(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11087701700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"Clothing\" into input field amazon.search_bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Clothing",
+                  "offset": 9
+                },
+                {
+                  "val": "amazon.search_bar",
+                  "offset": 36
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 969332100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter current time into the input field amazon.search_bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amazon.search_bar",
+                  "offset": 42
+                }
+              ],
+              "location": "seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.i_enter_current_time_into_date_field(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2236929200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on element amazon.search_button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amazon.search_button",
+                  "offset": 19
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.click(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 470680700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I clear input field amazon.search_bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amazon.search_bar",
+                  "offset": 20
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.clear_text(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 665971500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter \"echo dot\" into input field amazon.search_bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "echo dot",
+                  "offset": 9
+                },
+                {
+                  "val": "amazon.search_bar",
+                  "offset": 36
+                }
+              ],
+              "location": "stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3354010100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on element amazon.search_button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amazon.search_button",
+                  "offset": 19
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.click(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 319888200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see page title having partial text as \"cho dot\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cho dot",
+                  "offset": 48
+                }
+              ],
+              "location": "stepimplementation.ValidationStepDefs.check_partial_text(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5902281600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on element searchpage.echo_dot",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchpage.echo_dot",
+                  "offset": 19
+                }
+              ],
+              "location": "stepimplementation.ClickElementStepDefs.click(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1277589600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "element productpage.product_title should have partial text as \"Echo Dot\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "productpage.product_title",
+                  "offset": 8
+                },
+                {
+                  "val": "Echo Dot",
+                  "offset": 63
+                }
+              ],
+              "location": "stepimplementation.ValidationStepDefs.check_element_partial_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@echodot23"
+          },
+          {
+            "name": "@smoke23"
+          }
+        ]
+      }
+    ],
+    "name": "Ordering an Echo Dot in Amazon",
+    "description": "",
+    "id": "ordering-an-echo-dot-in-amazon",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/amazonDemo/features/echodot.feature",
+    "tags": []
+  }
+]
