@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Properties;
 //import etaf.helperutils.testdatahelpers.TestDataHandler;
-import utils.helpers.testdatahelpers.TestDataHandler;
+import etaf.helperutils.testdatahelpers.TestDataHandler;
 
 import java.io.FileNotFoundException;
 public class FetchQuery {
@@ -32,9 +32,9 @@ public class FetchQuery {
         if (testDataHandler == null) {
             Class var0 = TestDataHandler.class;
             synchronized (TestDataHandler.class) {
-                if (testDataHandler == null) {
-                    testDataHandler = new TestDataHandler();
-                }
+//                if (testDataHandler == null) {
+//                    testDataHandler = new TestDataHandler();
+//                }
             }
 
         }

@@ -39,24 +39,24 @@ Feature: Creating End-to-End "V" Model including Starting and Stopping Service
     And I wait for 2 sec
     And I clear input field assetpage.asset_time
     And I wait for 2 sec
-    And I enter "12" into input field assetpage.asset_time
+   # And I enter "12" into input field assetpage.asset_time
     And I wait for 2 sec
     And I press "TAB" key into input field assetpage.asset_time
     And I wait 10 seconds for element assetpage.asset_type to display
     And I select "<assetType>" option by text from dropdown assetpage.asset_type
     And I wait 10 seconds for element assetpage.asset_service_location to display
-    And I select "East Service Center Warehouse,2910 Willamette Pl" option by text from dropdown assetpage.asset_service_location
+    And I select "Pleasanton Receiving,5805 Owens Dr." option by text from dropdown assetpage.asset_service_location
     And I click element assetpage.asset_ok_btn
 
     #Populate Required Add Asset Page and click OK
     And I wait 10 seconds for element assetpage.asset_spec to display
-    And I select "5_ITRON_C1SC" option by text from dropdown assetpage.asset_spec
+    And I select "Reliant Electric Digital" option by text from dropdown assetpage.asset_spec
     And I put badge number assetpage.asset_type_badge_number into the input field
     And I put serial number assetpage.asset_type_serial_number into the input field
     And I wait for 5 sec
-    And I select "1.0" option by text from dropdown assetpage.asset_type_metrology_firmware_version
-    And I select "1.0" option by text from dropdown assetpage.asset_type_nic_firmware_version
-    And I select "5_E-TYPICAL" option by text from dropdown assetpage.asset_type_measurement_configuration
+#    And I select "1.0" option by text from dropdown assetpage.asset_type_metrology_firmware_version
+#    And I select "1.0" option by text from dropdown assetpage.asset_type_nic_firmware_version
+    And I select "Electric Manual Read - kWh - Scalar" option by text from dropdown assetpage.asset_type_measurement_configuration
     And I click element assetpage.asset_type_save_btn
 
     #Search for a device
@@ -86,49 +86,49 @@ Feature: Creating End-to-End "V" Model including Starting and Stopping Service
     And I click on element assetquerypage.asset_link
     And I wait for 6 sec
 
-
-    And I move to frame frame.tabpage_frame
-    And I wait for 5 sec
-    And I click on element assetpage.edit_electrickh
-    And I switch to main content
-    And I wait for 7 sec
-    And I switch to new window
-    And I wait 7 seconds for element assetpage.electrickh_value to display
-    And I enter "1" into input field assetpage.electrickh_value
-    And I wait for 2 sec
-    And I click on element assetpage.electrickh_save
-    And I wait for 5 sec
-    And I switch to previous window
-
-    #new code for asset attributes for gear ratio
-
-    And I move to frame frame.tabpage_frame
-    And I wait for 5 sec
-    And I click on element assetpage.edit_gearratio
-    And I switch to main content
-    And I wait for 7 sec
-    And I switch to new window
-    And I wait 7 seconds for element assetpage.electrickh_value to display
-    And I enter "050:01" into input field assetpage.electrickh_value
-    And I wait for 2 sec
-    And I click on element assetpage.electrickh_save
-
-    And I wait for 5 sec
-    And I switch to previous window
-
-    #new code for asset attributes for register ratio
-
-    And I move to frame frame.tabpage_frame
-    And I wait for 5 sec
-    And I click on element assetpage.edit_registerratio
-    And I switch to main content
-    And I wait for 7 sec
-    And I switch to new window
-    And I wait 7 seconds for element assetpage.electrickh_value to display
-    And I enter "0200:000/000" into input field assetpage.electrickh_value
-    And I wait for 2 sec
-    And I click on element assetpage.electrickh_save
-    And I switch to previous window
+#
+#    And I move to frame frame.tabpage_frame
+#    And I wait for 5 sec
+#    And I click on element assetpage.edit_electrickh
+#    And I switch to main content
+#    And I wait for 7 sec
+#    And I switch to new window
+#    And I wait 7 seconds for element assetpage.electrickh_value to display
+#    And I enter "1" into input field assetpage.electrickh_value
+#    And I wait for 2 sec
+#    And I click on element assetpage.electrickh_save
+#    And I wait for 5 sec
+#    And I switch to previous window
+#
+#    #new code for asset attributes for gear ratio
+#
+#    And I move to frame frame.tabpage_frame
+#    And I wait for 5 sec
+#    And I click on element assetpage.edit_gearratio
+#    And I switch to main content
+#    And I wait for 7 sec
+#    And I switch to new window
+#    And I wait 7 seconds for element assetpage.electrickh_value to display
+#    And I enter "050:01" into input field assetpage.electrickh_value
+#    And I wait for 2 sec
+#    And I click on element assetpage.electrickh_save
+#
+#    And I wait for 5 sec
+#    And I switch to previous window
+#
+#    #new code for asset attributes for register ratio
+#
+#    And I move to frame frame.tabpage_frame
+#    And I wait for 5 sec
+#    And I click on element assetpage.edit_registerratio
+#    And I switch to main content
+#    And I wait for 7 sec
+#    And I switch to new window
+#    And I wait 7 seconds for element assetpage.electrickh_value to display
+#    And I enter "0200:000/000" into input field assetpage.electrickh_value
+#    And I wait for 2 sec
+#    And I click on element assetpage.electrickh_save
+#    And I switch to previous window
 
     #Make Asset 'In Store'
 
@@ -331,170 +331,170 @@ Feature: Creating End-to-End "V" Model including Starting and Stopping Service
     And I wait for 10 sec
 
 
-    And I move to frame frame.main_frame
-    And I wait for 3 sec
-    And I click on element main.main_menu
-    And element main.customer_information should be present
-    And I click on element main.customer_information
-    And element submenu.person should be present
-    And I click on element submenu.person
-    And I click element submenu.add
-
-
-    And I wait for 3 sec
-
-    And I move to frame frame.pername_frame
-    And element personpage.per_name should be present
-    And I enter "<PersonName>" into input field personpage.per_name
-
-    And I move to frame frame.percontact_frame
-    And element personpage.per_contact_type should be present
-    And I select "<ContactType>" option by text from dropdown personpage.per_contact_type
-    And element personpage.per_contact_value should be present
-    And I enter "<ContactValue>" into input field personpage.per_contact_value
-    And I press "TAB" key into input field personpage.per_primary_sw
-    And I check the checkbox personpage.per_primary_sw
-
-
-    And I move to frame frame.perid_frame
-    And element personpage.per_id_type should be present
-    And I select "<IdType>" option by text from dropdown personpage.per_id_type
-    And element personpage.per_id_value should be present
-    And I put random number into input field personpage.per_id_value
-
-
-    And I move to frame frame.main_frame
-    And I click element actionbuttons.save
-    And I move to frame frame.tabpage_frame
-
-
-    And I enter todays date into the input field startstoppage.startdate_service
-    And I get "createdPremise" text from saved results and enter to "startstoppage.address_service" input field
-    And I press "TAB" key into input field startstoppage.address_service
-    And I wait 10 seconds for element startstoppage.city_service to display
-    And I enter "COLO SPGS" into input field startstoppage.city_service
-    And I press "TAB" key into input field startstoppage.city_service
-    And I click element startstoppage.start_service
-    And I switch to main content
-    And I wait for 3 sec
-    And I switch to new window
-    And I wait for 3 sec
-
-    And I click on element startstoppage.popup_start
-    And I wait for 15 sec
-    And I switch to previous window
-
-    And I wait for 5 sec
-    And I move to frame frame.dashboard
-    And I click element controlcentral.account_context_menu
-    And I wait for 10 sec
-
-
-    And I move to frame frame.main_frame
-    And I click on element context.acctctx_gotosa
-    And I click element context.search
-    And I wait for 5 sec
-
-    And I move to frame frame.dashboard_zonemapframe201
-    And I click element dashboard.field_activity_alert
-    And I wait for 15 sec
-
-    #Switch to Main Tab
-    And I wait for 5 sec
-    And I move to frame frame.tabmenu_frame
-    And I click element tabs.main
-
-    And I move to frame frame.fa_action_panel_frame
-    And I click element fieldactivitypage.complete
-
-
-#    #Go To Pending Start SA
-
-    And I wait for 5 sec
-    And I move to frame frame.dashboard_zonemapframe201
-    And I click element dashboard.pending_sa_alert
-
-    #Go to Pending Service Agreement Page
-
-    And I wait for 5 sec
-    And I move to frame frame.startstop_gridframe
-    And I click element startstoppage.sa_context_menu
-
-    And I move to frame frame.main_frame
-    And I click element context.sactx_gotosa
-
-    #Activate Service Agreement
-    And I wait for 3 sec
-
-    And I move to frame frame.tabpage_frame
-    And I click element serviceagreementpage.activate_sa
-
-    #Code to Stop SA
-
-    And I wait for 10 sec
-    And I click on element startstoppage.initiate_stop
-    And I wait for 3 sec
-    And I switch to new window
-    And I enter todays date into the input field startstoppage.end_date
-    And I click on element startstoppage.end_date_ok
-    And I wait for 3 sec
-    And I accept alert if it is displayed
-
-    And I switch to previous window
-
-    And I move to frame frame.tabpage_frame
-    And I click element startstoppage.stop_service_agreement
-
-    #Click on Refresh button
-
-    And I move to frame frame.main_frame
-    And I click on element dashboard.refresh_btn
-    And I wait for 5 sec
-
-     #Go to Pending Field Activity
-
-    And I move to frame frame.dashboard_zonemapframe201
-    And I click element dashboard.field_activity_alert
-    And I wait for 15 sec
-
-    #Switch to Main Tab
-
-    And I move to frame frame.tabmenu_frame
-    And I click element tabs.main
-
-    #Complete Field Activity
-
-    And I move to frame frame.fa_action_panel_frame
-    And I click element fieldactivitypage.complete
-
-#    #Go To Pending Stop SA
-    And I wait for 3 sec
-    And I move to frame frame.dashboard_zonemapframe201
-    And I click element dashboard.pending_stop_alert
-
-    #Go to Pending Service Agreement Page
-    And I wait for 3 sec
-    And I move to frame frame.startstop_gridframe
-    And I click element startstoppage.sa_context_menu
-
-    And I wait for 3 sec
-    And I move to frame frame.main_frame
-    And I click element context.sactx_gotosa
-
-    #Stop Service Agreement
-    And I wait for 3 sec
-    And I move to frame frame.tabpage_frame
-    And I click element startstoppage.stop_service_agreement
-
-    #Logout from C2M
-##    And I switch to main content
-##    And I switch to frame frame.main_frame
-##    And I click element c2mlogout.english_system
-##    And I click element c2mlogout.logout
-#    #And I quit browser
-
-
+#    And I move to frame frame.main_frame
+#    And I wait for 3 sec
+#    And I click on element main.main_menu
+#    And element main.customer_information should be present
+#    And I click on element main.customer_information
+#    And element submenu.person should be present
+#    And I click on element submenu.person
+#    And I click element submenu.add
+#
+#
+#    And I wait for 3 sec
+#
+#    And I move to frame frame.pername_frame
+#    And element personpage.per_name should be present
+#    And I enter "<PersonName>" into input field personpage.per_name
+#
+#    And I move to frame frame.percontact_frame
+#    And element personpage.per_contact_type should be present
+#    And I select "<ContactType>" option by text from dropdown personpage.per_contact_type
+#    And element personpage.per_contact_value should be present
+#    And I enter "<ContactValue>" into input field personpage.per_contact_value
+#    And I press "TAB" key into input field personpage.per_primary_sw
+#    And I check the checkbox personpage.per_primary_sw
+#
+#
+#    And I move to frame frame.perid_frame
+#    And element personpage.per_id_type should be present
+#    And I select "<IdType>" option by text from dropdown personpage.per_id_type
+#    And element personpage.per_id_value should be present
+#    And I put random number into input field personpage.per_id_value
+#
+#
+#    And I move to frame frame.main_frame
+#    And I click element actionbuttons.save
+#    And I move to frame frame.tabpage_frame
+#
+#
+#    And I enter todays date into the input field startstoppage.startdate_service
+#    And I get "createdPremise" text from saved results and enter to "startstoppage.address_service" input field
+#    And I press "TAB" key into input field startstoppage.address_service
+#    And I wait 10 seconds for element startstoppage.city_service to display
+#    And I enter "COLO SPGS" into input field startstoppage.city_service
+#    And I press "TAB" key into input field startstoppage.city_service
+#    And I click element startstoppage.start_service
+#    And I switch to main content
+#    And I wait for 3 sec
+#    And I switch to new window
+#    And I wait for 3 sec
+#
+#    And I click on element startstoppage.popup_start
+#    And I wait for 15 sec
+#    And I switch to previous window
+#
+#    And I wait for 5 sec
+#    And I move to frame frame.dashboard
+#    And I click element controlcentral.account_context_menu
+#    And I wait for 10 sec
+#
+#
+#    And I move to frame frame.main_frame
+#    And I click on element context.acctctx_gotosa
+#    And I click element context.search
+#    And I wait for 5 sec
+#
+#    And I move to frame frame.dashboard_zonemapframe201
+#    And I click element dashboard.field_activity_alert
+#    And I wait for 15 sec
+#
+#    #Switch to Main Tab
+#    And I wait for 5 sec
+#    And I move to frame frame.tabmenu_frame
+#    And I click element tabs.main
+#
+#    And I move to frame frame.fa_action_panel_frame
+#    And I click element fieldactivitypage.complete
+#
+#
+##    #Go To Pending Start SA
+#
+#    And I wait for 5 sec
+#    And I move to frame frame.dashboard_zonemapframe201
+#    And I click element dashboard.pending_sa_alert
+#
+#    #Go to Pending Service Agreement Page
+#
+#    And I wait for 5 sec
+#    And I move to frame frame.startstop_gridframe
+#    And I click element startstoppage.sa_context_menu
+#
+#    And I move to frame frame.main_frame
+#    And I click element context.sactx_gotosa
+#
+#    #Activate Service Agreement
+#    And I wait for 3 sec
+#
+#    And I move to frame frame.tabpage_frame
+#    And I click element serviceagreementpage.activate_sa
+#
+#    #Code to Stop SA
+#
+#    And I wait for 10 sec
+#    And I click on element startstoppage.initiate_stop
+#    And I wait for 3 sec
+#    And I switch to new window
+#    And I enter todays date into the input field startstoppage.end_date
+#    And I click on element startstoppage.end_date_ok
+#    And I wait for 3 sec
+#    And I accept alert if it is displayed
+#
+#    And I switch to previous window
+#
+#    And I move to frame frame.tabpage_frame
+#    And I click element startstoppage.stop_service_agreement
+#
+#    #Click on Refresh button
+#
+#    And I move to frame frame.main_frame
+#    And I click on element dashboard.refresh_btn
+#    And I wait for 5 sec
+#
+#     #Go to Pending Field Activity
+#
+#    And I move to frame frame.dashboard_zonemapframe201
+#    And I click element dashboard.field_activity_alert
+#    And I wait for 15 sec
+#
+#    #Switch to Main Tab
+#
+#    And I move to frame frame.tabmenu_frame
+#    And I click element tabs.main
+#
+#    #Complete Field Activity
+#
+#    And I move to frame frame.fa_action_panel_frame
+#    And I click element fieldactivitypage.complete
+#
+##    #Go To Pending Stop SA
+#    And I wait for 3 sec
+#    And I move to frame frame.dashboard_zonemapframe201
+#    And I click element dashboard.pending_stop_alert
+#
+#    #Go to Pending Service Agreement Page
+#    And I wait for 3 sec
+#    And I move to frame frame.startstop_gridframe
+#    And I click element startstoppage.sa_context_menu
+#
+#    And I wait for 3 sec
+#    And I move to frame frame.main_frame
+#    And I click element context.sactx_gotosa
+#
+#    #Stop Service Agreement
+#    And I wait for 3 sec
+#    And I move to frame frame.tabpage_frame
+#    And I click element startstoppage.stop_service_agreement
+#
+#    #Logout from C2M
+###    And I switch to main content
+###    And I switch to frame frame.main_frame
+###    And I click element c2mlogout.english_system
+###    And I click element c2mlogout.logout
+##    #And I quit browser
+#
+#
 
     Examples:
       | PersonName      | ContactType | ContactValue   | IdType               | badge_number     | SearchBy | serviceLocation |address| date|assetType|| Premise Type     | Premise_Zipcode | Cis Division                 | Premise_City | Premise_County | Premise_State | Service Point Type   | Measurement Cycle           |
-      | Test, Vikrant | Home Phone  | 342-453-5435 | Social Security Number | NGTPTESTV1 | Asset Identifier | Pleasanton Satellite Storeroom,5815 Owens Drive |1 Crescent Way #1115 1731|05-03-2023|Electric Type 5 - 240V 3W 1PH 200CL|| Single Family    | 809151009       | Colorado Springs Utilities   | COLO SPGS     | EL PASO       | CO            |Electric Residential | Meter Read Cycle Number 01  |
+      | Test, Vikrant | Home Phone  | 342-453-5435 | Social Security Number | NGTPTESTV1 | Asset Identifier | Pleasanton Satellite Storeroom,5815 Owens Drive |1 Crescent Way #1115 1731|05-03-2023|Electric Manual Read Meter - Digital|| Single Family    | 809151009       | Colorado Springs Utilities   | COLO SPGS     | EL PASO       | CO            |Electric Residential | Meter Read Cycle Number 01  |

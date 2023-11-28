@@ -4,6 +4,7 @@
 # Date:       	by:    		Reason:
 # 2022-04-13	AThott		Initial Version.
 # 2022-06-06    CTongo      Changed the Feature and Scenario Outline Title
+# 2022-06-06    Vvaidya      Changed the Feature and Scenario Outline Title
 #####################################################################################
 
 Feature: Verify User can add a Service Point
@@ -13,10 +14,11 @@ Feature: Verify User can add a Service Point
 
     #User is Logged In
     Given I navigate to C2M_HOME page
-    When I enter credentials.user into input field c2m.username
-    And I enter credentials.pass into input field c2m.password
+    When I enter credentials.c2meydemouser into input field c2m.username
+    And I enter credentials.c2meydemopass into input field c2m.password
     And I click on element c2m.sign_in
 
+    And I load the data for feature "CI003"
     #Add a Premise
     And I switch to frame frame.main_frame
     And I click on element main.main_menu
@@ -33,7 +35,8 @@ Feature: Verify User can add a Service Point
 #    And I wait for 10 sec
 
     And element premisepage.premise_id_search should be present
-    And I enter "<Premise_Id>" into input field premisepage.premise_id_search
+    And I enter "PREM_ID" from test data in input field premisepage.premise_id_search
+    #And I enter "<Premise_Id>" into input field premisepage.premise_id_search
     And I click element premisepage.premise_id_search_btn
 
     #Switch to Previous Window
@@ -84,7 +87,8 @@ Feature: Verify User can add a Service Point
     And I switch to frame frame.main_frame
     And I click element c2mlogout.english_system
     And I click element c2mlogout.logout
-  #  And I close browser
+   #And I close browser
+    And I quit browser
 
     #C2MDEV
 
@@ -93,4 +97,4 @@ Feature: Verify User can add a Service Point
       #C2mDEV| 0956557194   | Electric Residential | Meter Read Cycle Number 01  | Brooklyn     | ILLINOIS       | IL            |
      #C2MTEST | 5083011999   | Electric Residential | Meter Read Cycle Number 01  | Brooklyn     | ILLINOIS       | IL            |
      #C2MTEST2 | 9804263633   | Electric Residential | Meter Read Cycle Number 01  | Brooklyn     | ILLINOIS       | IL            |
-      | 5987574583   | Electric Residential | Meter Read Cycle Number 01  | Brooklyn     | ILLINOIS       | IL            |
+      | 5987574583   | Electric Residential | Read Cycle 01  | Brooklyn     | ILLINOIS       | IL            |

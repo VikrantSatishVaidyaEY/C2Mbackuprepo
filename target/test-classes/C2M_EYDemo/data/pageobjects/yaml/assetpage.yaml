@@ -137,6 +137,20 @@ AssetPage:
     partiallinktext: ""
     tagname: ""
 
+#For C2M EYDEMO
+
+  - element_type:
+    variable: c2meydemoasset_service_location
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="newAssetDisposition_StorageLocation_IC"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
   - element_type:
     variable: asset_ok_btn
     value: ""
@@ -470,7 +484,8 @@ AssetPage:
 
 
   - element_type:
-    variable: asset_service_location
+    variable: asset_service_ooslocation
+    #asset_service_location
     value: ""
     id: ""
     class: ""

@@ -12,7 +12,7 @@ import stepimplementation.SelectionElementStepDefs;
 import stepimplementation.ValidationStepDefs;
 //import measuringcomponent.MeasuringComponent;
 import etaf.helperutils.datahelpers.*;
-import utils.helpers.testdatahelpers.TestDataHandler;
+import etaf.helperutils.testdatahelpers.TestDataHandler;
 import env.DriverUtil;
 import etaf.helperutils.ContextManager.ContextManagerImpl;
 import etaf.helperutils.datahelpers.StringHelperUtils;
@@ -34,10 +34,10 @@ import java.util.*;
 
 public class C2MReusableStepDefinitions extends StepImplementationBase {
     Faker faker = new Faker();
-    TestDataLoader tdl=new TestDataLoader();
+    TestDataLoader tdl = new TestDataLoader();
     static ArrayList<String> windowHandlerStack = new ArrayList<>();
     NavigationStepDefs navigationDef = new NavigationStepDefs(driverUtil);
-    private TestDataHandler testDataHandler;
+//    private TestDataHandler testDataHandler;
 
     public C2MReusableStepDefinitions(DriverUtil driverUtil) {
         super(driverUtil);
@@ -57,15 +57,15 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
         ElementObject pObj = PageObjectGenerator.getElementObject(element);
         WebElement wb = driver.findElement(By.xpath("//*[@id='serviceStartDate_datePicker']"));
         //WebElement wb =
-               // driver.findElement(By.xpath("//*[@id='serviceStartDate']")).sendKeys("08-18-20");
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        // driver.findElement(By.xpath("//*[@id='serviceStartDate']")).sendKeys("08-18-20");
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
         //working jse.executeScript("document.getElementById('serviceStartDate').value='08-17-2022'");
 
 
         //identify all td elements in list
-        List<WebElement> t =driver.findElements(By.xpath("//table/tbody/tr/td"));
+        List<WebElement> t = driver.findElements(By.xpath("//table/tbody/tr/td"));
         //list traversal
-        for (int k = 0; k<t.size(); k++) {
+        for (int k = 0; k < t.size(); k++) {
             //check date
             String dt = t.get(k).getText();
             if (dt.equals("18")) {
@@ -74,9 +74,6 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
             }
         }
         String v = wb.getAttribute("value");
-
-
-
 
 
 //        jse.executeScript("arguments[0].value='08-18-2022';", wb);
@@ -93,7 +90,7 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
 //
 //        }
 
-       // throw new io.cucumber.java.PendingException();
+        // throw new io.cucumber.java.PendingException();
     }
 
 //    @Then("^I press \"([^\"]*)\" key")
@@ -107,11 +104,11 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
     //8/19/2022
 
     @Then("^I put date number into input field (.+)$")
-    public void enter_date_number_into_input_field(String element){
+    public void enter_date_number_into_input_field(String element) {
 
         WebElement wb = driver.findElement(By.xpath("//*[@id='serviceStartDate_datePicker']"));
 
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("document.getElementById('serviceStartDate').value='08-17-2022'");
         jse.executeScript("processServiceStartDate();");
 
@@ -119,11 +116,11 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
 
 
     @Then("^I put time into input field (.+)$")
-    public void enter_time_into_input_field(String element){
+    public void enter_time_into_input_field(String element) {
 
         WebElement wb = driver.findElement(By.xpath("//*[@id='serviceStartDate_datePicker']"));
 
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("document.getElementById('serviceStartDate').value='08-17-2022'");
         jse.executeScript("processServiceStartDate();");
 
@@ -147,12 +144,14 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
             }
         } while (eventValidationFlag != true);
     }
+
     //io.cucumber.java.en.Then
     @When("^I put badge number (.+) into the input field$")
     public void i_put_badge_number_assetpage_asset_type_badge_number_into_the_input_field(String element) {
-    //enter_badge_number_into_input_field(String element) {
+        //enter_badge_number_into_input_field(String element) {
         TestDataGenerator data = new TestDataGenerator();
         String badgeNumber = data.generatebadgenumber();
+        tdl.addData("badgeNumber", badgeNumber);
         ElementObject pObj = PageObjectGenerator.getElementObject(element);
         this.enterText.enterText(pObj.getAccessType(), badgeNumber, pObj.getAccessName());
     }
@@ -160,13 +159,14 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
     @When("^I quit browser$")
     public void i_quit_browser() {
         //  this.browserHandling.closeActiveDriver();
-       // this.browserHandling.closeActiveDriver();
+        // this.browserHandling.closeActiveDriver();
         this.driver.quit();
     }
-//io.cucumber.java.en.Then
+
+    //io.cucumber.java.en.Then
     @When("^I put serial number (.+) into the input field$")
-    public void i_put_serial_number_assetpage_asset_type_serial_number_into_the_input_field (String element){
-    //enter_serial_number_into_input_field(String element) {
+    public void i_put_serial_number_assetpage_asset_type_serial_number_into_the_input_field(String element) {
+        //enter_serial_number_into_input_field(String element) {
         TestDataGenerator data = new TestDataGenerator();
         String serialNumber = data.generateserialnumber();
         ElementObject pObj = PageObjectGenerator.getElementObject(element);
@@ -196,7 +196,7 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
 //        } while (mcValidationFlag != false);
 //    }
 
-        @Then("^Validate that required measuring component list elements (.+) are created for device configuration (.+)$")
+    @Then("^Validate that required measuring component list elements (.+) are created for device configuration (.+)$")
     public void validate_measuring_component_list(String element, String specification) {
         MeasuringComponent mc = new MeasuringComponent(this.driver);
         ElementObject pObj = PageObjectGenerator.getElementObject(element);
@@ -215,10 +215,10 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
 
     @Then("^I put random address into input field (.+)$")
     public void enter_random_address_into_input_field(String element) {
-    //String ssn = faker.idNumber().ssnValid();
-    // String zipCode = faker.address().zipCode();
+        //String ssn = faker.idNumber().ssnValid();
+        // String zipCode = faker.address().zipCode();
         String address = faker.address().streetAddress();
-    // .number()..digits(5);
+        // .number()..digits(5);
         ElementObject pObj = PageObjectGenerator.getElementObject(element);
         this.enterText.enterText(pObj.getAccessType(), address, pObj.getAccessName());
     }
@@ -263,65 +263,68 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
 
 
     //new code
-    @Then("^I save the device configuration id$")public void saveAssetConfigID()
-    {    String configID = driver.findElement(By.xpath("//span[@id='bsDeviceConfigId']")).getText();
-        CaptureData.addData("DevConfigID",configID);
+    @Then("^I save the device configuration id$")
+    public void saveAssetConfigID() {
+        String configID = driver.findElement(By.xpath("//span[@id='bsDeviceConfigId']")).getText();
+        CaptureData.addData("DevConfigID", configID);
 
     }
 
     @Then("^I enter saved configuration id into input element (.*)$")
-    public void enterSavedDetails(String element)
-    {    String configID = CaptureData.getData("DevConfigID");
+    public void enterSavedDetails(String element) {
+        String configID = CaptureData.getData("DevConfigID");
         InputElementStepDefs I = new InputElementStepDefs(driverUtil);
-        I.enter_text(configID,element);
+        I.enter_text(configID, element);
 
     }
 
     //new methods
     @Then("^I save (.*) detail in variable \"(.*)\"$")
-    public void saveDetails(String element,String variable){
+    public void saveDetails(String element, String variable) {
 
-        String text = new ValidationStepDefs(driverUtil).getAttributeFromElement("value",element);
-        if(text==null){
+        String text = new ValidationStepDefs(driverUtil).getAttributeFromElement("value", element);
+        if (text == null) {
             ElementObject pObj = PageObjectGenerator.getElementObject(element);
             text = driver.findElement(By.xpath(pObj.getXpath())).getText();
         }
-        tdl.addData(variable,text);
+        tdl.addData(variable, text);
 
     }
 
     @Then("^I load \"(.*)\" from test data into dropdown (.*)$")
-    public void loadTextInDropdown(String key, String element){
+    public void loadTextInDropdown(String key, String element) {
 
         String text = tdl.getData(key);
-        new SelectionElementStepDefs(driverUtil).select_option_from_dropdown_by_text(text,element);
+        new SelectionElementStepDefs(driverUtil).select_option_from_dropdown_by_text(text, element);
 
     }
 
-    @Then("^I enter \"(.*)\" from (file|test data) in input field (.*)$")
-    public void enterDataFromSavedDetails(String key, String isElement, String element) throws Exception{
-
-        boolean elementOrSavedInfo = isElement.equalsIgnoreCase("file");
-        String text = "";
-        if(elementOrSavedInfo){
-            String[] arrOfStr = key.split("\\.");
-            text = this.testDataHandler.getDataStringFromNonTestDataFile(arrOfStr[1], "src/test/resources/C2M_EYDEMO/data/inputdata/yaml/"+ arrOfStr[0] +".yaml");
-        }
-        else{ text = tdl.getData(key);}
-
-        new InputElementStepDefs(driverUtil).enter_text(text,element);
-
-    }
+//    @Then("^I enter \"(.*)\" from (file|test data) in input field (.*)$")
+//    public void enterDataFromSavedDetails(String key, String isElement, String element) throws Exception {
+//
+//        boolean elementOrSavedInfo = isElement.equalsIgnoreCase("file");
+//        String text = "";
+//        if (elementOrSavedInfo) {
+//            String[] arrOfStr = key.split("\\.");
+//            text = this.testDataHandler.getDataStringFromNonTestDataFile(arrOfStr[1], "src/test/resources/C2M_EYDEMO/data/inputdata/yaml/" + arrOfStr[0] + ".yaml");
+//        } else {
+//            text = tdl.getData(key);
+//        }
+//
+//        new InputElementStepDefs(driverUtil).enter_text(text, element);
+//
+//    }
 
     @Given("^I load the data for feature \"(.*)\"$")
-    public void loadTestData(String feature) throws Exception{
+    public void loadTestData(String feature) throws Exception {
 
         tdl.loadData(feature);
 
     }
-//"(.*)"$
+
+    //"(.*)"$
     @Given("^I connect to db")
-    public void connectToDataBase(String dbname) throws Exception{
+    public void connectToDataBase(String dbname) throws Exception {
 
         tdl.connectToDatabase();
 
@@ -329,23 +332,23 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
 
 
     @Then("^I update (.*) (numeric|) value in variable \"(.*)\"$")
-    public void updateVariable(String element,String isNumeric, String variable)
-    {
+    public void updateVariable(String element, String isNumeric, String variable) {
 
 
-        if(isNumeric.equalsIgnoreCase("numeric")){
+        if (isNumeric.equalsIgnoreCase("numeric")) {
             int numElements = driver.findElements(By.xpath("//input[@id='BSEG_READ_CALC:0$FINAL_REG_QTY']/ancestor::tbody/tr")).size();
             double Value = Double.parseDouble(tdl.getOrDefault(variable, "0.0").replaceAll(",", ""));
-            for(int i=0;i<numElements;i++) {
-                String text = driver.findElement(By.xpath("//input[@id='BSEG_READ_CALC:"+i+"$FINAL_REG_QTY']")).getAttribute("value");
-                Value += Double.parseDouble(text.replaceAll(",",""));
+            for (int i = 0; i < numElements; i++) {
+                String text = driver.findElement(By.xpath("//input[@id='BSEG_READ_CALC:" + i + "$FINAL_REG_QTY']")).getAttribute("value");
+                Value += Double.parseDouble(text.replaceAll(",", ""));
             }
             tdl.update(variable, String.valueOf(Value));
         }
 
     }
+
     @Then("^I run the query \"(.*)\" to update records$")
-    public void runQueryInDB(String queryPath) throws Exception{
+    public void runQueryInDB(String queryPath) throws Exception {
 
         tdl.updateDataInDB(queryPath);
 
@@ -355,19 +358,19 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
     public void fetchRecordstoValidateResults(String query) throws Exception {
 
         String[] queryBuilder = query.split(" ");
-        for(int i=0;i<queryBuilder.length;i++){
-            if(queryBuilder[i].contains("<") && queryBuilder[i].endsWith(">")){
+        for (int i = 0; i < queryBuilder.length; i++) {
+            if (queryBuilder[i].contains("<") && queryBuilder[i].endsWith(">")) {
                 int startIndex = queryBuilder[i].indexOf("<");
-                String key = queryBuilder[i].substring(startIndex+1,queryBuilder[i].length()-1);
+                String key = queryBuilder[i].substring(startIndex + 1, queryBuilder[i].length() - 1);
                 System.out.println(key);
                 String[] replacement = queryBuilder[i].split("<");
-                queryBuilder[i] = replacement[0] + "'" + tdl.getData(key)+"'";
+                queryBuilder[i] = replacement[0] + "'" + tdl.getData(key) + "'";
 
             }
 
         }
 
-        String newQuery = String.join(" ",queryBuilder);
+        String newQuery = String.join(" ", queryBuilder);
 
         tdl.executeQueryFromInput(newQuery);
 
@@ -385,49 +388,41 @@ public class C2MReusableStepDefinitions extends StepImplementationBase {
 //        this.sendKeys.sendKeys(pObj.getAccessType(), pObj.getAccessName(), datef);
 //    }
 
-//######################
-@Then("^I enter todays date into the input field (.+)$")
-public void i_enter_todays_date_into_date_field(String element) {
-    DateFormat dformat = new SimpleDateFormat("MM/dd/yyyy");
-    Calendar today = Calendar.getInstance();
-    //    Date d2 = new Date();
-    today.add(Calendar.DATE,0);
-    String datef = dformat.format(today.getTime());
-    ElementObject pObj = PageObjectGenerator.getElementObject(element);
-    this.sendKeys.sendKeys(pObj.getAccessType(), pObj.getAccessName(), datef);
-}
-
-@Then("^I accept the alerts if applicable$")
-public void acceptAlertIfPopedUp()
-{
-    NavigationStepDefs nvs = new NavigationStepDefs(driverUtil);
-    try
-  {
-    if (ExpectedConditions.alertIsPresent() != null)
-    {
-    nvs.handle_alert();
+    //######################
+    @Then("^I enter todays date into the input field (.+)$")
+    public void i_enter_todays_date_into_date_field(String element) {
+        DateFormat dformat = new SimpleDateFormat("MM/dd/yyyy");
+        Calendar today = Calendar.getInstance();
+        //    Date d2 = new Date();
+        today.add(Calendar.DATE, 0);
+        String datef = dformat.format(today.getTime());
+        ElementObject pObj = PageObjectGenerator.getElementObject(element);
+        this.sendKeys.sendKeys(pObj.getAccessType(), pObj.getAccessName(), datef);
     }
-  }
- catch (NoAlertPresentException e){
-        e.printStackTrace();
- }
-}
+
+    @Then("^I accept the alerts if applicable$")
+    public void acceptAlertIfPopedUp() {
+        NavigationStepDefs nvs = new NavigationStepDefs(driverUtil);
+        try {
+            if (ExpectedConditions.alertIsPresent() != null) {
+                nvs.handle_alert();
+            }
+        } catch (NoAlertPresentException e) {
+            e.printStackTrace();
+        }
+    }
 
 
 //######################### New Steps for Workbench####################################################################
 
     @Then("^I login to application$")
-    public void logintoapplication()
-    {
+    public void logintoapplication() {
         NavigationStepDefs nvs = new NavigationStepDefs(driverUtil);
-        try
-        {
-            if (ExpectedConditions.alertIsPresent() != null)
-            {
+        try {
+            if (ExpectedConditions.alertIsPresent() != null) {
                 nvs.handle_alert();
             }
-        }
-        catch (NoAlertPresentException e){
+        } catch (NoAlertPresentException e) {
             e.printStackTrace();
         }
     }
@@ -440,9 +435,9 @@ public void acceptAlertIfPopedUp()
     }
 
     @Then("^I retrieve (.*) data from memory and enter retrieved text into input field (.+)$")
-    public void iRetrieveDataFromMemory(String dataKey,String element) {
+    public void iRetrieveDataFromMemory(String dataKey, String element) {
         ElementObject pObj = PageObjectGenerator.getElementObject(element);
-        String datafrommemory= ContextManagerImpl.getInstance().get(dataKey.toUpperCase()).toString();
+        String datafrommemory = ContextManagerImpl.getInstance().get(dataKey.toUpperCase()).toString();
         System.out.println(datafrommemory);
         this.sendKeys.sendKeys(pObj.getAccessType(), pObj.getAccessName(), datafrommemory);
     }
@@ -456,8 +451,8 @@ public void acceptAlertIfPopedUp()
     }
 
     @Then("^I move to previous window$")
-    public void switchToPreviousWindowHandler(){
-        String previousWindowHandler=windowHandlerStack.get(windowHandlerStack.size()-1);
+    public void switchToPreviousWindowHandler() {
+        String previousWindowHandler = windowHandlerStack.get(windowHandlerStack.size() - 1);
         driver.switchTo().window(previousWindowHandler);
         windowHandlerStack.remove(previousWindowHandler);
     }
@@ -479,8 +474,8 @@ public void acceptAlertIfPopedUp()
     @Then("^I accept alert if it is displayed$")
     public void handle_alert_if_displayed() {
 
-        if(this.windowHandling.alerttext()!=null)
-        {        this.windowHandling.handleAlert("accept");
+        if (this.windowHandling.alerttext() != null) {
+            this.windowHandling.handleAlert("accept");
 
         }
     }
@@ -496,10 +491,10 @@ public void acceptAlertIfPopedUp()
                 ElementObject keyObj = PageObjectGenerator.getElementObject(key);
                 text1 = driver.findElement(By.xpath(keyObj.getXpath())).getText();
                 break;
-            case "file":
-                String[] keyArray = key.split("\\.");
-                text1 = this.testDataHandler.getDataStringFromNonTestDataFile(keyArray[1], "src/test/resources/C2M/data/inputdata/yaml/" + keyArray[0] + ".yaml");
-                break;
+//            case "file":
+//                String[] keyArray = key.split("\\.");
+//                text1 = this.testDataHandler.getDataStringFromNonTestDataFile(keyArray[1], "src/test/resources/C2M/data/inputdata/yaml/" + keyArray[0] + ".yaml");
+//                break;
             case "saved results":
                 text1 = tdl.getData(key);
         }
@@ -508,25 +503,24 @@ public void acceptAlertIfPopedUp()
     }
 
     @Then("^I move to frame (.*)$")
-    public void moveToTargetFrame(String element) throws Exception{
+    public void moveToTargetFrame(String element) throws Exception {
 
         ElementObject pObj = PageObjectGenerator.getElementObject(element);
         String frameXpath = pObj.getXpath();
         String currentFrame = "";
-        Set<String> visited =  new HashSet<String>();
+        Set<String> visited = new HashSet<String>();
 
-        if(element.contains("main")){
+        if (element.contains("main")) {
             navigationDef.switch_to_default_content();
             navigationDef.switch_frame_by_element(element);
-        }
-        else {
+        } else {
             if (driver.findElements(By.xpath(frameXpath)).size() != 1) {
 
                 if (driver.findElements(By.xpath("//iframe")).size() == 0) {
                     navigationDef.switch_to_default_content();
                     try {
                         driver.switchTo().frame("main");
-                    }catch (Exception e){
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
@@ -552,74 +546,68 @@ public void acceptAlertIfPopedUp()
 
     }
 
-    public boolean switchFrameHelper(Set<String> visited, String currentFrame, String targetFrame){
+    public boolean switchFrameHelper(Set<String> visited, String currentFrame, String targetFrame) {
 
         ElementObject pObj = PageObjectGenerator.getElementObject(targetFrame);
         int numOfFrames = 0;
         String frameId = "";
         //Base Case 1: target frame is found
         //switch and return true
-        if(driver.findElements(By.xpath(pObj.getXpath())).size()==1){
+        if (driver.findElements(By.xpath(pObj.getXpath())).size() == 1) {
             navigationDef.switch_frame_by_element(targetFrame);
             return true;
-        }
-        else{
+        } else {
             //target frame not found
-            if((driver.findElements(By.xpath("//iframe")).size()==0) || currentFrame.equalsIgnoreCase("main")){
+            if ((driver.findElements(By.xpath("//iframe")).size() == 0) || currentFrame.equalsIgnoreCase("main")) {
                 visited.add(currentFrame);
                 navigationDef.switch_to_default_content();
                 driver.switchTo().frame("main");
                 numOfFrames = driver.findElements(By.xpath("//iframe")).size();
                 int i = 1;
 
-                while(i<=numOfFrames){
-                    frameId = driver.findElement(By.xpath("(//iframe)["+i+"]")).getAttribute("id");
-                    if(visited.contains(frameId)){
+                while (i <= numOfFrames) {
+                    frameId = driver.findElement(By.xpath("(//iframe)[" + i + "]")).getAttribute("id");
+                    if (visited.contains(frameId)) {
                         i++;
-                    }
-                    else{
+                    } else {
                         break;
                     }
                 }
-                if(i <= (numOfFrames)){
+                if (i <= (numOfFrames)) {
                     //Base case 2 : no other frames available within current frame
                     //add current frame to visited, explore other branches
                     currentFrame = frameId;
                     driver.switchTo().frame(currentFrame);
-                    return switchFrameHelper(visited,currentFrame,targetFrame);
-                }else{
+                    return switchFrameHelper(visited, currentFrame, targetFrame);
+                } else {
                     //Base case 3: all frames explored
                     //return false
                     return false;
                 }
-            }
-            else{
+            } else {
                 //Base case 4 : other frames available to explore within current frame
                 //call switchFrameHelper on child framed
                 numOfFrames = driver.findElements(By.xpath("//iframe")).size();
                 int i = 1;
 
-                while(i<=numOfFrames){
-                    frameId = driver.findElement(By.xpath("(//iframe)["+i+"]")).getAttribute("id");
-                    if(visited.contains(frameId)){
+                while (i <= numOfFrames) {
+                    frameId = driver.findElement(By.xpath("(//iframe)[" + i + "]")).getAttribute("id");
+                    if (visited.contains(frameId)) {
                         i++;
-                    }
-                    else{
+                    } else {
                         break;
                     }
                 }
-                if(i <= (numOfFrames)){
+                if (i <= (numOfFrames)) {
                     currentFrame = frameId;
                     driver.switchTo().frame(currentFrame);
-                    return switchFrameHelper(visited,currentFrame,targetFrame);
-                }
-
-                else{
+                    return switchFrameHelper(visited, currentFrame, targetFrame);
+                } else {
                     visited.add(currentFrame);
                     navigationDef.switch_to_default_content();
                     driver.switchTo().frame("main");
                     currentFrame = "main";
-                    return switchFrameHelper(visited,currentFrame,targetFrame);
+                    return switchFrameHelper(visited, currentFrame, targetFrame);
                 }
             }
         }
@@ -632,10 +620,10 @@ public void acceptAlertIfPopedUp()
 
         Date time = new java.util.Date(System.currentTimeMillis());
         //  System.out.println(new SimpleDateFormat("HH:mm:ss").format(time));
-        SimpleDateFormat currenttime=new SimpleDateFormat("hh:mm:ssa",Locale.getDefault());
+        SimpleDateFormat currenttime = new SimpleDateFormat("hh:mm:ssa", Locale.getDefault());
         currenttime.setTimeZone(TimeZone.getTimeZone("America/Denver"));
 
-        String date=currenttime.format(time).toString();
+        String date = currenttime.format(time).toString();
 
 
         ElementObject pObj = PageObjectGenerator.getElementObject(element);

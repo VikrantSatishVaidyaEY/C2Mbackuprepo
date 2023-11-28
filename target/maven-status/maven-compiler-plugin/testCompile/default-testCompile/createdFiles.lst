@@ -15,6 +15,7 @@ methods\CI003AddingSPandcheckifitsyncsfromMDMtoODM.class
 methods\FIN003AddDepositOrTenderControl.class
 methods\CI002AddPremise.class
 methods\DM007CreateAssetElectricDeviceTypeXXXEquipment.class
+methods\CaptureData.class
 methods\DM002InstallEventSyncMDMtoODM.class
 methods\FeatureRunner.class
 methods\FIN005AddAPaymentToMultipleAccounts.class

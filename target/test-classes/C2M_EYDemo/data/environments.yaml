@@ -5,12 +5,16 @@ C2M_HOME:
   #QA: https://www.amazon.com
   #PROD: https://www.amazon.com
 # C2MDEMO: https://ovd-l1xc2m01o:6521/ouaf/loginPage.jsp
-  C2MDEMO: https://ovxc2m1a.csu.org:9601/ouaf/
+  C2MDEMO: https://10.0.24.7:6501/ouaf/cis.jsp
+  #https://ovxc2m1a.csu.org:9601/ouaf/
   C2MDEV: https://ovdc2m1i.csu.org:9601/ouaf/cis.jsp
   C2MDEMO2: https://ovxc2m1a.csu.org:9601/ouaf/cis.jsp
   #https://10.0.24.7:6501/ouaf/cis.jsp
   #https://ovxc2m1a.csu.org:9601/ouaf/
-  C2MTEST: https://10.0.24.7:6501/ouaf/cis.jsp
+  #https://c2mtst.csu.org/ouaf/loginPage.jsp
+  C2MTEST: https://c2mtst.csu.org/ouaf/loginPage.jsp
+  #https://10.0.24.7:6501/ouaf/cis.jsp
   #https://ovtc2m1o.csu.org:9660/ouaf
   C2MQA: https://ovqc2m1o.csu.org:9660/ouaf
   #https://ovqc2m1o.csu.org:9660/ouaf/cis.jsp
+  C2MPROD: https://c2mprd.csu.org/ouaf/loginPage.jsp

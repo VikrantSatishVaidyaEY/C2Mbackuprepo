@@ -1,0 +1,25 @@
+Home:
+  - element_type: input
+    variable: add_person
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //a[contains(text(),'Person +')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: input
+    variable: start_service_checkbox
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ADD_ACCT_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+

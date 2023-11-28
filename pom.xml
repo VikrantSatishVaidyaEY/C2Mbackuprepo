@@ -6,7 +6,7 @@
 
     <groupId>com.ey</groupId>
     <artifactId>nextgen-testing-platform</artifactId>
-    <version>1.2.0</version>
+    <version>2.0.4</version>
     <packaging>jar</packaging>
     <name>nextgen-testing-platform</name>
     <properties>
@@ -14,21 +14,23 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.surefire-failsafe.plugin.version>3.0.0-M3</maven.surefire-failsafe.plugin.version>
         <maven.build.helper.plugin.version>3.0.0</maven.build.helper.plugin.version>
-        <cucumber.version>6.8.2</cucumber.version>
-        <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+        <cucumber.version>7.12.1</cucumber.version>
+        <maven.compiler.plugin.version>3.11.0</maven.compiler.plugin.version>
         <generated.runner.directory>target/parallel/runners</generated.runner.directory>
         <generated.feature.directory>target/parallel/features</generated.feature.directory>
-        <fasterxml.jackson>2.11.3</fasterxml.jackson>
-        <selenium.drivers>3.141.59</selenium.drivers>
-        <apache.poi>4.1.2</apache.poi>
+        <fasterxml.jackson>2.14.1</fasterxml.jackson>
+        <selenium.drivers>4.11.0</selenium.drivers>
+        <apache.poi>5.2.3</apache.poi>
         <forkCount>5</forkCount>
-        <karate.release>1.1.0</karate.release>
+        <karate.release>1.4.0</karate.release>
         <junit-jupiter-version>5.7.0</junit-jupiter-version>
+        <excel.version>1.0.6</excel.version>
+        <maven.dependency.plugin.version>3.3.0</maven.dependency.plugin.version>
 
         <!--Run time properties updated here will
            override the values in cucumber.properties. Command line: mvn [clean] [install|test|verify] -Dpropertyname=value
         -->
-        <application>amazonDemo</application>
+        <application>EyStoreDemo</application>
         <environment></environment>
         <browser></browser>
         <headless></headless>
@@ -56,7 +58,7 @@
         <create_accessibility_excel></create_accessibility_excel>
         <downloadFileLocation></downloadFileLocation>
         <source.feature>${project.basedir}/src/test/resources/${application}/features</source.feature>
-        <karate-tags></karate-tags>
+        <cucumber.filter.tags></cucumber.filter.tags>
         <report-directory>target/reports</report-directory>
         <skip_cluecumber_report>false</skip_cluecumber_report>
         <skip_default_report>false</skip_default_report>
@@ -64,55 +66,88 @@
         <skip_failsafe>false</skip_failsafe>
         <testType>Feature</testType>
         <reporting.phase>post-integration-test</reporting.phase>
+        <!-- <antlr>4.11.1</antlr>-->
+        <antlr>4.9.2</antlr>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>31.0.1-jre</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>com.ey</groupId>
             <artifactId>etaf-step-definitions</artifactId>
-            <version>1.3.4</version>
+            <version>2.0.1</version>
         </dependency>
 
         <dependency>
             <groupId>com.ey</groupId>
             <artifactId>etl-step-definitions</artifactId>
-            <version>1.0.7</version>
+            <version>2.0.2</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-reload4j</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
             <groupId>com.ey</groupId>
             <artifactId>etaf-api</artifactId>
-            <version>0.1.5</version>
+            <version>0.1.15</version>
         </dependency>
 
-        <!--These dependencies are for NGTP UI-->
         <dependency>
             <groupId>com.ey</groupId>
-            <artifactId>etaf-helpers</artifactId>
-            <version>1.1.10</version>
+            <artifactId>excel-version-control</artifactId>
+            <version>${excel.version}</version>
         </dependency>
+
         <dependency>
-            <groupId>com.ey</groupId>
-            <artifactId>license-validator</artifactId>
-            <version>1.1.6</version>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.6.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
         <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>4.2.2</version>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.33</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.cedarsoft.commons/io -->
+
         <dependency>
             <groupId>com.cedarsoft.commons</groupId>
             <artifactId>io</artifactId>
             <version>8.9.2</version>
         </dependency>
-        <!--General Reporting-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
         <dependency>
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
             <version>5.3.1</version>
             <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-lang</groupId>
+                    <artifactId>commons-lang</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -128,7 +163,7 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>datatable</artifactId>
-            <version>3.5.0</version>
+            <version>${cucumber.version}</version>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -138,7 +173,7 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>gherkin</artifactId>
-            <version>5.1.0</version>
+            <version>26.2.0</version>
         </dependency>
 
 
@@ -168,17 +203,18 @@
             <artifactId>selenium-java</artifactId>
             <version>${selenium.drivers}</version>
         </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-server</artifactId>
-            <version>${selenium.drivers}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.squareup.okio</groupId>
-                    <artifactId>okio</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+        <!--        download selenium-server as needed-->
+        <!--        <dependency>
+                    <groupId>org.seleniumhq.selenium</groupId>
+                    <artifactId>selenium-server</artifactId>
+                    <version>${selenium.drivers}</version>
+                    <exclusions>
+                        <exclusion>
+                            <groupId>com.squareup.okio</groupId>
+                            <artifactId>okio</artifactId>
+                        </exclusion>
+                    </exclusions>
+                </dependency>-->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-firefox-driver</artifactId>
@@ -187,7 +223,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>htmlunit-driver</artifactId>
-            <version>2.44.0</version>
+            <version>${selenium.drivers}</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -237,18 +273,13 @@
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.11</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
             <artifactId>commons-text</artifactId>
-            <version>1.9</version>
+            <version>1.10.0</version>
         </dependency>
         <dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
-            <version>1.27</version>
+            <version>2.0</version>
         </dependency>
 
         <dependency>
@@ -263,51 +294,52 @@
             </exclusions>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20200518</version>
+            <version>20230227</version>
         </dependency>
-        <dependency>
-            <groupId>com.codeborne</groupId>
-            <artifactId>phantomjsdriver</artifactId>
-            <version>1.4.4</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+
+        <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
-            <version>6.2.2.jre8</version>
+            <version>8.4.1.jre14</version>
         </dependency>
+
         <dependency>
             <groupId>org.jgrapht</groupId>
             <artifactId>jgrapht-core</artifactId>
-            <version>1.5.0</version>
+            <version>1.5.2</version>
         </dependency>
 
-        <!-- Start Change - 05/05/22 - CTONGO -->
         <!-- https://mvnrepository.com.sf.ucanaccess/ucanaccess -->
-<!--        <dependency>-->
-<!--            <groupId>net.sf.ucanaccess</groupId>-->
-<!--            <artifactId>ucanaccess</artifactId>-->
-<!--            <version>5.0.1</version>-->
-<!--        </dependency>-->
-        <!-- End Change - 05/05/22 - CTONGO -->
-
+        <dependency>
+            <groupId>net.sf.ucanaccess</groupId>
+            <artifactId>ucanaccess</artifactId>
+            <version>5.0.1</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/com.healthmarketscience.jackcess/jackcess -->
         <dependency>
             <groupId>com.healthmarketscience.jackcess</groupId>
             <artifactId>jackcess</artifactId>
-            <version>3.5.1</version>
+            <version>4.0.5</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
         <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
-            <version>2.5.1</version>
+            <version>2.7.2</version>
             <scope>test</scope>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.1.0</version>
+        </dependency>
         <dependency>
             <groupId>com.github.stephenc.monte</groupId>
             <artifactId>monte-screen-recorder</artifactId>
@@ -323,7 +355,7 @@
         <dependency>
             <groupId>com.github.ozlerhakan</groupId>
             <artifactId>poiji</artifactId>
-            <version>3.0.0</version>
+            <version>4.1.1</version>
         </dependency>
 
         <dependency>
@@ -334,24 +366,24 @@
         <dependency>
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
-            <version>1.14.2</version>
+            <version>1.16.1</version>
         </dependency>
         <dependency>
             <groupId>org.skyscreamer</groupId>
             <artifactId>jsonassert</artifactId>
-            <version>1.5.0</version>
+            <version>1.5.1</version>
         </dependency>
 
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.8.0</version>
+            <version>2.13.0</version>
         </dependency>
 
         <dependency>
             <groupId>com.google.http-client</groupId>
             <artifactId>google-http-client-jackson2</artifactId>
-            <version>1.36.0</version>
+            <version>1.43.2</version>
         </dependency>
 
         <dependency>
@@ -361,16 +393,22 @@
             <scope>runtime</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.antlr</groupId>
+            <artifactId>antlr4</artifactId>
+            <version>${antlr}</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>29.0-jre</version>
+            <version>31.0.1-jre</version>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>tag-expressions</artifactId>
-            <version>3.0.0</version>
+            <version>5.0.1</version>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -378,17 +416,7 @@
             <version>${cucumber.version}</version>
         </dependency>
 
-        <!-- Start Add - 05/04/22 - CTONGO -->
-        <!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8 -->
-        <dependency>
-            <groupId>com.oracle.database.jdbc</groupId>
-            <artifactId>ojdbc8</artifactId>
-            <version>21.1.0.0</version>
-        </dependency>
-        <!-- End Add - 05/04/22 - CTONGO -->
-
     </dependencies>
-
     <pluginRepositories>
         <pluginRepository>
             <id>oss-sonatype</id>
@@ -441,7 +469,7 @@
                             </includes>
                             <properties>
                                 <property>
-                                    <name>it.jupiterit</name>
+                                    <name>junit</name>
                                     <value>true</value>
                                 </property>
                                 <property>
@@ -710,6 +738,32 @@
                             <target>11</target>
                             <compilerArgument/>
                         </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-dependency-plugin</artifactId>
+                        <version>${maven.dependency.plugin.version}</version>
+                        <executions>
+                            <execution>
+                                <id>resource-dependencies</id>
+                                <phase>compile</phase>
+                                <goals>
+                                    <goal>unpack</goal>
+                                </goals>
+                                <configuration>
+                                    <artifactItems>
+                                        <artifactItem>
+                                            <groupId>com.ey</groupId>
+                                            <artifactId>excel-version-control</artifactId>
+                                            <version>${excel.version}</version>
+                                            <type>jar</type>
+                                            <includes>pre-commit/,pre-merge-commit/,checkBranchUpdates/</includes>
+                                            <outputDirectory>${project.basedir}/.git/hooks/</outputDirectory>
+                                        </artifactItem>
+                                    </artifactItems>
+                                </configuration>
+                            </execution>
+                        </executions>
                     </plugin>
                 </plugins>
             </build>

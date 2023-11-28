@@ -85,7 +85,8 @@ SubMenu:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="W1_ASSET_subMenuItem1x0"]/span[1]
+    xpath: //span[text()="Asset"]
+    #//*[@id="W1_ASSET_subMenuItem1x0"]/span[1]
     css: ""
     linktext: ""
     partiallinktext: ""

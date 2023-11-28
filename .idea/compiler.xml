@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ngtp-official315" />
         <module name="nextgen-testing-platform" />
+        <module name="C2Mbackuprepo" />
       </profile>
     </annotationProcessing>
   </component>

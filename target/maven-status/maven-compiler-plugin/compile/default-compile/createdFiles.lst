@@ -3,9 +3,11 @@ data\dataclass\TestDataGenerator.class
 data\dataclass\inputfilebuilder\InputFileBuilder_Scenario.class
 measuringcomponent\MeasuringComponentType.class
 data\dataclass\InputFileBuilder.class
+data\dataclass\inputfilebuilder\FetchQuery.class
 ngtp\utilities\DateTime.class
 commons\CustomConditions$1.class
 data\dataclass\inputfilebuilder\SqlQueries.class
+data\dataclass\inputfilebuilder\DatabaseUtility.class
 commons\CustomConditions.class
 creditcollection\CreditCollection.class
 commons\CustomConditions$2.class
@@ -13,4 +15,5 @@ data\dataclass\DatabaseUtil.class
 data\dataclass\inputfilebuilder\SqlResults.class
 measuringcomponent\MeasuringComponent.class
 commons\PropertiesFile.class
+data\dataclass\inputfilebuilder\TestDataLoader.class
 ngtp\utilities\DateTime$Format.class

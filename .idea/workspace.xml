@@ -4,36 +4,128 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d260e4-a5da-46b3-89f2-b8341f51828f" name="Changes" comment=" changes related to CC001 test cases" />
+    <list default="true" id="c6d260e4-a5da-46b3-89f2-b8341f51828f" name="Changes" comment=" changes related to CC001 test cases">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/environments.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/c2mloginpage.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/frameobjects.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/homepage.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/personpage.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/features/createPersonWithAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/dataclass/inputfilebuilder/FetchQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/dataclass/inputfilebuilder/FetchQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cucumber.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FeatureRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FeatureRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/APITests/features/APItests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/APITests/features/APItests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/assetquerypage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/assetquerypage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Demos/CreatingVModel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Demos/CreatingVModel.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/amazonDemo/features/echodot.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/amazonDemo/features/echodot.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/CustomConditions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/CustomConditions$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/CustomConditions$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/CustomConditions$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/CustomConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/CustomConditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commons/PropertiesFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/PropertiesFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cucumber.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/measuringcomponent/MeasuringComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/measuringcomponent/MeasuringComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-additional.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-additional.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/cluecumber.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/cluecumber.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/dataTables.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/datatables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/datatables.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/font/cluecumber.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/font/cluecumber.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/Chart.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/Chart.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/datatables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/datatables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/jquery.fancybox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/jquery.fancybox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/feature-scenarios/feature_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/feature-scenarios/feature_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/feature-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/feature-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/scenario-detail/scenario_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/scenario-detail/scenario_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/scenario-sequence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/scenario-sequence.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/scenario-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/scenario-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01032894717.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01270360302.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01304635151.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01508116564.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01508116564.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0528805700.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0594343437.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0594343437.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0783171777.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1062405609.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1480767163.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1592346590.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1846344081.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1972229688.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_42016771.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_509934513.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_509934513.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_558368549.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_781015678.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_781015678.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-scenarios/tag_FIN001_NGTPUI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-scenarios/tag_NGTPUI_NGTPUI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-scenarios/tag_regression_NGTPUI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/tag-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2023-01-26T18-45-55_725-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2023-01-26T18-45-55_725.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/T1674783921_0T_temp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nextgen-testing-platform-1.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nextgen-testing-platform-1.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_3364149542.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_1709855489.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_4230598846.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_85415110.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberHtmlReport" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumberHtmlReport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.01.26.18.47.33.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/APITests/features/APItests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/APITests/features/APItests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/environments.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/environments.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/assetpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/assetpage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/assetquerypage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/assetquerypage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/c2mloginpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/c2mloginpage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/installevent.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/installevent.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/mainmenu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/mainmenu.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/premisepage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/premisepage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/submenu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/submenu.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci001_addpersonandaccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci001_addpersonandaccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci002_addpremise.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci002_addpremise.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci003_addservicepoint.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci003_addservicepoint.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Demos/EndToEndScriptDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Demos/EndToEndScriptDemo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Financials/fin002_cancelanadjustment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Financials/fin002_cancelanadjustment.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/amazonDemo/features/echodot.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/amazonDemo/features/echodot.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FeatureRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FeatureRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdrivers/resolution.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webdrivers/resolution.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Billing/bil007_ratechangeproperlysyncsratehistory.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm005_createassetgasdevicetypexxxequipment.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin008_settingupautopay.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm006_createassetelectricdevicetypexxxmeter.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm370_createwatermodule.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm405_updatedspdonotestimateflag.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/contextmenu.yaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/dashboard.yaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm345_validatealertiscreatedwhenaccountcharacteristicsupdated.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Configuration.properties.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm353_validatebackflowletterwithmultipleSP.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm003_createcustomercontactforbudgetremoval.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm287_createalertwhenpersoncharsupdated.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm004_createassetgasdevicetypexxxmeter.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm363_createmv90asset.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm007_createassetelectricdevicetypexxxequipment.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin002_cancelanadjustment.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm002_installeventsyncsfrommdmtodm.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/accountpage.yaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/controlcentralpage.yaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Device Management/dm008_createassetwaterdevicetypexxxmeter.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/frameobjects.yaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Custom Tests/cm287_createalertwhenpersonandpremisecharsupdated.feature" root0="FORCE_HIGHLIGHTING" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,52 +133,28 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="nonRecursive" value="true" />
         <option name="useMavenConfig" value="true" />
-        <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="27L5HISnB7Klk5msauTc5WM5fQj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="197" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="197" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="197" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="197" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="198" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="197" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="197" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="197" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="197" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="197" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="198" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="197" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/FH352RA/OneDrive - EY/Documents/GitHub/C2Mbackuprepo/src/test/resources/CCB/data/pageobjects/yaml",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FH352RA\OneDrive - EY\Documents\GitHub\C2Mbackuprepo\src\test\resources\CCB\data\pageobjects\yaml" />
+      <recent name="C:\Users\FH352RA\OneDrive - EY\Documents\GitHub\C2Mbackuprepo\src\test\resources\CCB\features" />
+      <recent name="C:\Users\FH352RA\OneDrive - EY\Documents\GitHub\C2Mbackuprepo\src\test\resources\CCB\data" />
       <recent name="D:\ngtp-official315\src\test\resources\C2M_EYDemo\features\Meter Operations" />
       <recent name="D:\ngtp-official315\src\test\resources\C2M_EYDemo\features" />
     </key>
@@ -104,81 +172,51 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install -o" />
+      <command value="mvn clean" />
       <command value="mvn install" />
       <command value="mvn clean install" />
-      <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: EndToEndScriptDemo">
-    <configuration name="Feature: EndToEndScriptDemo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FeatureRunner">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="5bc080e2-9e32-4c56-91e7-330268f6bd61" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: testWindowSwitch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Demos/EndToEndScriptDemo.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Demos/testWindowSwitch.feature" />
       <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions stepimplementation" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="ngtp-official315" />
+      <module name="C2Mbackuprepo" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="ARGS_FILE" />
-      <option name="SUGGESTED_NAME" value="Feature: EndToEndScriptDemo" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: fin006_cancellingapaymentevent" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin006_cancellingapaymentevent.feature" />
-      <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env stepimplementation" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="nextgen-testing-platform" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="ARGS_FILE" />
-      <option name="SUGGESTED_NAME" value="Feature: fin006_cancellingapaymentevent" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: fin008_settingupautopay" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Financials/fin008_settingupautopay.feature" />
-      <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env stepimplementation" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="nextgen-testing-platform" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="ARGS_FILE" />
-      <option name="SUGGESTED_NAME" value="Feature: fin008_settingupautopay" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: mtr_createhazardfieldactivity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Meter Operations/mtr_createhazardfieldactivity.feature" />
-      <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env stepimplementation" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="nextgen-testing-platform" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="ARGS_FILE" />
-      <option name="SUGGESTED_NAME" value="Feature: mtr_createhazardfieldactivity" />
+      <option name="SUGGESTED_NAME" value="Feature: testWindowSwitch" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -192,10 +230,10 @@
     </configuration>
     <configuration name="Scenario: Installing and activating the device" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Demos/EndToEndScriptDemo.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Demos/testWindowSwitch.feature" />
       <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions stepimplementation" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="ngtp-official315" />
+      <module name="C2Mbackuprepo" />
       <option name="NAME_FILTER" value="^Installing and activating the device$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Installing and activating the device$&quot;" />
       <shortenClasspath name="ARGS_FILE" />
@@ -211,9 +249,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify Amazon Product page shows the correct title for Amazon Echo Dot" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/amazonDemo/features/echodot.feature" />
+      <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions stepimplementation" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="C2Mbackuprepo" />
+      <option name="NAME_FILTER" value="^Verify Amazon Product page shows the correct title for Amazon Echo Dot$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Amazon Product page shows the correct title for Amazon Echo Dot$&quot;" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Amazon Product page shows the correct title for Amazon Echo Dot" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify User can add Person and Account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci001_addpersonandaccount.feature" />
+      <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions stepimplementation" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="C2Mbackuprepo" />
+      <option name="NAME_FILTER" value="^Verify User can add Person and Account$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify User can add Person and Account$&quot;" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify User can add Person and Account" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <shortenClasspath name="ARGS_FILE" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeatureRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C2Mbackuprepo" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="methods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/softwares/Java/jdk-14.0.2" />
+      <option name="PACKAGE_NAME" value="methods" />
+      <option name="MAIN_CLASS_NAME" value="methods.FeatureRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -288,28 +387,27 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: fin006_cancellingapaymentevent" />
-      <item itemvalue="Cucumber Java.Feature: fin008_settingupautopay" />
-      <item itemvalue="Cucumber Java.Feature: mtr_createhazardfieldactivity" />
+      <item itemvalue="Cucumber Java.Feature: testWindowSwitch" />
+      <item itemvalue="Cucumber Java.Scenario: Verify Amazon Product page shows the correct title for Amazon Echo Dot" />
+      <item itemvalue="Cucumber Java.Scenario: Installing and activating the device" />
+      <item itemvalue="Cucumber Java.Scenario: Verify User can add Person and Account" />
       <item itemvalue="JUnit.FeatureRunner" />
       <item itemvalue="TestNG.FunctionalCukesTest" />
       <item itemvalue="TestNG.Unnamed" />
-      <item itemvalue="Cucumber Java.Feature: EndToEndScriptDemo" />
-      <item itemvalue="Cucumber Java.Scenario: Installing and activating the device" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: EndToEndScriptDemo" />
+        <item itemvalue="JUnit.FeatureRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Verify Amazon Product page shows the correct title for Amazon Echo Dot" />
+        <item itemvalue="Cucumber Java.Feature: testWindowSwitch" />
         <item itemvalue="Cucumber Java.Scenario: Installing and activating the device" />
-        <item itemvalue="Cucumber Java.Feature: mtr_createhazardfieldactivity" />
-        <item itemvalue="Cucumber Java.Feature: fin008_settingupautopay" />
-        <item itemvalue="Cucumber Java.Feature: fin006_cancellingapaymentevent" />
+        <item itemvalue="Cucumber Java.Scenario: Verify User can add Person and Account" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\vvaidya\AppData\Roaming\Subversion</configuration>
+    <configuration>C:\Users\FH352RA\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
@@ -319,13 +417,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649086442387</updated>
-    </task>
-    <task id="LOCAL-00009" summary=" changes related to device configs">
-      <created>1660892387181</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1660892387181</updated>
     </task>
     <task id="LOCAL-00010" summary=" changes related to device configs">
       <created>1660892434593</created>
@@ -663,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674784206764</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary=" changes related to CC001 test cases">
+      <created>1689280544653</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1689280544653</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -688,11 +786,11 @@
     <MESSAGE value=" changes related to BIL002 test cases" />
     <MESSAGE value=" changes related to BIL004 test cases" />
     <MESSAGE value=" changes related to BIL005 test cases" />
-    <MESSAGE value=" changes related to CC001 test cases" />
     <MESSAGE value=" changes related to BIL007 test cases" />
     <MESSAGE value=" changes related to DM003 test cases" />
     <MESSAGE value=" changes related to FIN001 test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value=" changes related to FIN001 test cases" />
+    <MESSAGE value=" changes related to CC001 test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value=" changes related to CC001 test cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -714,37 +812,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>203</line>
+          <line>234</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>224</line>
+          <line>255</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>219</line>
+          <line>250</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>220</line>
+          <line>251</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>34</line>
+          <line>47</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>210</line>
+          <line>241</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>43</line>
+          <line>56</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -764,13 +862,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>140</line>
-          <option name="timeStamp" value="26" />
+          <line>155</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/data/dataclass/inputfilebuilder/TestDataLoader.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>143</line>
-          <option name="timeStamp" value="27" />
+          <line>328</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
+          <line>381</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
+          <line>393</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
+          <line>397</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

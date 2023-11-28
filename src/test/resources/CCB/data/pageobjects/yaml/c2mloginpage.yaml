@@ -1,10 +1,6 @@
 #####################################################################################
 # CHANGE HISTORY:
 #
-# Date:       	by:    		Reason:
-# 2022-05-23	  JLonga		Initial Version.
-# 2022-05-23	  JLonga		Remove duplicate mapping for user credentials
-#
 #####################################################################################
 
 
@@ -3845,7 +3841,7 @@ C2M:
 Credentials:
   - element_type: ""
     variable: user
-    value: SYSUSER
+    value: VVAIDYA
     #SYSUSER
     id: ""
     class: ""
@@ -3857,7 +3853,7 @@ Credentials:
     tagname: ""
   - element_type: ""
     variable: pass
-    value: sysuser00
+    value: password01
     #sysuser00
     id: ""
     class: ""

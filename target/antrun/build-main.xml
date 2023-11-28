@@ -2,7 +2,7 @@
 <project name="maven-antrun-" default="main"  >
 <target name="main">
   <delete>
-    <fileset includes="*.properties" dir="D:\ngtp-official315\target"/>
+    <fileset includes="*.properties" dir="C:\Users\FH352RA\OneDrive - EY\Documents\GitHub\C2Mbackuprepo\target"/>
   </delete>
 </target>
 </project>

@@ -48,32 +48,32 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@FIN001_NGTPUI",  "@NGTPUI_NGTPUI",  "@regression_NGTPUI", ] ,
+        labels:  [ "@CCB001",  "@echodot23",  "@regression",  "@smoke23", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 100.00,  100.00,  100.00, ] 
+                data:  [ 2.38,  100.00,  2.38,  100.00, ] 
             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 0.00,  0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 0.00,  0.00,  0.00, ] 
+                data:  [ 97.62,  0.00,  97.62,  0.00, ] 
             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [ 0.00,  0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [ 0.00,  0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00,  0.00, ] 
             }
         ]
     };
@@ -133,7 +133,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>CucumberBDD</td>
-      <td>26 Jan 2023, 18:47</td>
+      <td>27 Nov 2023, 18:24</td>
     </tr>
   </tbody>
 </table>
@@ -195,54 +195,71 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-tag_1709855489.html">@FIN001_NGTPUI</a></td>
+        <td class="tagname"><a href="report-tag_800219982.html">@CCB001</a></td>
 
-        <td      class="passed"    >69</td>
+        <td      class="passed"    >1</td>
+        <td >0</td>
+        <td     class="skipped"   >41</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">42</td>
+
+        <td >0</td>
+        <td  class="failed"    >2</td>
+        <td class="total">2</td>
+
+        <td class="duration" data-value="901887700">0.901</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-tag_2115488260.html">@echodot23</a></td>
+
+        <td      class="passed"    >10</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">69</td>
+        <td class="total">10</td>
 
         <td  class="passed"    >1</td>
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="82605860500">1:22.605</td>
+        <td class="duration" data-value="28108450800">28.108</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
-        <td class="tagname"><a href="report-tag_4230598846.html">@NGTPUI_NGTPUI</a></td>
+        <td class="tagname"><a href="report-tag_233058432.html">@regression</a></td>
 
-        <td      class="passed"    >69</td>
+        <td      class="passed"    >1</td>
+        <td >0</td>
+        <td     class="skipped"   >41</td>
         <td >0</td>
         <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">69</td>
+        <td class="total">42</td>
 
-        <td  class="passed"    >1</td>
         <td >0</td>
-        <td class="total">1</td>
+        <td  class="failed"    >2</td>
+        <td class="total">2</td>
 
-        <td class="duration" data-value="82605860500">1:22.605</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="901887700">0.901</td>
+        <td class="failed">Failed</td>
       </tr>
       <tr>
-        <td class="tagname"><a href="report-tag_85415110.html">@regression_NGTPUI</a></td>
+        <td class="tagname"><a href="report-tag_4228278191.html">@smoke23</a></td>
 
-        <td      class="passed"    >69</td>
+        <td      class="passed"    >10</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">69</td>
+        <td class="total">10</td>
 
         <td  class="passed"    >1</td>
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="82605860500">1:22.605</td>
+        <td class="duration" data-value="28108450800">28.108</td>
         <td class="passed">Passed</td>
       </tr>
   </tbody>
@@ -250,33 +267,33 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>207</td>
+      <td>22</td>
+      <td>0</td>
+      <td>82</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>207</td>
+      <td>104</td>
 
-      <td>3</td>
-      <td>0</td>
-      <td>3</td>
+      <td>2</td>
+      <td>4</td>
+      <td>6</td>
 
-      <td class="duration">4:7.817</td>
-      <td>3</td>
+      <td class="duration">58.020</td>
+      <td>4</td>
     </tr>
     <tr>
       <td></td>
-      <td>100.00%</td>
+      <td>21.15%</td>
       <td>0.00%</td>
-      <td>0.00%</td>
+      <td>78.85%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>100.00%</td>
-      <td>0.00%</td>
+      <td>33.33%</td>
+      <td>66.67%</td>
       <td></td>
       <td></td>
-      <td>100.00%</td>
+      <td>20.00%</td>
     </tr>
   </tfoot>
 </table>

@@ -12,7 +12,7 @@ import io.cucumber.java.Scenario;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import utils.browser.ScreenShotMethods;
-import utils.helpers.testdatahelpers.TestDataHandler;
+//import utils.helpers.testdatahelpers.TestDataHandler;
 
 import static etaf.helperutils.filehelper.JarPropertiesHelper.*;
 
@@ -43,10 +43,10 @@ public class Hooks {
         Initializer initializer = new Initializer();
         new BaseInitializer(null, dataUtilsBaseJson(), selfHealingPropJson());
         ObjectMapper mapper = new ObjectMapper();
-        try {
-            initializer.setEtlDataHandler(mapper.writeValueAsString(TestDataHandler.traverseMap));
-        } catch (JsonProcessingException e) {
-            LOGGER.error("Unable to convert Test Data files to json objects for etl core libraries instance");
-        }
+//        try {
+//            initializer.setEtlDataHandler(mapper.writeValueAsString(TestDataHandler.traverseMap));
+//        } catch (JsonProcessingException e) {
+//            LOGGER.error("Unable to convert Test Data files to json objects for etl core libraries instance");
+//        }
     }
 }
