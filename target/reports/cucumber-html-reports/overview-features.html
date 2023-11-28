@@ -50,9 +50,9 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                13,
-                2,
-                41,
+                222,
+                10,
+                150,
                 0,
                 0
             ],
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 56) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 382) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -107,7 +107,7 @@ $(document).ready(function() {
         datasets: [{
             data: [
                 1,
-                4
+                14
             ],
             backgroundColor: [
                 "#00B000",
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 5) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 15) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -154,7 +154,7 @@ $(document).ready(function() {
         datasets: [{
             data: [
                    1,
-                   4
+                   14
                ],
                backgroundColor: [
                 "#00B000",
@@ -187,7 +187,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 5) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 15) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -228,7 +228,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>CucumberBDD</td>
-      <td>27 Nov 2023, 18:24</td>
+      <td>28 Nov 2023, 11:34</td>
     </tr>
   </tbody>
 </table>
@@ -341,21 +341,21 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-feature_1827570019.html">Ordering an Echo Dot in Amazon</a></td>
+        <td class="tagname"><a href="report-feature_3361778486.html">Create Person with Account and Start Service Enabled</a></td>
 
-        <td      class="passed"    >10</td>
         <td >0</td>
         <td >0</td>
+        <td     class="skipped"   >21</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">10</td>
+        <td class="total">21</td>
 
-        <td  class="passed"    >1</td>
         <td >0</td>
+        <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="28108450800">28.108</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="2162300">0.002</td>
+        <td class="failed">Failed</td>
       </tr>
       <tr>
         <td class="tagname"><a href="report-feature_1_3361778486.html">Create Person with Account and Start Service Enabled</a></td>
@@ -371,45 +371,28 @@ $(document).ready(function() {
         <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="3110700">0.003</td>
+        <td class="duration" data-value="5496800">0.005</td>
         <td class="failed">Failed</td>
       </tr>
       <tr>
-        <td class="tagname"><a href="report-feature_2_1670261310.html">Test run failed</a></td>
+        <td class="tagname"><a href="report-feature_2_3361778486.html">Create Person with Account and Start Service Enabled</a></td>
 
-        <td      class="passed"    >1</td>
-        <td      class="failed"    >1</td>
         <td >0</td>
         <td >0</td>
+        <td     class="skipped"   >21</td>
         <td >0</td>
-        <td class="total">2</td>
+        <td >0</td>
+        <td class="total">21</td>
 
         <td >0</td>
         <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="0">0.000</td>
+        <td class="duration" data-value="4174700">0.004</td>
         <td class="failed">Failed</td>
       </tr>
       <tr>
-        <td class="tagname"><a href="report-feature_3_1670261310.html">Test run failed</a></td>
-
-        <td      class="passed"    >1</td>
-        <td      class="failed"    >1</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">2</td>
-
-        <td >0</td>
-        <td  class="failed"    >1</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="0">0.000</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_4_3361778486.html">Create Person with Account and Start Service Enabled</a></td>
+        <td class="tagname"><a href="report-feature_3_3361778486.html">Create Person with Account and Start Service Enabled</a></td>
 
         <td      class="passed"    >1</td>
         <td >0</td>
@@ -422,7 +405,194 @@ $(document).ready(function() {
         <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="898777000">0.898</td>
+        <td class="duration" data-value="2764444500">2.764</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_4_3361778486.html">Create Person with Account and Start Service Enabled</a></td>
+
+        <td      class="passed"    >8</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >12</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">21</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="37638780700">37.638</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_5_3361778486.html">Create Person with Account and Start Service Enabled</a></td>
+
+        <td      class="passed"    >8</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >12</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">21</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="30174044300">30.174</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_6_3361778486.html">Create Person with Account and Start Service Enabled</a></td>
+
+        <td      class="passed"    >9</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >11</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">21</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="52191075200">52.191</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_7_3361778486.html">Create Person with Account and Start Service Enabled</a></td>
+
+        <td      class="passed"    >21</td>
+        <td      class="failed"    >1</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">22</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="66098089200">1:6.098</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_8_3361778486.html">Create Person with Account and Start Service Enabled</a></td>
+
+        <td      class="passed"    >23</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">23</td>
+
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="45709768000">45.709</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_9_314355698.html">Add a new premise</a></td>
+
+        <td      class="passed"    >24</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">29</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="56655020400">56.655</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_10_314355698.html">Add a new premise</a></td>
+
+        <td      class="passed"    >25</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >6</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">32</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="66236049100">1:6.236</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_11_314355698.html">Add a new premise</a></td>
+
+        <td      class="passed"    >25</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >6</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">32</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="64321045200">1:4.321</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_12_314355698.html">Add a new premise</a></td>
+
+        <td      class="passed"    >25</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >7</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">33</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="63067213000">1:3.067</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_13_314355698.html">Add a new premise</a></td>
+
+        <td      class="passed"    >25</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >6</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">32</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="75179276900">1:15.179</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_14_314355698.html">Add a new premise</a></td>
+
+        <td      class="passed"    >28</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >3</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">32</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="64356063800">1:4.356</td>
         <td class="failed">Failed</td>
       </tr>
   </tbody>
@@ -430,33 +600,33 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>13</td>
-      <td>2</td>
-      <td>41</td>
+      <td>222</td>
+      <td>10</td>
+      <td>150</td>
       <td>0</td>
       <td>0</td>
-      <td>56</td>
+      <td>382</td>
 
       <td>1</td>
-      <td>4</td>
-      <td>5</td>
+      <td>14</td>
+      <td>15</td>
 
-      <td class="duration">29.010</td>
-      <td>5</td>
+      <td class="duration">10:24.402</td>
+      <td>15</td>
     </tr>
     <tr>
       <td></td>
-      <td>23.21%</td>
-      <td>3.57%</td>
-      <td>73.21%</td>
+      <td>58.12%</td>
+      <td>2.62%</td>
+      <td>39.27%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>20.00%</td>
-      <td>80.00%</td>
+      <td>6.67%</td>
+      <td>93.33%</td>
       <td></td>
       <td></td>
-      <td>20.00%</td>
+      <td>6.67%</td>
     </tr>
   </tfoot>
 </table>

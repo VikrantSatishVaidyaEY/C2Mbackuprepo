@@ -2,7 +2,7 @@
 <project name="maven-antrun-" default="main"  >
 <target name="main">
   <delete>
-    <fileset includes="*.properties" dir="C:\Users\FH352RA\OneDrive - EY\Documents\GitHub\C2Mbackuprepo\target"/>
+    <fileset includes="*.properties" dir="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\target"/>
   </delete>
 </target>
 </project>
