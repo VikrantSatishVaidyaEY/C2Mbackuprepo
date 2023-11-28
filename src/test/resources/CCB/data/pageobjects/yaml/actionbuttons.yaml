@@ -1,0 +1,36 @@
+ActionButtons:
+  - element_type: ""
+    variable: save
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_SAVE"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: refresh
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_REFRESH"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: clear
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_CLEAR"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

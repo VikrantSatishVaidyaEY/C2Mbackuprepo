@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: Create Person with Account and Start Service Enabled
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 15.407 s <<< FAILURE! - in Create Person with Account and Start Service Enabled
+Create Person with Account and Start Service Enabled(Create Person with Account and Start Service Enabled)  Time elapsed: 15.407 s  <<< FAILURE!
+java.lang.AssertionError: YAML Error: yaml files not found in src\test\resources\eystoredemo\data\inputdata\
+
+Create Person with Account and Start Service Enabled(Create Person with Account and Start Service Enabled)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: YAML Error: yaml files not found in src\test\resources\eystoredemo\data\inputdata\
+
+Create Person with Account and Start Service Enabled(Create Person with Account and Start Service Enabled)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: YAML Error: yaml files not found in src\test\resources\eystoredemo\data\inputdata\
+
+Create Person with Account and Start Service Enabled(Create Person with Account and Start Service Enabled)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: YAML Error: yaml files not found in src\test\resources\eystoredemo\data\inputdata\
+
+Create Person with Account and Start Service Enabled(Create Person with Account and Start Service Enabled)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: YAML Error: yaml files not found in src\test\resources\eystoredemo\data\inputdata\
+

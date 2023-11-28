@@ -5,33 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6d260e4-a5da-46b3-89f2-b8341f51828f" name="Changes" comment=" changes related to CC001 test cases">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/environments.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/c2mloginpage.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/frameobjects.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/homepage.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/personpage.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/features/createPersonWithAccount.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/PageObjects.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/actionbuttons.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/premisepage.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/tabsmenu.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/features/addNewPremise.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/dataclass/inputfilebuilder/FetchQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/dataclass/inputfilebuilder/FetchQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cucumber.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/FeatureRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FeatureRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/methods/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/APITests/features/APItests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/APITests/features/APItests.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/assetquerypage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/assetquerypage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Demos/CreatingVModel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Demos/CreatingVModel.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/amazonDemo/features/echodot.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/amazonDemo/features/echodot.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/homepage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/homepage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/features/createPersonWithAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/features/createPersonWithAccount.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/commons/CustomConditions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/CustomConditions$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/commons/CustomConditions$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/CustomConditions$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/commons/CustomConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/CustomConditions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/commons/PropertiesFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/PropertiesFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cucumber.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/measuringcomponent/MeasuringComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/measuringcomponent/MeasuringComponent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-additional.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-additional.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-custom.css" afterDir="false" />
@@ -51,66 +38,25 @@
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/scenario-detail/scenario_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/scenario-detail/scenario_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/scenario-sequence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/scenario-sequence.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/scenario-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/scenario-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01032894717.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01270360302.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01304635151.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01508116564.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01508116564.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0528805700.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01508116564.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0594343437.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0594343437.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0783171777.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1062405609.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1480767163.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1592346590.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1846344081.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1972229688.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_42016771.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_509934513.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_509934513.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_558368549.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_781015678.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_781015678.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-scenarios/tag_FIN001_NGTPUI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-scenarios/tag_NGTPUI_NGTPUI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-scenarios/tag_regression_NGTPUI.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/tag-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2023-01-26T18-45-55_725-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2023-01-26T18-45-55_725.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/T1674783921_0T_temp.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nextgen-testing-platform-1.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nextgen-testing-platform-1.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nextgen-testing-platform-1.2.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_3364149542.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_1709855489.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_4230598846.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_85415110.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumberHtmlReport" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumberHtmlReport" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.01.26.18.47.33.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/APITests/features/APItests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/APITests/features/APItests.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/environments.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/environments.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/assetpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/assetpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/assetquerypage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/assetquerypage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/c2mloginpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/c2mloginpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/installevent.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/installevent.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/mainmenu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/mainmenu.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/premisepage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/premisepage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/submenu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/submenu.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci001_addpersonandaccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci001_addpersonandaccount.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci002_addpremise.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci002_addpremise.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci003_addservicepoint.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Customer Information/ci003_addservicepoint.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Demos/EndToEndScriptDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Demos/EndToEndScriptDemo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Financials/fin002_cancelanadjustment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/features/Financials/fin002_cancelanadjustment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/amazonDemo/features/echodot.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/amazonDemo/features/echodot.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FeatureRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FeatureRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdrivers/resolution.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webdrivers/resolution.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,13 +76,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="27L5HISnB7Klk5msauTc5WM5fQj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -146,17 +88,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/FH352RA/OneDrive - EY/Documents/GitHub/C2Mbackuprepo/src/test/resources/CCB/data/pageobjects/yaml",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/TB713MA/OneDrive - EY/Documents/GitHub/Oracle-C2M/C2Mbackuprepo/src/test/resources/CCB/features",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\src\test\resources\CCB\features" />
+      <recent name="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\src\test\resources\CCB\data" />
+      <recent name="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\src\test\resources\CCB\data\pageobjects" />
       <recent name="C:\Users\FH352RA\OneDrive - EY\Documents\GitHub\C2Mbackuprepo\src\test\resources\CCB\data\pageobjects\yaml" />
       <recent name="C:\Users\FH352RA\OneDrive - EY\Documents\GitHub\C2Mbackuprepo\src\test\resources\CCB\features" />
-      <recent name="C:\Users\FH352RA\OneDrive - EY\Documents\GitHub\C2Mbackuprepo\src\test\resources\CCB\data" />
-      <recent name="D:\ngtp-official315\src\test\resources\C2M_EYDemo\features\Meter Operations" />
-      <recent name="D:\ngtp-official315\src\test\resources\C2M_EYDemo\features" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ngtp-official315\src\test\resources\C2M_EYDemo\features\Custom Tests" />
@@ -228,6 +171,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Create Person with Account and Start Service Enabled" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CCB/features/createPersonWithAccount.feature" />
+      <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions stepimplementation" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="nextgen-testing-platform" />
+      <option name="NAME_FILTER" value="^Create Person with Account and Start Service Enabled$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Create Person with Account and Start Service Enabled$&quot;" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create Person with Account and Start Service Enabled" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Installing and activating the device" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Demos/testWindowSwitch.feature" />
@@ -270,27 +234,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify User can add Person and Account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/features/Customer Information/ci001_addpersonandaccount.feature" />
-      <option name="GLUE" value="application methods seleniumutils.applicationlayer.ETLValidation.stepdefinitions env seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions stepimplementation" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="C2Mbackuprepo" />
-      <option name="NAME_FILTER" value="^Verify User can add Person and Account$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify User can add Person and Account$&quot;" />
-      <shortenClasspath name="ARGS_FILE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify User can add Person and Account" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <shortenClasspath name="ARGS_FILE" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -299,7 +242,7 @@
       </method>
     </configuration>
     <configuration name="FeatureRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="C2Mbackuprepo" />
+      <module name="nextgen-testing-platform" />
       <shortenClasspath name="ARGS_FILE" />
       <extension name="coverage">
         <pattern>
@@ -387,10 +330,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Create Person with Account and Start Service Enabled" />
       <item itemvalue="Cucumber Java.Feature: testWindowSwitch" />
       <item itemvalue="Cucumber Java.Scenario: Verify Amazon Product page shows the correct title for Amazon Echo Dot" />
       <item itemvalue="Cucumber Java.Scenario: Installing and activating the device" />
-      <item itemvalue="Cucumber Java.Scenario: Verify User can add Person and Account" />
       <item itemvalue="JUnit.FeatureRunner" />
       <item itemvalue="TestNG.FunctionalCukesTest" />
       <item itemvalue="TestNG.Unnamed" />
@@ -398,10 +341,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FeatureRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Create Person with Account and Start Service Enabled" />
         <item itemvalue="Cucumber Java.Scenario: Verify Amazon Product page shows the correct title for Amazon Echo Dot" />
         <item itemvalue="Cucumber Java.Feature: testWindowSwitch" />
         <item itemvalue="Cucumber Java.Scenario: Installing and activating the device" />
-        <item itemvalue="Cucumber Java.Scenario: Verify User can add Person and Account" />
       </list>
     </recent_temporary>
   </component>
@@ -811,41 +754,6 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>234</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>255</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>250</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>251</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>241</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/data/dataclass/inputfilebuilder/SqlQueries.java</url>
           <line>1519</line>
           <option name="timeStamp" value="23" />
@@ -861,34 +769,19 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>155</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/data/dataclass/inputfilebuilder/TestDataLoader.java</url>
           <line>25</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>328</line>
-          <option name="timeStamp" value="29" />
+          <url>jar://$MAVEN_REPOSITORY$/com/ey/etaf-step-definitions/2.0.1/etaf-step-definitions-2.0.1.jar!/stepimplementation/ClickElementStepDefs.class</url>
+          <line>48</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>381</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>393</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumutils/applicationlayer/C2M_EYDemo/stepdefinitions/C2MReusableStepDefinitions.java</url>
-          <line>397</line>
-          <option name="timeStamp" value="32" />
+          <url>jar://$MAVEN_REPOSITORY$/com/ey/etaf-step-definitions/2.0.1/etaf-step-definitions-2.0.1.jar!/stepimplementation/ClickElementStepDefs.class</url>
+          <line>49</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

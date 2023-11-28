@@ -81,40 +81,88 @@ font-src * data: blob: 'unsafe-inline';"/>
       "methods.Hooks.JarInitialize()",
       "stepimplementation.ValidationStepDefs.setSoftAssert(io.cucumber.java.Scenario)",
       "stepimplementation.InputElementStepDefs.getScenario(io.cucumber.java.Scenario)",
+      "application.ValidateStepDefinitions.before(io.cucumber.java.Scenario)",
+      "application.ReportStepDefinitions.before(io.cucumber.java.Scenario)",
+      "application.ExtractStepDefinitions.before(io.cucumber.java.Scenario)",
       "application.ETLStepDefinitions.before(io.cucumber.java.Scenario)",
-      "I navigate to amazon_home page",
-      "I enter \"Clothing\" into input field amazon.search_bar",
-      "I enter current time into the input field amazon.search_bar",
-      "I click on element amazon.search_button",
-      "I clear input field amazon.search_bar",
-      "I enter \"echo dot\" into input field amazon.search_bar",
-      "I click on element amazon.search_button",
-      "I should see page title having partial text as \"cho dot\"",
-      "I click on element searchpage.echo_dot",
-      "element productpage.product_title should have partial text as \"Echo Dot\"",
-      "stepimplementation.ValidationStepDefs.softassertall()"
+      "application.TransformStepDefinitions.before(io.cucumber.java.Scenario)",
+      "I navigate to CCB_HOME page",
+      "I wait for 10 sec",
+      "I enter credentials.user into input field c2m.username",
+      "I enter credentials.pass into input field c2m.password",
+      "I click on element c2m.sign_in",
+      "I wait for 10 sec",
+      "I move to frame frame.dashboard",
+      "I wait for 3 sec",
+      "I click on element home.add_person",
+      "I select \"Person\" option by text from dropdown personpage.per_business_flg",
+      "I move to frame frame.pername_frame",
+      "I select \"Primary\" option by text from dropdown personpage.nametype_dropdown",
+      "I enter \"CCB_John\" into input field personpage.per_name",
+      "I move to frame frame.percontact_frame",
+      "I select \"Cell Phone\" option by text from dropdown personpage.per_contact_type",
+      "I enter \"738-264-4725\" into input field personpage.per_contact_value",
+      "I check the checkbox personpage.per_primary_sw",
+      "I move to frame frame.perid_frame",
+      "I select \"Social security number\" option by text from dropdown personpage.per_id_type",
+      "I put random number into input field personpage.per_id_value",
+      "checkbox home.start_service_checkbox should be checked",
+      "stepimplementation.ValidationStepDefs.softassertall()",
+      "stepimplementation.ValidationStepDefs.afterScenario(io.cucumber.java.Scenario)"
     ],
     "datasets": [
       {
         "data": [
           0,
           0,
-          11,
           0,
           0,
-          1,
-          11,
-          0,
-          2,
           0,
           0,
-          3,
           0,
-          5,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "backgroundColor": [
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
           "rgba(40, 167, 69, 1.000)",
           "rgba(40, 167, 69, 1.000)",
           "rgba(40, 167, 69, 1.000)",
@@ -138,6 +186,22 @@ font-src * data: blob: 'unsafe-inline';"/>
       {
         "data": [
           0,
+          1,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -155,6 +219,22 @@ font-src * data: blob: 'unsafe-inline';"/>
           0
         ],
         "backgroundColor": [
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
           "rgba(220, 53, 69, 1.000)",
           "rgba(220, 53, 69, 1.000)",
           "rgba(220, 53, 69, 1.000)",
@@ -192,9 +272,41 @@ font-src * data: blob: 'unsafe-inline';"/>
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "backgroundColor": [
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
           "rgba(255, 193, 7, 1.000)",
           "rgba(255, 193, 7, 1.000)",
           "rgba(255, 193, 7, 1.000)",
@@ -238,7 +350,7 @@ font-src * data: blob: 'unsafe-inline';"/>
         {
           "ticks": {
             "min": 0,
-            "stepSize": 11,
+            "stepSize": 13,
             "display": true
           },
           "stacked": true,
@@ -341,17 +453,17 @@ font-src * data: blob: 'unsafe-inline';"/>
                                 <a class="nav-link " href="pages/feature-summary.html">All Features</a>
                     </li>
             </ul>
-            <span class="text-light">2023-07-27 18:48:22</span>
+            <span class="text-light">2023-11-28 09:36:40</span>
         </div>
     </nav>
     <main role="main" class="container">
         <div class="cluecumber-template">
             <div class="pb-2 mt-4 mb-2 border-bottom">
                     <h5>
-                            <a href="pages/feature-scenarios/feature_0.html">Ordering an Echo Dot in Amazon</a>
-                        <span class="small">file:src/test/resources/amazonDemo/features/echodot.feature</span>
+                            <a href="pages/feature-scenarios/feature_0.html">Create Person with Account and Start Service Enabled</a>
+                        <span class="small">file:src/test/resources/CCB/features/createPersonWithAccount.feature</span>
                     </h5>
-                    <h3>Verify Amazon Product page shows the correct title for Amazon Echo Dot</h3>
+                    <h3>Create Person with Account and Start Service Enabled</h3>
             </div>
 
     <div class="row" id="scenario-detail">
@@ -369,13 +481,13 @@ font-src * data: blob: 'unsafe-inline';"/>
         <div class="card h-100">
                 <div class="card-header">Scenario Info</div>
             <div class="card-body">
-                <li class="list-group-item">Started on:<br>2023-07-27 18:47:37</li>
-                <li class="list-group-item">Ended on:<br>2023-07-27 18:48:17</li>
-            <li class="list-group-item">Test Runtime:<br>0m 40s 069ms</li>
+                <li class="list-group-item">Started on:<br>2023-11-28 09:36:17</li>
+                <li class="list-group-item">Ended on:<br>2023-11-28 09:36:32</li>
+            <li class="list-group-item">Test Runtime:<br>0m 14s 942ms</li>
             <li class="list-group-item">
-                    <a href="pages/tag-scenarios/tag_echodot23.html">@echodot23</a>,
+                    <a href="pages/tag-scenarios/tag_CCB001.html">@CCB001</a>,
 
-                    <a href="pages/tag-scenarios/tag_smoke23.html">@smoke23</a>            </li>
+                    <a href="pages/tag-scenarios/tag_regression.html">@regression</a>            </li>
             </div>
         </div>
     </div>
@@ -385,11 +497,11 @@ font-src * data: blob: 'unsafe-inline';"/>
             <div class="card-body">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                    10         Steps
+                    21         Steps
 
                 </li>
                 <li class="list-group-item">
-                    10 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+                    0 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
        title="passed"><span style="display:none">passed</span></i>
 
                     <br>
@@ -397,46 +509,17 @@ font-src * data: blob: 'unsafe-inline';"/>
        title="failed"><span style="display:none">failed</span></i>
 
                     <br>
-                    0 skipped     <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+                    21 skipped     <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
        title="skipped"><span style="display:none">skipped</span></i>
 
                 </li>
             </ul>
-                <button class="btn btn-outline-secondary btn-block collapsed" type="button" data-toggle="collapse"
-                        aria-expanded="true" data-cluecumber-item="before-after-hooks-button"
-                        data-target=".scenarioHook">Scenario Hooks with content
-                </button>
             </div>
         </div>
     </div>
     </div>
 
     <ul class="list-group list-group-flush">
-    <div class="col-sm-12 scenarioHook collapse h-auto" data-cluecumber-item="card">
-        <div class="card h-100">
-                <div class="card-header">Before Hooks</div>
-            <div class="card-body">
-                <li class="list-group-item">
-                            <div class="row row_passed table-row-passed">
-                                <div class="col-9 text-left">
-                                    <span class="text-left">3.</span>
-                                    <i>stepimplementation.ValidationStepDefs.setSoftAssert(io.cucumber.java.Scenario)</i>
-                                </div>
-                                <div class="col-2 text-left small">
-                                    0m 11s 222ms
-                                </div>
-                                <div class="col-1 text-right">
-    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
-                                </div>
-        <div class="row w-100 p-3 m-0 scenarioOutput">
-            <div class="w-100 text-left small p-2">Assertion Type is set to : hard</div>
-        </div>
-                            </div>
-                </li>
-            </div>
-        </div>
-    </div>
 
 
     <div class="col-sm-12  h-auto" data-cluecumber-item="card">
@@ -446,191 +529,400 @@ font-src * data: blob: 'unsafe-inline';"/>
                 <li class="list-group-item">
 
 
-                        <div class="row row_passed table-row-passed">
+                        <div class="row row_skipped table-row-skipped">
                             <div class="col-9 text-left">
                                 <span class="text-left">1.</span>
                                 <span data-toggle="tooltip" title="stepimplementation.NavigationStepDefs.navigate_toURL(java.lang.String)">
                                     <a href="pages/step-scenarios/step_509934513.html"><span
-                                                class="keyword">Given </span> I navigate to <span class="parameter">amazon_home</span> page</a>
+                                                class="keyword">Given </span> I navigate to <span class="parameter">CCB_HOME</span> page</a>
                                 </span>
                             </div>
                             <div class="col-2 text-left small">
-                                0m 01s 824ms
+                                0m 00s 001ms
                             </div>
                             <div class="col-1 text-right">
-    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
                             </div>
 
                         </div>
 
 
-                        <div class="row row_passed table-row-passed">
+                        <div class="row row_skipped table-row-skipped">
                             <div class="col-9 text-left">
                                 <span class="text-left">2.</span>
-                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)">
-                                    <a href="pages/step-scenarios/step_781015678.html"><span
-                                                class="keyword">Then </span> I enter "<span class="parameter">Clothing</span>" into input field <span class="parameter">amazon.search_bar</span></a>
+                                <span data-toggle="tooltip" title="stepimplementation.WaitStepDefs.wait(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0783171777.html"><span
+                                                class="keyword">And </span> I wait for <span class="parameter">10</span> sec</a>
                                 </span>
                             </div>
                             <div class="col-2 text-left small">
-                                0m 11s 087ms
+                                0m 00s 000ms
                             </div>
                             <div class="col-1 text-right">
-    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
                             </div>
 
                         </div>
 
 
-                        <div class="row row_passed table-row-passed">
+                        <div class="row row_skipped table-row-skipped">
                             <div class="col-9 text-left">
                                 <span class="text-left">3.</span>
-                                <span data-toggle="tooltip" title="seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.i_enter_current_time_into_date_field(java.lang.String)">
-                                    <a href="pages/step-scenarios/step_01001369895.html"><span
-                                                class="keyword">Then </span> I enter current time into the input field <span class="parameter">amazon.search_bar</span></a>
+                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_text_from_input_data(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_1062405609.html"><span
+                                                class="keyword">When </span> I enter <span class="parameter">credentials.user</span> into input field <span class="parameter">c2m.username</span></a>
                                 </span>
                             </div>
                             <div class="col-2 text-left small">
-                                0m 00s 969ms
+                                0m 00s 000ms
                             </div>
                             <div class="col-1 text-right">
-    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
                             </div>
 
                         </div>
 
 
-                        <div class="row row_passed table-row-passed">
+                        <div class="row row_skipped table-row-skipped">
                             <div class="col-9 text-left">
                                 <span class="text-left">4.</span>
-                                <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.click(java.lang.String)">
-                                    <a href="pages/step-scenarios/step_0594343437.html"><span
-                                                class="keyword">Then </span> I click on element <span class="parameter">amazon.search_button</span></a>
+                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_text_from_input_data(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_1062405609.html"><span
+                                                class="keyword">And </span> I enter <span class="parameter">credentials.pass</span> into input field <span class="parameter">c2m.password</span></a>
                                 </span>
                             </div>
                             <div class="col-2 text-left small">
-                                0m 02s 236ms
+                                0m 00s 000ms
                             </div>
                             <div class="col-1 text-right">
-    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
                             </div>
 
                         </div>
 
 
-                        <div class="row row_passed table-row-passed">
+                        <div class="row row_skipped table-row-skipped">
                             <div class="col-9 text-left">
                                 <span class="text-left">5.</span>
-                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.clear_text(java.lang.String)">
-                                    <a href="pages/step-scenarios/step_01508116564.html"><span
-                                                class="keyword">And </span> I clear input field <span class="parameter">amazon.search_bar</span></a>
-                                </span>
-                            </div>
-                            <div class="col-2 text-left small">
-                                0m 00s 470ms
-                            </div>
-                            <div class="col-1 text-right">
-    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
-                            </div>
-
-                        </div>
-
-
-                        <div class="row row_passed table-row-passed">
-                            <div class="col-9 text-left">
-                                <span class="text-left">6.</span>
-                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)">
-                                    <a href="pages/step-scenarios/step_781015678.html"><span
-                                                class="keyword">Then </span> I enter "<span class="parameter">echo dot</span>" into input field <span class="parameter">amazon.search_bar</span></a>
-                                </span>
-                            </div>
-                            <div class="col-2 text-left small">
-                                0m 00s 665ms
-                            </div>
-                            <div class="col-1 text-right">
-    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
-                            </div>
-
-                        </div>
-
-
-                        <div class="row row_passed table-row-passed">
-                            <div class="col-9 text-left">
-                                <span class="text-left">7.</span>
                                 <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.click(java.lang.String)">
                                     <a href="pages/step-scenarios/step_0594343437.html"><span
-                                                class="keyword">Then </span> I click on element <span class="parameter">amazon.search_button</span></a>
+                                                class="keyword">And </span> I click on element <span class="parameter">c2m.sign_in</span></a>
                                 </span>
                             </div>
                             <div class="col-2 text-left small">
-                                0m 03s 354ms
+                                0m 00s 000ms
                             </div>
                             <div class="col-1 text-right">
-    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
                             </div>
 
                         </div>
 
 
-                        <div class="row row_passed table-row-passed">
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">6.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.WaitStepDefs.wait(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0783171777.html"><span
+                                                class="keyword">And </span> I wait for <span class="parameter">10</span> sec</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">7.</span>
+                                <span data-toggle="tooltip" title="seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.moveToTargetFrame(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_93290982.html"><span
+                                                class="keyword">And </span> I move to frame <span class="parameter">frame.dashboard</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
                             <div class="col-9 text-left">
                                 <span class="text-left">8.</span>
-                                <span data-toggle="tooltip" title="stepimplementation.ValidationStepDefs.check_partial_text(java.lang.String)">
-                                    <a href="pages/step-scenarios/step_6299848.html"><span
-                                                class="keyword">Then </span> I should see page title having partial text as "<span class="parameter">cho dot</span>"</a>
+                                <span data-toggle="tooltip" title="stepimplementation.WaitStepDefs.wait(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_0783171777.html"><span
+                                                class="keyword">And </span> I wait for <span class="parameter">3</span> sec</a>
                                 </span>
                             </div>
                             <div class="col-2 text-left small">
-                                0m 00s 319ms
+                                0m 00s 000ms
                             </div>
                             <div class="col-1 text-right">
-    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
                             </div>
 
                         </div>
 
 
-                        <div class="row row_passed table-row-passed">
+                        <div class="row row_skipped table-row-skipped">
                             <div class="col-9 text-left">
                                 <span class="text-left">9.</span>
                                 <span data-toggle="tooltip" title="stepimplementation.ClickElementStepDefs.click(java.lang.String)">
                                     <a href="pages/step-scenarios/step_0594343437.html"><span
-                                                class="keyword">Then </span> I click on element <span class="parameter">searchpage.echo_dot</span></a>
+                                                class="keyword">And </span> I click on element <span class="parameter">home.add_person</span></a>
                                 </span>
                             </div>
                             <div class="col-2 text-left small">
-                                0m 05s 902ms
+                                0m 00s 000ms
                             </div>
                             <div class="col-1 text-right">
-    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
                             </div>
 
                         </div>
 
 
-                        <div class="row row_passed table-row-passed">
+                        <div class="row row_skipped table-row-skipped">
                             <div class="col-9 text-left">
                                 <span class="text-left">10.</span>
-                                <span data-toggle="tooltip" title="stepimplementation.ValidationStepDefs.check_element_partial_text(java.lang.String,java.lang.String)">
-                                    <a href="pages/step-scenarios/step_02041508332.html"><span
-                                                class="keyword">Then </span> element <span class="parameter">productpage.product_title</span> should have partial text as "<span class="parameter">Echo Dot</span>"</a>
+                                <span data-toggle="tooltip" title="stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_01032894717.html"><span
+                                                class="keyword">And </span> I select "<span class="parameter">Person</span>" option by text from dropdown <span class="parameter">personpage.per_business_flg</span></a>
                                 </span>
                             </div>
                             <div class="col-2 text-left small">
-                                0m 01s 277ms
+                                0m 00s 000ms
                             </div>
                             <div class="col-1 text-right">
-    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">11.</span>
+                                <span data-toggle="tooltip" title="seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.moveToTargetFrame(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_93290982.html"><span
+                                                class="keyword">And </span> I move to frame <span class="parameter">frame.pername_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">12.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_01032894717.html"><span
+                                                class="keyword">And </span> I select "<span class="parameter">Primary</span>" option by text from dropdown <span class="parameter">personpage.nametype_dropdown</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">13.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_781015678.html"><span
+                                                class="keyword">And </span> I enter "<span class="parameter">CCB_John</span>" into input field <span class="parameter">personpage.per_name</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">14.</span>
+                                <span data-toggle="tooltip" title="seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.moveToTargetFrame(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_93290982.html"><span
+                                                class="keyword">And </span> I move to frame <span class="parameter">frame.percontact_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">15.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_01032894717.html"><span
+                                                class="keyword">And </span> I select "<span class="parameter">Cell Phone</span>" option by text from dropdown <span class="parameter">personpage.per_contact_type</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">16.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.InputElementStepDefs.enter_text(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_781015678.html"><span
+                                                class="keyword">And </span> I enter "<span class="parameter">738-264-4725</span>" into input field <span class="parameter">personpage.per_contact_value</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">17.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.SelectionElementStepDefs.check_checkbox(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_02007642903.html"><span
+                                                class="keyword">And </span> I check the checkbox <span class="parameter">personpage.per_primary_sw</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">18.</span>
+                                <span data-toggle="tooltip" title="seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.moveToTargetFrame(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_93290982.html"><span
+                                                class="keyword">And </span> I move to frame <span class="parameter">frame.perid_frame</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">19.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.SelectionElementStepDefs.select_option_from_dropdown_by_text(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_01032894717.html"><span
+                                                class="keyword">And </span> I select "<span class="parameter">Social security number</span>" option by text from dropdown <span class="parameter">personpage.per_id_type</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">20.</span>
+                                <span data-toggle="tooltip" title="seleniumutils.applicationlayer.C2M_EYDemo.stepdefinitions.C2MReusableStepDefinitions.enter_random_number_into_input_field(java.lang.String)">
+                                    <a href="pages/step-scenarios/step_02090033241.html"><span
+                                                class="keyword">And </span> I put random number into input field <span class="parameter">personpage.per_id_value</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_skipped table-row-skipped">
+                            <div class="col-9 text-left">
+                                <span class="text-left">21.</span>
+                                <span data-toggle="tooltip" title="stepimplementation.ValidationStepDefs.is_checkbox_checked(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_1550261679.html"><span
+                                                class="keyword">And </span> checkbox <span class="parameter">home.start_service_checkbox</span> should be <span class="parameter">checked</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 000ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
                             </div>
 
                         </div>
@@ -645,7 +937,7 @@ font-src * data: blob: 'unsafe-inline';"/>
 
 <footer class="footer navbar-dark">
     <div class="container-fluid">
-        <span>Cluecumber Report Plugin version 2.7.1 - Report generated on 2023-07-27 18:48:22.</span>
+        <span>Cluecumber Report Plugin version 2.7.1 - Report generated on 2023-11-28 09:36:40.</span>
     </div>
 </footer>    </body>
     </html>
