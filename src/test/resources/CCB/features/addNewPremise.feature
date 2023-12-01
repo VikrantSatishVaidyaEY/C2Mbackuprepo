@@ -1,6 +1,6 @@
 Feature: Add a new premise
 
-  @CCBAddPremise @regression @ccbpremise
+  @CCBAddPremise @regression @ccb
   Scenario Outline: Add a new premise via traditional Premise +
 
     #User is Logged In

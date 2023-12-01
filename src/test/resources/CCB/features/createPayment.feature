@@ -1,6 +1,6 @@
 Feature: Create a new payment
 
-  @CCBCreatePayment @regression @ccbpayment
+  @CCBCreatePayment @regression @ccb
   Scenario Outline: Create a new payment
 
     #User is Logged In
@@ -12,16 +12,15 @@ Feature: Create a new payment
 
       #Click on Control Central Search
     And I wait for 5 sec
-    And I switch to frame frame.main_frame
+    And I move to frame frame.main_frame
     And I wait 10 seconds for element main.main_menu to display
     And I click on element main.main_menu
     And I wait 10 seconds for element main.control_central to display
     And I click on element main.control_central
 
     #Search by Account ID and click Search
-    And I switch to main content
-    And I switch to frame frame.main_frame
-    And I switch to frame frame.tabpage_frame
+
+    And I move to frame frame.tabpage_frame
     And I wait 10 seconds for element controlcentralsearch.search_by to display
     And I select "<searchBy>" option by text from dropdown controlcentralsearch.search_by
     And I wait 10 seconds for element controlcentralsearch.account_id to display
@@ -36,8 +35,7 @@ Feature: Create a new payment
     And I click element controlcentral.account_context_menu
 #
     #Go To Payment Arrangement Request
-    And I switch to main content
-    And I switch to frame frame.main_frame
+    And I move to frame frame.main_frame
     And I click on element main.acctctx_gotopaymntevt
     And I click element main.add
 
@@ -66,4 +64,4 @@ Feature: Create a new payment
     Examples:
 
       | searchBy   | accountId  | paymentDate | distributionCode            | amount | tenderType |
-      | Account ID | 2536447434 | 06-24-2022  | Distribute and Freeze if OK | $10    | Cash       |
+      | Account ID | 0333626993 | 06-24-2022  | Distribute and Freeze if OK | $10    | Cash       |
