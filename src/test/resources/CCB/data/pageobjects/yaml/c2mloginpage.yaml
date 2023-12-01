@@ -1,9 +1,3 @@
-#####################################################################################
-# CHANGE HISTORY:
-#
-#####################################################################################
-
-
 C2M:
   - element_type: input
     variable: username
@@ -55,7 +49,6 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
     xpath: //frame[@name='main']
     css: ""
     linktext: ""
@@ -79,10 +72,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="PERSONS_TLBL"]/table/tbody/tr[2]/td
-    #//tr[@id='tabRow']//td[@id='PERSONS_TLBL']//td[contains(@title,'Persons')]
-    #//tr[@id='tabRow']//td[@id='PERSONS_TLBL']
-    ##//tr[@id='tabRow']//td[@id='PERSONS_TLBL']//table//tbody//tr[2]//td[contains(@title,'Persons')]
-    #//tr[@id='tabRow']//td[@id='PERSONS_TLBL']//table//tbody//tr[2]//td
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -94,8 +83,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="CIS_DIVISION"]
-    #//div[@id='toolbarnew']//input[@id='oj-inputsearch-input-menuSearchElem']
-    #//*[@id="oj-inputsearch-input-m  enuSearchElem"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -118,7 +105,6 @@ C2M:
     class: ""
     name: ""
     xpath: //iframe[@id='tabPage']
-    #(//iframe[contains(@title,'Tab Page')])
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -134,7 +120,6 @@ C2M:
     linktext: ""
     partiallinktext: ""
     tagname: ""
-  #new code 2/16
   - element_type: ""
     variable: main
     value: ""
@@ -142,7 +127,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="MAIN_TLBL"]/table/tbody/tr[2]/td
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -154,7 +138,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="MAILING_PREM_ID"]
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -166,7 +149,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@name="CIS_DIVISION"]
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -178,7 +160,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="IM_SAVE"]
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -245,7 +226,6 @@ C2M:
     class: ""
     name: ""
     xpath: //iframe[@id='zoneMapFrame_3']
-    #(//iframe[contains(@title,'Tab Page')])
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -257,8 +237,6 @@ C2M:
     class: ""
     name: ""
     xpath: /html/body/table/tbody/tr[2]/td[2]/a[contains(@tabindex,5)]
-    #/html/body/table/tbody/tr[2]/td[2]/a[contains(@title,'Test,User')]
-    #(//iframe[contains(@title,'Tab Page')])
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -314,7 +292,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="dataTable"]/tbody/tr/td[4]/input
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -337,7 +314,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@name="PER_CONT_DETL:0$COMM_RTE_TYPE_CD"]
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -349,7 +325,6 @@ C2M:
     class: ""
     name: ""
     xpath: //td[@id='PER_CONT_DETL|0|9']//input[@type='checkbox']
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -361,7 +336,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="dataTable"]/tbody/tr/td[7]/input
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -384,7 +358,6 @@ C2M:
     class: ""
     name: ""
     xpath: //iframe[@id='PER_IDENTIFIER']
-    #(//iframe[contains(@title,'Tab Page')])
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -418,7 +391,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="POSTAL"]
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -430,7 +402,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="ADDRESS1"]
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -442,7 +413,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="CITY"]
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -454,7 +424,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="COUNTY"]
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -466,7 +435,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="STATE"]
-    #//*[@id="ACCT_PER$PER_ID"]
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -478,7 +446,6 @@ C2M:
     class: ""
     name: ""
     xpath: //iframe[@id='zoneMapFrame_1']
-    #(//iframe[contains(@title,'Tab Page')])
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -490,7 +457,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="context.2.3"]/img
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -502,7 +469,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x14"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -514,7 +481,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="c1caseTabMenuAdd"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -536,7 +503,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //iframe[@id='uiMap']
     css: ""
     linktext: ""
@@ -582,7 +549,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="boGroup_longComments"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -627,7 +594,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="LOG_TLBL"]/table/tbody/tr[2]/td
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -638,7 +605,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //*[@id="dataExplorerTableBody1"]/tr/td[3]/span
     css: ""
     linktext: ""
@@ -662,7 +629,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //*[@id="row1_Main"]/td[2]
     css: ""
     linktext: ""
@@ -674,7 +641,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //*[@id="data_16"]/table/tbody/tr/td/a
     css: ""
     linktext: ""
@@ -686,7 +653,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //*[@id="data_16"]
     css: ""
     linktext: ""
@@ -704,7 +671,7 @@ C2M:
     partiallinktext: ""
     tagname: ""
 
-   # copy pasted from local
+   
   - element_type: input
     variable: menu
     value: ""
@@ -722,7 +689,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //frame[@name='main']
     css: ""
     linktext: ""
@@ -746,10 +713,6 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="PERSONS_TLBL"]/table/tbody/tr[2]/td
-    #//tr[@id='tabRow']//td[@id='PERSONS_TLBL']//td[contains(@title,'Persons')]
-    #//tr[@id='tabRow']//td[@id='PERSONS_TLBL']
-    ##//tr[@id='tabRow']//td[@id='PERSONS_TLBL']//table//tbody//tr[2]//td[contains(@title,'Persons')]
-    #//tr[@id='tabRow']//td[@id='PERSONS_TLBL']//table//tbody//tr[2]//td
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -760,9 +723,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="CIS_DIVISION"]
-    #//div[@id='toolbarnew']//input[@id='oj-inputsearch-input-menuSearchElem']
-    #//*[@id="oj-inputsearch-input-m  enuSearchElem"]
+    xpath: //*[@id="CIS_DIVISION"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -784,8 +745,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //iframe[@id='tabPage']
-    #(//iframe[contains(@title,'Tab Page')])
+    xpath: //iframe[@id='tabPage']    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -807,21 +767,18 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="ACCT_PER$PER_ID"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="ACCT_PER$PER_ID"]    
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-  #new code 2/16
+    tagname: ""  
   - element_type: ""
     variable: main
     value: ""
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="MAIN_TLBL"]/table/tbody/tr[2]/td
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="MAIN_TLBL"]/table/tbody/tr[2]/td    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -832,8 +789,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="MAILING_PREM_ID"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="MAILING_PREM_ID"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -844,8 +800,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@name="CIS_DIVISION"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@name="CIS_DIVISION"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -856,8 +811,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="IM_SAVE"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="IM_SAVE"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -923,8 +877,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //iframe[@id='zoneMapFrame_3']
-    #(//iframe[contains(@title,'Tab Page')])
+    xpath: //iframe[@id='zoneMapFrame_3']    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -935,8 +888,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: /html/body/table/tbody/tr[2]/td[2]/a[contains(@title,'Vaidya,Vikrant Satish')]
-    #(//iframe[contains(@title,'Tab Page')])
+    xpath: /html/body/table/tbody/tr[2]/td[2]/a[contains(@title,'Vaidya,Vikrant Satish')]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -992,7 +944,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="dataTable"]/tbody/tr/td[4]/input
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1015,7 +967,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@name="PER_CONT_DETL:0$COMM_RTE_TYPE_CD"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1027,7 +979,7 @@ C2M:
     class: ""
     name: ""
     xpath: //td[@id='PER_CONT_DETL|0|9']//input[@type='checkbox']
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1039,7 +991,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="dataTable"]/tbody/tr/td[7]/input
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1062,13 +1014,13 @@ C2M:
     class: ""
     name: ""
     xpath: //iframe[@id='PER_IDENTIFIER']
-    #(//iframe[contains(@title,'Tab Page')])
+    
     css: ""
     linktext: ""
     partiallinktext: ""
     tagname: ""
 
-    #Verify User can add Premise
+    
   - element_type: div
     variable: addpremise_label
     value: ""
@@ -1098,7 +1050,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="POSTAL"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1110,7 +1062,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="ADDRESS1"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1122,7 +1074,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="CITY"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1134,7 +1086,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="COUNTY"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1146,7 +1098,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="STATE"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1158,7 +1110,7 @@ C2M:
     class: ""
     name: ""
     xpath: //iframe[@id='zoneMapFrame_1']
-    #(//iframe[contains(@title,'Tab Page')])
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1170,7 +1122,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="context.2.3"]/img
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1182,7 +1134,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x14"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1194,7 +1146,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="c1caseTabMenuAdd"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1216,7 +1168,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //iframe[@id='uiMap']
     css: ""
     linktext: ""
@@ -1262,7 +1214,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="boGroup_longComments"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1307,7 +1259,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="LOG_TLBL"]/table/tbody/tr[2]/td
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1318,7 +1270,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //*[@id="dataExplorerTableBody1"]/tr/td[3]/span
     css: ""
     linktext: ""
@@ -1341,7 +1293,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //*[@id="data_16"]/table/tbody/tr/td/a
     css: ""
     linktext: ""
@@ -1353,7 +1305,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //*[@id="data_16"]
     css: ""
     linktext: ""
@@ -1365,7 +1317,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //*[@id="row1_Main"]/td[2]/span
     css: ""
     linktext: ""
@@ -1377,7 +1329,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
+    
     xpath: //*[@id="data_16"]/table/tbody/tr[3]/td/a
     css: ""
     linktext: ""
@@ -1395,7 +1347,7 @@ C2M:
     partiallinktext: ""
     tagname: ""
 
-    #Verify User is able to Create/log customer contact
+    
   - element_type: ""
     variable: log_cc
     value: ""
@@ -1403,7 +1355,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="CI_CONTEXTPERSON_subMenuItem1x7"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1426,7 +1378,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="CI0000000173"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1438,7 +1390,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@class="oraNormal oraTDContextContainer"]/img
-    #(//iframe[contains(@title,'Tab Page')])
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1582,7 +1534,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem0x47"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1594,7 +1546,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="STRT_START_DT"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1606,7 +1558,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="STRT_TYPE_FLG"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1618,7 +1570,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="CITY"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1630,7 +1582,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="ADDRESS1"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1642,7 +1594,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="ACTION_START_SW"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1654,7 +1606,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="SA_TO_STRT$CIS_DIVISION"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1666,7 +1618,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="SA_TO_STRT$SA_TYPE_CD"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1678,7 +1630,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="SA_TO_STRT$RCR_CHG_AMT"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1690,7 +1642,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="START_SELECT_SA_SW"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1702,7 +1654,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="SA_TO_STRT$START_OPT_CD"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1714,7 +1666,7 @@ C2M:
     class: ""
     name: ""
     xpath: //span[text()="Field Activity Pending"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1770,7 +1722,7 @@ C2M:
     class: ""
     name: ""
     xpath: //*[@id="oraTableContextContainer"]/tbody/tr[2]/td[2]/img
-    #//*[@id="ACCT_PER$PER_ID"]
+    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1781,8 +1733,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x44"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x44"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1793,8 +1744,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="CI0000000063"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="CI0000000063"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1805,8 +1755,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //span[text()="Pending Start"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //span[text()="Pending Start"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1817,8 +1766,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="ACTIVATE_SW"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="ACTIVATE_SW"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1829,8 +1777,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="SA_TYPE_CD"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="SA_TYPE_CD"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1841,8 +1788,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="CHAR_PREM_ID"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="CHAR_PREM_ID"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1853,8 +1799,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="STOP_END_DT"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="STOP_END_DT"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1865,8 +1810,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="STOP_TYPE_FLG"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="STOP_TYPE_FLG"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1877,8 +1821,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="STOP_PREM_ID"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="STOP_PREM_ID"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1889,8 +1832,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="ACTION_STOP_SW"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="ACTION_STOP_SW"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1901,8 +1843,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="CI0000000188"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="CI0000000188"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1924,8 +1865,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //span[text()="Active"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //span[text()="Active"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -1969,8 +1909,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //span[text()="Pending Stop"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //span[text()="Pending Stop"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -2047,8 +1986,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="dataExplorerTableBody1"]/tr/td[3]/a/span
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="dataExplorerTableBody1"]/tr/td[3]/a/span    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -2059,8 +1997,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="dataExplorerTableBody2"]/tr[2]/td[5]/a/span
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="dataExplorerTableBody2"]/tr[2]/td[5]/a/span    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -2071,8 +2008,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="reading_0"]
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="reading_0"]    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -2094,8 +2030,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: /html/body/div[2]/div/div/input[@type='button']
-    #(//iframe[contains(@title,'Tab Page')])
+    xpath: /html/body/div[2]/div/div/input[@type='button']    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -2117,8 +2052,7 @@ C2M:
     id: ""
     class: ""
     name: ""
-    xpath: html/body/div[3]/div/table/tbody/tr/td/img
-    #(//iframe[contains(@title,'Tab Page')])
+    xpath: html/body/div[3]/div/table/tbody/tr/td/img    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -2232,17 +2166,14 @@ C2M:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Code for Create an Customer Contact for Outage (MTR.004)
+    tagname: ""    
   - element_type: ""
     variable: outage_personmenu
     value: ""
     id: ""
     class: ""
     name: ""
-    xpath: //*[@id="context.1.2"]/img
-    #//*[@id="ACCT_PER$PER_ID"]
+    xpath: //*[@id="context.1.2"]/img    
     css: ""
     linktext: ""
     partiallinktext: ""
@@ -2257,9 +2188,7 @@ C2M:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    # Code for Service point
+    tagname: ""    
   - element_type: input
     variable: accountid1
     value: ""
@@ -2391,9 +2320,7 @@ C2M:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-   # Code for Verify User is able to Validate Address and Create Premise/SP(CI_46)
+    tagname: ""   
   - element_type:
     variable: customerinfo
     value: ""
@@ -2536,9 +2463,7 @@ C2M:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Verify User is able to Install Meter Field Activity(Selenium MTR.001)
+    tagname: ""    
   - element_type:
     variable: communication
     value: ""
@@ -2626,9 +2551,7 @@ C2M:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Verify User can Manually Generate a Bill(BIL.001)
+    tagname: ""    
   - element_type: ""
     variable: zonemapframe7
     value: ""
@@ -2645,8 +2568,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""  
     xpath: //table[@id="mtrConfig_0"]/tbody/tr/td[4]/span
     css: ""
     linktext: ""
@@ -2657,8 +2579,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //tbody[@id="dataExplorerTableBody2"]/tr/td[3]/a/span
     css: ""
     linktext: ""
@@ -2670,7 +2591,6 @@ C2M:
     id: ""
     class: ""
     name: ""
-    #Search Menu
     xpath: //span[@id="zoneHeader3"]/table/tbody/tr/td[2]/a
     css: ""
     linktext: ""
@@ -2681,8 +2601,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="readDateTime_date"]
     css: ""
     linktext: ""
@@ -2693,8 +2612,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x9"]
     css: ""
     linktext: ""
@@ -2705,8 +2623,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="CI0000000049"]
     css: ""
     linktext: ""
@@ -2717,8 +2634,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="ACTION_GENERATE_SW"]
     css: ""
     linktext: ""
@@ -2729,8 +2645,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="CUTOFF_DT"]
     css: ""
     linktext: ""
@@ -2741,8 +2656,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="ACTION_FREEZE_SW"]
     css: ""
     linktext: ""
@@ -2753,15 +2667,12 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""   
     xpath: //*[@id="OBC_BILL_DT"]
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Verify User is able to cancel a Bill Segment(BIL.002)
+    tagname: ""   
   - element_type: ""
     variable: bill_id
     value: ""
@@ -2811,8 +2722,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="CAN_RSN_CD"]
     css: ""
     linktext: ""
@@ -2823,8 +2733,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="ACTION_CANCEL_SW"]
     css: ""
     linktext: ""
@@ -2835,8 +2744,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="CI0000000175"]
     css: ""
     linktext: ""
@@ -2847,8 +2755,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="CI_MAINMENU_topMenuItem0x12"]
     css: ""
     linktext: ""
@@ -2859,8 +2766,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="ACTION_REBILL_SW"]
     css: ""
     linktext: ""
@@ -2871,8 +2777,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //tr[@id='row2_bsegData']/td/span/img
     css: ""
     linktext: ""
@@ -2883,22 +2788,18 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="CI_CONTEXTBILL_subMenuItem0x0"]
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Verify User is able to Setup a Maximum Bill Threshold(BIL.004)
+    tagname: ""    
   - element_type:
     variable: sa_premiselist
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="data_6"]/table/tbody/tr[2]/td[4]/img
     css: ""
     linktext: ""
@@ -2909,8 +2810,7 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="CI_CONTEXTSERVICEAGREEMENT_subMenuItem0x0"]
     css: ""
     linktext: ""
@@ -2921,15 +2821,12 @@ C2M:
     value: ""
     id: ""
     class: ""
-    name: ""
-    #Search Menu
+    name: ""    
     xpath: //*[@id="HIGH_BILL_AMT"]
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Verify User is able to update Service Cycle which Updates Billing Cycle(BIL.005)
+    tagname: ""    
   - element_type: frame
     variable: zonemap_frame12
     value: ""
@@ -3018,9 +2915,6 @@ C2M:
     linktext: ""
     partiallinktext: ""
     tagname: ""
-
-
-#Validate Rate Change properly syncs Rate History(BIL.007)
   - element_type: ""
     variable: rateinfo_tab
     value: ""
@@ -3108,9 +3002,7 @@ C2M:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Validate the Service Agreement syncs from C2M to MDM(CI.009)
+    tagname: ""    
   - element_type: ""
     variable: search_by_name
     value: ""
@@ -3154,9 +3046,7 @@ C2M:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Verify User is able to Add a Device(DM.001)
+    tagname: ""    
   - element_type:
     variable: asset_management
     value: ""
@@ -3420,9 +3310,7 @@ C2M:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Validate Install Event syncs from MDM to ODM(DM.002)
+    tagname: ""    
   - element_type:
     variable: device_installation
     value: ""
@@ -3587,9 +3475,7 @@ C2M:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Verify user is able to Update Measuring Component(DM.003)
+    tagname: "" 
   - element_type:
     variable: device
     value: ""
@@ -3688,9 +3574,7 @@ C2M:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Verify user is able to Adding a Manual To Do(TDS.001)
+    tagname: ""    
   - element_type:
     variable: todo
     value: ""
@@ -3790,7 +3674,6 @@ C2M:
     linktext: ""
     partiallinktext: ""
     tagname: ""
-#Verify user is able to complete a To Do(TDS.002)
   - element_type:
     variable: todo_search
     value: ""
@@ -3835,14 +3718,10 @@ C2M:
     linktext: ""
     partiallinktext: ""
     tagname: ""
-
-
-   #Credentials used
 Credentials:
   - element_type: ""
     variable: user
-    value: VVAIDYA
-    #SYSUSER
+    value: VVAIDYA    
     id: ""
     class: ""
     name: ""
@@ -3854,7 +3733,7 @@ Credentials:
   - element_type: ""
     variable: pass
     value: password01
-    #sysuser00
+    
     id: ""
     class: ""
     name: ""
@@ -4016,8 +3895,7 @@ Credentials:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-    #Service point
+    tagname: ""    
   - element_type: ""
     variable: premise_box
     value: "5815959729"
@@ -4039,9 +3917,7 @@ Credentials:
     css: ""
     linktext: ""
     partiallinktext: ""
-    tagname: ""
-
-    #Verify User is able to Install Meter Field Activity(Selenium MTR.001)
+    tagname: ""    
   - element_type:
     variable: servicedate_box
     value: "03-21-2022"
@@ -4064,7 +3940,6 @@ Credentials:
     linktext: ""
     partiallinktext: ""
     tagname: ""
-
   - element_type:
     variable: servicedate_remove
     value: "03-24-2022"
@@ -4076,11 +3951,9 @@ Credentials:
     linktext: ""
     partiallinktext: ""
     tagname: ""
-
   - element_type: ""
     variable: vikrant
-    value: ""
-    #SYSUSER
+    value: ""  
     id: ""
     class: ""
     name: ""
@@ -4089,2853 +3962,14 @@ Credentials:
     linktext: ""
     partiallinktext: ""
     tagname: ""
-
-
   - element_type: ""
     variable: oracle
     value: ""
-    #SYSUSER
+    
     id: ""
     class: ""
     name: ""
     xpath: //span[text()="Oracle Utilities Customer To Meter"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-
-
-#_________________________________________SHANAWAZ YAML CODE________________________________________________________________________
-
-C2M:
-  - element_type: input
-    variable: username
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="userId"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-    variable: accountid
-    value: "3428051521"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: add_person_name
-    value: Test,Person
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: add_person_contactinfo
-    value: "4695678877"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_zipcode
-    value: "60601"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_address
-    value: 222 N Columbus Dr APT 3403
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_city
-    value: New York
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_county
-    value: ILLINOIS
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_state
-    value: IL
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: case_accntid
-    value: "0848997649"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: case_window
-    value: Select Type
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: case_comment_enq
-    value: Price details Enquiry
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: comment_logcc
-    value: High bill complaint resolution
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-    #Service point
-  - element_type: ""
-    variable: premise_box
-    value: "5815959729"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: accountid1
-    value: "6131518727"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-
-    #Verify User is able to Install Meter Field Activity(Selenium MTR.001)
-  - element_type:
-    variable: servicedate_box
-    value: "03-21-2022"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: servicepoint_box
-    value: "617429669801"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-
-  - element_type:
-    variable: servicedate_remove
-    value: "03-24-2022"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-
-#_________________________________________SHANAWAZ YAML CODE________________________________________________________________________
-
-C2M:
-  - element_type: input
-    variable: username
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="userId"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: input
-    variable: password
-    value: ""
-    id: password
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: button
-    variable: sign_in
-    value: ""
-    id: loginButton
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: input
-    variable: menu
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //div[@id='toolbarnew']//input[@id='oj-inputsearch-input-menuSearchElem']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: frame
-    variable: main_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    #Search Menu
-    xpath: //frame[@name='main']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: div
-    variable: addaccount_label
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: (//div[contains(@id,'oj-listbox-result')])[3]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: div
-    variable: addservicepoint_label
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: (//div[contains(@id,'oj-listbox-result')])[3]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: person
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="PERSONS_TLBL"]/table/tbody/tr[2]/td
-    #//tr[@id='tabRow']//td[@id='PERSONS_TLBL']//td[contains(@title,'Persons')]
-    #//tr[@id='tabRow']//td[@id='PERSONS_TLBL']
-    ##//tr[@id='tabRow']//td[@id='PERSONS_TLBL']//table//tbody//tr[2]//td[contains(@title,'Persons')]
-    #//tr[@id='tabRow']//td[@id='PERSONS_TLBL']//table//tbody//tr[2]//td
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: select
-    variable: division
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="CIS_DIVISION"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: cis_division
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id='cisDivision1']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: frame
-    variable: menu_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='tabMenu']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: frame
-    variable: tab_page_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='tabPage']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: searchicon
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //tr[@id='row1_Section1']//td[2]//span//img[contains(@id,'IM_ACCT_PER$PER_ID')]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  #new code 2/16
-  - element_type: ""
-    variable: main_tab
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="MAIN_TLBL"]/table/tbody/tr[2]/td
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: input
-    variable: premise_id
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="MAILING_PREM_ID"]
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: button
-    variable: save
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="IM_SAVE"]
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: span
-    variable: topmenu
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="IM_menuButton"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: controlcentralsearch
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="CI_MAINMENU_topMenuItem0x4"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: select
-    variable: search_by_list
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="multiQueryZoneFilters1"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: input
-    variable: accountid
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="accountId1"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: input
-    variable: deposit_sa_accountid
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="accountId1"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: input
-    variable: utility_sa_accountid
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="accountId1"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: input
-    variable: utility_sa_accountid1
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="accountId1"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: button
-    variable: search
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="anTLZ1Refresh"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: frame
-    variable: custinfo_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='zoneMapFrame_3']
-    #(//iframe[contains(@title,'Tab Page')])
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: main_customer
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: /html/body/table/tbody/tr[2]/td[2]/a[contains(@title,'Test,User')]
-    #(//iframe[contains(@title,'Tab Page')])
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: select
-    variable: lifesupportoption
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="LS_SL_FLG"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: input
-    variable: notes
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="LS_SL_DESCR"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: div
-    variable: addperson_label
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: (//div[contains(@id,'oj-listbox-result')])[3]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: div
-    variable: addperson_name_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='PER_NAME']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addperson_name_details
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="dataTable"]/tbody/tr/td[4]/input
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: div
-    variable: addperson_contact_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='PER_CONT_DETL']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: select
-    variable: addperson_contact_type
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@name="PER_CONT_DETL:0$COMM_RTE_TYPE_CD"]
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addperson_checkbox
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //td[@id='PER_CONT_DETL|0|9']//input[@type='checkbox']
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addperson_contactinfo
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="dataTable"]/tbody/tr/td[7]/input
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: input
-    variable: ssn
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="PER_IDENTIFIER:0$PER_ID_NBR"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: frame
-    variable: peridentifier_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='PER_IDENTIFIER']
-    #(//iframe[contains(@title,'Tab Page')])
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: div
-    variable: addpremise_label
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: (//div[contains(@id,'oj-listbox-result')])[1]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: select
-    variable: addpremise_search_by_list
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="PREM_TYPE_CD"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_zipcode_details
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="POSTAL"]
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_address_details
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="ADDRESS1"]
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_city_name
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="CITY"]
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_county_name
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="COUNTY"]
-    #//*[@id="ACCT_PER$PER_ID"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_state_name
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="STATE"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: premise_context_menu
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //td[@id='context.5.2']/img
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: zonemapframe_4
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='zoneMapFrame_4']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: servicepoint_type
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='desc']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: activity_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='desc']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: ui_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='uiMap']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: ok_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@oramdlabel='OK_LBL']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: timezone_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='timeZone']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: premise_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='premiseId']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: equipment_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='itemId_0']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: attachdate_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='installDateTime_date_0']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: save_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='SAVE_BTN_MP' and @value='Save']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: frame
-    variable: zone_map_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='zoneMapFrame_1']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: goto_servicepoint
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CONTEXTPREMISE_subMenuItem1x11']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_servicepoint
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: (//li[@id='x1spTabMenuAdd']/span)[1]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: search_equipment
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //img[@id='itemId_search_0']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: identifiertype_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='deviceIdentifier_type']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: identifiervalue_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='deviceIdentifier_value']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: identifiersearch_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='anTLZ1Refresh']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: identifierdevice
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: (//td[@class='paddedCell explorerGrid nowrap clickable' and @listprocess='N']/span)[1]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: dashboard_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='dashboard']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: zonemapframe_201_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='zoneMapFrame_201']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: account_info
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //span[@id='ACCT_INFO']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: nametype_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='PER_NAME:0$NAME_TYPE_FLG']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: customerclass_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='CUST_CL_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: customerinfo
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: (//li[@id='CI_MAINMENU_topMenuItem0x7']/span)[1]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: premise
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CUSTOMERINFORMATION_subMenuItem1x15']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_premise
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: (//li[@id='CI0000000185']/span)[1]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: premisetype_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='PREM_TYPE_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: premise_context_menu1
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //img[@id='IM_Main_premCnxt']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: validate_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='C1_VAL_ADDR_SW']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: account_context_menu
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //td[@id='context.2.3']/img[contains(@title,'Show Account Context Menu')]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: goto_serviceagreement
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CONTEXTACCOUNT_subMenuItem1x44']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_serviceagreement
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: (//li[@id='CI0000000063']/span)[1]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: satype_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id='SA_TYPE_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: charpremiseid_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='CHAR_PREM_ID']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: depositamount_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='TOT_TO_BILL_AMT']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: activesa_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='ACTIVATE_SW']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: charpremiseid_mgbutton
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //img[@id='IM_CHAR_PREM_ID']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: address_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='ADDRESS1']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: search_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='BU_premId_premSrch']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: controlcentralsearch_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //span[@id='IM_controlCentralButton']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: communication
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_MAINMENU_topMenuItem0x2']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: activity
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='D1_COMMUNICATION_subMenuItem1x0']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_activity
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='d1actTabMenuAdd']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: servicedate_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='startDateTime_date']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: servicepoint_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='boGroup_spId']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: fieldtask_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='fieldTaskType']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: activity_hierarchy
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: (//span[@class='oraNormal oraLink'])[2]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: goto_collectionagency
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CONTEXTACCOUNT_subMenuItem1x15']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_collectionagency
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='collectionAgencyReferral +']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: collectionagency_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='AGY_REF$COLL_AGY_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: startdate_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='AGY_REF$START_DT']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: referralstatus_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='AGY_REF$REF_STATUS_FLG']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: creationdate_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='AGY_HIS:0$CRE_DT']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: collrefhis_datagrid_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='collRefHis_datagrid']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: referralamount_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='AGY_HIS:0$REF_AMT']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: referralhistory_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='AGY_HIS:0$REF_HIST_RSN_FLG']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: goto_payplan
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CONTEXTACCOUNT_subMenuItem1x32']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_payplan
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI0000000244']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: type_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='PP_TYPE_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: sheduleddate_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='PPS:0$PP_SCHED_DT']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: schedgrid_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='schedGrid']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: sheduledamount_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='PPS:0$PP_SCHED_AMT']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: comment_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //textarea[@id='COMMENTS']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: paymethod_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='PAY_METH_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: activity_id
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //span[@class='oraDefault' and @orafield='activityId']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: recordinfo_exp
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //img[@title='Expand Section - Record Information']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: goto_adjustment
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CONTEXTACCOUNT_subMenuItem1x8']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_adjustment
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI0000000048']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: sa_id_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='SA_ID']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: utility_sa_id_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='SA_ID']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: service_agreement_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='SA_ID']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: sasearch_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='BU_Main_search']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: adjustmenttype_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='ADJ_TYPE_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: amount_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='BASE_AMT_WRK']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: generate_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='GENERATE_SW']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: calculate_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='GENERATE_SW']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: submit_approval_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='SUBMIT_APPR_SW']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: activity_id_text
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //label[@oramdlabel='D1_ACTIVITY_ID']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: active_plan_alert
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //span[contains(text(),'1 Active pay plans in the last 12 months')]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: financial
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_MAINMENU_topMenuItem0x12']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: adjustment
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_FINANCIAL_subMenuItem1x0']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: search_adjustment
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI0000000169']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: adjustment_id_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='ADJ_ID']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: adjustmentid_search_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='BU_Main_mainSrch']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: cancel_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='CANCEL_SW']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: cancel_reason_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='CAN_RSN_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: cancelreason_ok_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='CANCEL_SW']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: adjustment_status
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //span[@id='ADJ_STATUS_FLG']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: deposit_control
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_FINANCIAL_subMenuItem1x7']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_deposit_control
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI0000000187']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: deposit_control_context
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //img[@id='IM_Section1_dcCntxt']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: goto_tender_control
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CONTEXTDEPOSITCONTROL_subMenuItem1x2']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_tender_control
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI0000000123']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: tender_source_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='TNDR_SOURCE_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: starting_bal_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='START_BALANCE']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: status_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='PP_STAT_FLG']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: tender_control_id
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='TNDR_CTL_ID']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: goto_severance_process
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CONTEXTACCOUNT_subMenuItem1x46']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_severance_process
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI0000000176']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: severance_template_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='SEV_PROC_TMPL_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: comments_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //textarea[@id='COMMENTS']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: severance_status
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='SEV_STATUS_FLG']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: severance_amount_date
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='SEV_ARS_DT']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: goto_payment_arrangementreq
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CONTEXTACCOUNT_subMenuItem1x35']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_payment_arrangementreq
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='c1parqsmAccountContextMenuAdd']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: severance_active_alert
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //span[contains(text(),'Severance Process Active')]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: pymnt_arrangementreq_type
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='paRequestType']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: pymnt_arrangementreason_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='paReason']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: next_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //span[@id='ui-id-5']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: pymnt_arrangement
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //h3[@id='currentStepTitle']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: no_of_installments
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='numberOfInstallments']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: service_agreement_checkbox
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='isSelected_0']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: change_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='changeDebt_0']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: amount_toinclude_checkbox
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='checkedForPAWork_0_0']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: amount_toinclude_okbutton
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='OK_LBL_0']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: finish_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //span[@id='ui-id-6']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: goto_writeoff_process
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CONTEXTACCOUNT_subMenuItem1x51']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_writeoff_process
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI0000000157']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: writeoff_control_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='WO_CNTL_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: writeoff_temp_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='WO_PROC_TMPL_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: sas_tab
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //td[@class='inactiveTab' and @title='SAs']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: sa_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='SA$SA_ID']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: sa_status_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='SA$WO_SA_STAT_FLG']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: writeoff_active_alert
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //span[contains(text(),'Active Write Off Process')]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: approval_tab
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //td[@class='inactiveTab' and @title='Approval']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: approve_button
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='button1']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: zonemapframe_2_frame
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //iframe[@id='zoneMapFrame_2']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: goto_collection_process
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CONTEXTACCOUNT_subMenuItem1x16']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: add_collection_process
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI0000000195']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: collection_control_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='COLL_CL_CNTL_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: collection_temp_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='COLL_PROC_TMPL_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: days_in_arrear
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='NBR_OF_DAYS_FROM']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: collection_status_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='SA$COLL_SA_STAT_FLG']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: event_tab
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //td[@class='inactiveTab' and @title='Events']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: collection_event_dropdown
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //select[@id='EVT$COLL_EVT_TYP_CD']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: collection_active_alert
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //span[contains(text(),'Collection Process Active')]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: goto_account
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //li[@id='CI_CONTEXTACCOUNT_subMenuItem0x0']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: c$c_tab
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //td[@class='inactiveTab' and @title='C & C']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: start_date_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='CR_RAT_HIST$START_DT']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: end_date_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='CR_RAT_HIST$END_DT']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: credit_rate_box
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //input[@id='CR_RAT_HIST$CR_RATING_PTS']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: account_comments
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //textarea[@id='CR_RAT_HIST$COMMENTS']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: credit_rating_historyid
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //span[@id='CR_RAT_HIST$CR_RATING_HIST_ID']
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-
-  - element_type: ""
-    variable: accountid
-    value: "0979830028"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: add_person_name
-    value: Test,Person
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: add_person_contactinfo
-    value: "4695678877"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_zipcode
-    value: "60601"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_address
-    value: 222 N Columbus Dr APT 3403
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_address_details
-    value: 222 N Columbus Dr APT 3403
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_address_details1
-    value: VLGTest010
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_city
-    value: CHICAGO
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_city1
-    value: Brooklyn
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_county
-    value: ILLINOIS
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_state
-    value: IL
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: addpremise_state1
-    value: NY
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: deposit_sa_accountid
-    value: "6131518727"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: utility_sa_accountid
-    value: "7697669556"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: utility_sa_accountid1
-    value: "1140071268"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: menu
-    value: Add service point
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: premise_box
-    value: "5815959729"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: equipment_box
-    value: Solar panel
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: attachdate_box
-    value: "02-22-2022"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: identifiervalue_box
-    value: "559153979565"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-  - element_type:
-    variable: satype_box
-    value: DEP-RES
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: charpremiseid_box
-    value: "6320288652"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: depositamount_box
-    value: "1000.0"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: address_box
-    value: Test
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: servicedate_box
-    value: "03-21-2022"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: servicepoint_box
-    value: "617429669801"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: collectionagency_box
-    value: CBCS
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: startdate_box
-    value: "03-20-2022"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: creationdate_box
-    value: "03-22-2022"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: referralamount_box
-    value: "100"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: type_box
-    value: RES
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: sheduleddate_box
-    value: "03-31-2022"
-    id: ""
-    class: ""
-    name: ""
-    xpath:
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: sheduledamount_box
-    value: "100"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: comment_box
-    value: Adding a payplan test
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: sa_id_box
-    value: "6136033403"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: utility_sa_id_box
-    value: "7694662711"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: adjustmenttype_box
-    value: DEPOSREF
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: amount_box
-    value: "100"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: adjustment_id_box
-    value: "613753069058"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-
-  - element_type:
-    variable: tender_source_box
-    value: "CASH-01"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: starting_bal_box
-    value: "$0.00"
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: comments_box
-    value: Test Severance Process
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: severance_amount_date
-    value: "03-31-2022"
-    id: ""
-    class: ""
-    name: ""
-    xpath:
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type:
-    variable: no_of_installments
-    value: ""
-    id: "5"
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-
-#C2M EYDEMO Credentials
-  - element_type: ""
-    variable: c2meydemouser
-    value: SYSUSER
-    #SYSUSER
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-  - element_type: ""
-    variable: c2meydemopass
-    value: sysuser00
-    #sysuser00
-    id: ""
-    class: ""
-    name: ""
-    xpath: ""
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-
-  - element_type:
-    variable: advanced
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="details-button"]
-    css: ""
-    linktext: ""
-    partiallinktext: ""
-    tagname: ""
-
-  - element_type:
-    variable: proceedlink
-    value: ""
-    id: ""
-    class: ""
-    name: ""
-    xpath: //*[@id="proceed-link"]
     css: ""
     linktext: ""
     partiallinktext: ""

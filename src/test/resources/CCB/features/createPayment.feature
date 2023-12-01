@@ -63,5 +63,5 @@ Feature: Create a new payment
 
     Examples:
 
-      | searchBy   | accountId  | paymentDate | distributionCode            | amount | tenderType |
-      | Account ID | 0333626993 | 06-24-2022  | Distribute and Freeze if OK | $10    | Cash       |
+      | searchBy   | accountId  | tenderType |
+      | Account ID | 7210551523 |  Cash       |

@@ -5,58 +5,245 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6d260e4-a5da-46b3-89f2-b8341f51828f" name="Changes" comment=" changes related to CC001 test cases">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/PageObjects.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/actionbuttons.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/premisepage.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/tabsmenu.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB/features/addNewPremise.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cucumber.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FeatureRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FeatureRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/homepage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/homepage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/BIL001ManuallyGenerateABill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BIL001ManuallyGenerateABill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/BIL002CancelABillSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BIL002CancelABillSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/BIL003CancelRebillingBillSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BIL003CancelRebillingBillSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/BIL004SettingAMaximumBillThreshold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BIL004SettingAMaximumBillThreshold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/BIL005ServiceCycleUpdatesBillingCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BIL005ServiceCycleUpdatesBillingCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/BIL006CreateHighBillComplaint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BIL006CreateHighBillComplaint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/BIL007RateChangeProperlySyncsRateHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BIL007RateChangeProperlySyncsRateHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC001AddCollectionReferralAgency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC001AddCollectionReferralAgency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC003CancelingAPayplan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC003CancelingAPayplan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC004AddingAPaymentArrangementRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC004AddingAPaymentArrangementRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC005AddingCollectionProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC005AddingCollectionProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC006AddingSeveranceProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC006AddingSeveranceProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC007AddingAWriteOffProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC007AddingAWriteOffProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC008CancelingACollectionProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC008CancelingACollectionProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC008CanelingACollectionProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC008CanelingACollectionProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC009CancelingASeveranceProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC009CancelingASeveranceProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC009CancellingASeveranceProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC009CancellingASeveranceProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC010CancellingAWriteOffProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC010CancellingAWriteOffProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC011ManuallyAddingCreditPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC011ManuallyAddingCreditPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC012ModifyingCollectionEventTriggerDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC012ModifyingCollectionEventTriggerDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC013ModifyASeveranceEventTriggerDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC013ModifyASeveranceEventTriggerDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC013ModifySeveranceEventTriggerDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC013ModifySeveranceEventTriggerDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CC014ModifyingAWriteOffEventTriggerDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CC014ModifyingAWriteOffEventTriggerDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CI001AddPersonAndAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CI001AddPersonAndAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CI002AddPremise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CI002AddPremise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CI003AddingSPandcheckifitsyncsfromMDMtoODM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CI003AddingSPandcheckifitsyncsfromMDMtoODM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CI004PersonProperlySyncsFromC2MtoMDM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CI004PersonProperlySyncsFromC2MtoMDM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CI005StartAServiceAgreement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CI005StartAServiceAgreement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CI005StartServiceAgreement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CI005StartServiceAgreement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CI007StopServiceAgreement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CI007StopServiceAgreement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CI009ServiceAgreementsyncsfromC2MtoMDM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CI009ServiceAgreementsyncsfromC2MtoMDM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CI010AddChildPremiseToParentPremise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CI010AddChildPremiseToParentPremise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CI011AddPremiseToExistingLandlordAgreement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CI011AddPremiseToExistingLandlordAgreement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/CM353AddBckFlowCustContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/CM353AddBckFlowCustContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/DM001AddDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/DM001AddDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/DM002InstallEventSyncMDMtoODM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/DM002InstallEventSyncMDMtoODM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/DM003UpdateMeasuringComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/DM003UpdateMeasuringComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/DM004CreateAssetGasDeviceTypeXXXMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/DM004CreateAssetGasDeviceTypeXXXMeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/DM005CreateAssetGasDeviceTypeXXXEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/DM005CreateAssetGasDeviceTypeXXXEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/DM006CreateAssetElectricDeviceTypeXXXMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/DM006CreateAssetElectricDeviceTypeXXXMeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/DM007CreateAssetElectricDeviceTypeXXXEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/DM007CreateAssetElectricDeviceTypeXXXEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/DM008CreateAssetWaterDeviceTypeXXXMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/DM008CreateAssetWaterDeviceTypeXXXMeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/DM009CreateAssetWaterDeviceTypeXXXEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/DM009CreateAssetWaterDeviceTypeXXXEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN001AddAnAdjustment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN001AddAnAdjustment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN003AddDepositOrTenderControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN003AddDepositOrTenderControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN004AddPaymentEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN004AddPaymentEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN005AddAPaymentToMultipleAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN005AddAPaymentToMultipleAccounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN006CancellingAPaymentEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN006CancellingAPaymentEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN007SearchingForAPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN007SearchingForAPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN008SettingUpAutopay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN008SettingUpAutopay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN009CancellingAutopay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN009CancellingAutopay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FunctionalCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FunctionalCukesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/MTR001CreateInstallMeterFieldActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/MTR001CreateInstallMeterFieldActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/MTR002CreateExchangeMeterFieldActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/MTR002CreateExchangeMeterFieldActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/MTR003RemoveMeterFieldActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/MTR003RemoveMeterFieldActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/MTR004CreatingCustomerContactForOutage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/MTR004CreatingCustomerContactForOutage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/MTR005UpdateAssetLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/MTR005UpdateAssetLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/MU001AddMeterReadViaMeterReadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/MU001AddMeterReadViaMeterReadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/MU002AddMeterReadViaMeterReadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/MU002AddMeterReadViaMeterReadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/MobileRunnerTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/MobileRunnerTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/ScenarioRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/ScenarioRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/TDS001AddManualToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/TDS001AddManualToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/TDS002CompleteToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/TDS002CompleteToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/TDS003AssigningToDoEntries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/TDS003AssigningToDoEntries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/TestData_InputFileBuilder_Scenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/TestData_InputFileBuilder_Scenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/data/environments.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/environments.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/c2mloginpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/c2mloginpage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/features/addNewPremise.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/features/addNewPremise.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/features/createPayment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/features/createPayment.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/features/createPersonWithAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/features/createPersonWithAccount.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cucumber.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-additional.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-additional.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/cluecumber-custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/cluecumber.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/cluecumber.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/dataTables.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/css/datatables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/css/datatables.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/font/cluecumber.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/font/cluecumber.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/Chart.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/Chart.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/datatables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/datatables.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/jquery.fancybox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/jquery.fancybox.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/js/popper.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/feature-scenarios/feature_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/feature-scenarios/feature_0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/feature-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/feature-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/scenario-detail/scenario_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/scenario-detail/scenario_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/scenario-sequence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/scenario-sequence.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/scenario-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/scenario-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01508116564.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01001369895.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01032894717.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01032894717.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_02007642903.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_02041508332.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_02090033241.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_02090033241.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0594343437.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0594343437.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0783171777.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0783171777.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1062405609.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1062405609.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1550261679.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1550261679.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_509934513.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_509934513.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_6299848.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_781015678.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_781015678.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_93290982.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_93290982.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-scenarios/tag_CCB001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-scenarios/tag_echodot23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-scenarios/tag_regression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-scenarios/tag_smoke23.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/tag-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/tag-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2023-07-27T18-47-29_283-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Create Person with Account and Start Service Enabled.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Ordering an Echo Dot in Amazon.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nextgen-testing-platform-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nextgen-testing-platform-2.0.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nextgen-testing-platform-2.0.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/embeddings/embedding_-142270442.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/embeddings/embedding_1362030181.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/embeddings/embedding_1692155294.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/embeddings/embedding_1787067490.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/embeddings/embedding_1853185937.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/embeddings/embedding_2036290336.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/embeddings/embedding_2080120473.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/embeddings/embedding_498463153.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/embeddings/embedding_552151295.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/embeddings/embedding_656632046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/embeddings/embedding_697010768.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_10_314355698.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_11_314355698.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_12_314355698.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_13_314355698.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_14_314355698.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_1827570019.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_1_3361778486.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_2_1670261310.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_2_3361778486.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_3361778486.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_3_1670261310.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_3_3361778486.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_4_3361778486.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_5_3361778486.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_6_3361778486.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_7_3361778486.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_8_3361778486.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-feature_9_314355698.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_2115488260.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_2291613139.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_233058432.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_2680519537.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_4228278191.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-html-reports/report-tag_800219982.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumberHtmlReport" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumberHtmlReport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.07.27.18.48.18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.27.17.58.37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.27.18.18.11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.27.18.20.23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.27.18.24.10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.27.20.18.59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.27.20.39.08.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.27.20.42.08.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.09.36.32.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.09.39.41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.09.47.55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.09.54.58.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.09.59.34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.10.04.59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.10.24.08.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.10.28.35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.10.31.22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.11.09.35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.11.13.26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.11.19.32.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.11.22.14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.11.31.24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.11.34.05.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CCB/data/environments.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CCB/data/environments.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CCB/data/pageobjects/yaml/c2mloginpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CCB/data/pageobjects/yaml/c2mloginpage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CCB/data/pageobjects/yaml/frameobjects.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CCB/data/pageobjects/yaml/frameobjects.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CCB/features/addNewPremise.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CCB/features/addNewPremise.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CCB/features/createPersonWithAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CCB/features/createPersonWithAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/BIL001ManuallyGenerateABill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/BIL001ManuallyGenerateABill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/BIL002CancelABillSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/BIL002CancelABillSegment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/BIL003CancelRebillingBillSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/BIL003CancelRebillingBillSegment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/BIL004SettingAMaximumBillThreshold.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/BIL004SettingAMaximumBillThreshold.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/BIL005ServiceCycleUpdatesBillingCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/BIL005ServiceCycleUpdatesBillingCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/BIL006CreateHighBillComplaint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/BIL006CreateHighBillComplaint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/BIL007RateChangeProperlySyncsRateHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/BIL007RateChangeProperlySyncsRateHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC001AddCollectionReferralAgency.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC001AddCollectionReferralAgency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC003CancelingAPayplan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC003CancelingAPayplan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC004AddingAPaymentArrangementRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC004AddingAPaymentArrangementRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC005AddingCollectionProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC005AddingCollectionProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC006AddingSeveranceProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC006AddingSeveranceProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC007AddingAWriteOffProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC007AddingAWriteOffProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC008CancelingACollectionProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC008CancelingACollectionProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC008CanelingACollectionProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC008CanelingACollectionProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC009CancelingASeveranceProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC009CancelingASeveranceProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC009CancellingASeveranceProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC009CancellingASeveranceProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC010CancellingAWriteOffProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC010CancellingAWriteOffProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC011ManuallyAddingCreditPoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC011ManuallyAddingCreditPoints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC012ModifyingCollectionEventTriggerDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC012ModifyingCollectionEventTriggerDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC013ModifyASeveranceEventTriggerDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC013ModifyASeveranceEventTriggerDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC013ModifySeveranceEventTriggerDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC013ModifySeveranceEventTriggerDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CC014ModifyingAWriteOffEventTriggerDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CC014ModifyingAWriteOffEventTriggerDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CI001AddPersonAndAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CI001AddPersonAndAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CI002AddPremise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CI002AddPremise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CI003AddingSPandcheckifitsyncsfromMDMtoODM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CI003AddingSPandcheckifitsyncsfromMDMtoODM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CI004PersonProperlySyncsFromC2MtoMDM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CI004PersonProperlySyncsFromC2MtoMDM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CI005StartAServiceAgreement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CI005StartAServiceAgreement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CI005StartServiceAgreement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CI005StartServiceAgreement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CI007StopServiceAgreement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CI007StopServiceAgreement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CI009ServiceAgreementsyncsfromC2MtoMDM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CI009ServiceAgreementsyncsfromC2MtoMDM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CI010AddChildPremiseToParentPremise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CI010AddChildPremiseToParentPremise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CI011AddPremiseToExistingLandlordAgreement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CI011AddPremiseToExistingLandlordAgreement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/CM353AddBckFlowCustContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/CM353AddBckFlowCustContact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/DM001AddDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/DM001AddDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/DM002InstallEventSyncMDMtoODM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/DM002InstallEventSyncMDMtoODM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/DM003UpdateMeasuringComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/DM003UpdateMeasuringComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/DM004CreateAssetGasDeviceTypeXXXMeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/DM004CreateAssetGasDeviceTypeXXXMeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/DM005CreateAssetGasDeviceTypeXXXEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/DM005CreateAssetGasDeviceTypeXXXEquipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/DM006CreateAssetElectricDeviceTypeXXXMeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/DM006CreateAssetElectricDeviceTypeXXXMeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/DM007CreateAssetElectricDeviceTypeXXXEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/DM007CreateAssetElectricDeviceTypeXXXEquipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/DM008CreateAssetWaterDeviceTypeXXXMeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/DM008CreateAssetWaterDeviceTypeXXXMeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/DM009CreateAssetWaterDeviceTypeXXXEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/DM009CreateAssetWaterDeviceTypeXXXEquipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FIN001AddAnAdjustment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FIN001AddAnAdjustment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FIN003AddDepositOrTenderControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FIN003AddDepositOrTenderControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FIN004AddPaymentEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FIN004AddPaymentEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FIN005AddAPaymentToMultipleAccounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FIN005AddAPaymentToMultipleAccounts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FIN006CancellingAPaymentEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FIN006CancellingAPaymentEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FIN007SearchingForAPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FIN007SearchingForAPayment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FIN008SettingUpAutopay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FIN008SettingUpAutopay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FIN009CancellingAutopay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FIN009CancellingAutopay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FeatureRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FeatureRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/FunctionalCukesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/FunctionalCukesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/MTR001CreateInstallMeterFieldActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/MTR001CreateInstallMeterFieldActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/MTR002CreateExchangeMeterFieldActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/MTR002CreateExchangeMeterFieldActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/MTR003RemoveMeterFieldActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/MTR003RemoveMeterFieldActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/MTR004CreatingCustomerContactForOutage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/MTR004CreatingCustomerContactForOutage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/MTR005UpdateAssetLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/MTR005UpdateAssetLocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/MU001AddMeterReadViaMeterReadPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/MU001AddMeterReadViaMeterReadPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/MU002AddMeterReadViaMeterReadPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/MU002AddMeterReadViaMeterReadPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/MobileRunnerTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/MobileRunnerTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/ScenarioRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/ScenarioRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/TDS001AddManualToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/TDS001AddManualToDo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/TDS002CompleteToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/TDS002CompleteToDo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/TDS003AssigningToDoEntries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/TDS003AssigningToDoEntries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methods/TestData_InputFileBuilder_Scenario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/TestData_InputFileBuilder_Scenario.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,23 +263,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="27L5HISnB7Klk5msauTc5WM5fQj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/TB713MA/OneDrive - EY/Documents/GitHub/Oracle-C2M/C2Mbackuprepo/src/test/resources/CCB/features",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TB713MA/OneDrive - EY/Documents/GitHub/Oracle-C2M/C2Mbackuprepo/src/test/resources/CCB/features&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\src\test\resources\CCB\features" />
@@ -704,11 +891,10 @@
       <option name="project" value="LOCAL" />
       <updated>1689280544653</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" changes related to CM370" />
     <MESSAGE value=" changes related to CM361 test cases" />
     <MESSAGE value=" changes related to DM006-DM010 test cases for all 686 test cases" />
     <MESSAGE value=" changes related to DM004-DM010 test cases" />
@@ -732,6 +918,7 @@
     <MESSAGE value=" changes related to BIL007 test cases" />
     <MESSAGE value=" changes related to DM003 test cases" />
     <MESSAGE value=" changes related to FIN001 test cases" />
+    <MESSAGE value="updated checkbox step" />
     <MESSAGE value=" changes related to CC001 test cases" />
     <option name="LAST_COMMIT_MESSAGE" value=" changes related to CC001 test cases" />
   </component>
