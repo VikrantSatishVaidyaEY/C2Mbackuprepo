@@ -1,6 +1,6 @@
 Feature: Add a new premise
 
-  @CCBAddPremise @regression
+  @CCBAddPremise @regression @ccbpremise
   Scenario Outline: Add a new premise via traditional Premise +
 
     #User is Logged In
@@ -46,7 +46,6 @@ Feature: Add a new premise
     # Logout C2M
     And I click element c2mlogout.english_system
     And I click element c2mlogout.logout
-    And I quit browser
 
     Examples:
       | PersonName    | ContactType | ContactValue | IdType                 | IdValue     |

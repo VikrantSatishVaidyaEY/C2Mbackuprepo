@@ -1,0 +1,33 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-07	  CTongo		Initial Version.
+#
+#####################################################################################
+
+C2MLogout:
+#Main Logout
+  - element_type: ""
+    variable: english_system
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="youAreLoggedInAsSpan"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: logout
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="Logout"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
