@@ -24,8 +24,8 @@ Feature: Create Person with Account and Start Service Enabled
     And I move to frame frame.per_contact_detl
     And I move to frame frame.perid_frame
     And I select "<id_type>" option by text from dropdown personpage.per_id_type
+    And I click element personpage.per_id_value
     And I put random number into input field personpage.per_id_value
-    And I press "TAB" key into input field personpage.per_id_value
     And I move to frame frame.tabpage_frame
     And checkbox home.start_service_checkbox should be checked
     And I move to frame frame.main_frame
@@ -36,5 +36,6 @@ Feature: Create Person with Account and Start Service Enabled
 
   @example
     Examples: 
-      | person_or_business | name_type | name           | contact_type | phone_number   | id_type                |
-      | Person             | Primary   | Harris, Calvin | Cell Phone   | (541) 168-4679 | Social security number |
+      | person_or_business | name_type | name         | contact_type | phone_number   | id_type                |
+      | Person             | Primary   | Smith, Jerry | Cell Phone   | (541) 168-4679 | Social security number |
+      | Person             | Primary   | Doe, George  | Cell Phone   | (328) 567-5273 | Social security number |

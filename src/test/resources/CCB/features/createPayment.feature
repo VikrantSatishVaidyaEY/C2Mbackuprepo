@@ -48,11 +48,17 @@ Feature: Create a new payment
     #Switch to App Main Window
     And I wait for 10 sec
     And I move to frame frame.dashboard
+    And I click element paymenteventpage.last_payment
+    And I wait for 5 sec
+    And I move to frame frame.main_frame
+    And I click element actionbuttons.refresh
+    And I wait for 15 sec
+    And I move to frame frame.dashboard
     And I validate element paymenteventpage.current_balance has value "0.00"
     And I click element paymenteventpage.last_payment
     And I wait for 5 sec
     And I move to frame frame.tabpage_frame
-    And I validate element paymenteventpage.payment_date has value "12‑01‑2023"
+    And I validate element paymenteventpage.payment_date has value "01‑12‑2024"
     And I move to frame frame.paymentgrid_frame
     And I validate element paymenteventpage.payment_status has value "Frozen"
     And I move to frame frame.main_frame
@@ -64,4 +70,4 @@ Feature: Create a new payment
     Examples:
 
       | searchBy   | accountId  | tenderType |
-      | Account ID | 7210551523 |  Cash       |
+      | Account ID | 1320984375 |  Cash      |

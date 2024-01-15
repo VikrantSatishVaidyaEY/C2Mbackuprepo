@@ -4,7 +4,7 @@ import env.DriverUtil;
 import etaf.helperutils.elementHelper.ElementObject;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 import stepimplementation.*;
 import utils.helpers.pageobjechelpers.PageObjectGenerator;
 
@@ -15,7 +15,6 @@ import data.dataclass.inputfilebuilder.TestDataLoader;
 import io.cucumber.java.en.Given;
 import org.junit.Assert;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import stepimplementation.ValidationStepDefs;
 import stepimplementation.ClickElementStepDefs;
 //import measuringcomponent.MeasuringComponent;
@@ -39,6 +38,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 public class CcbReusableStepDefinitions extends StepImplementationBase {
 
@@ -72,6 +72,16 @@ public class CcbReusableStepDefinitions extends StepImplementationBase {
             actions.moveToElement(driver.findElement(By.xpath(pObj.getXpath()))).click().build().perform();
         }
 
+    }
+
+
+    @Then("^I change visibility of element \"(.*)\"$")
+    public void ChangeVisibility(String element){
+
+        ElementObject pObj = PageObjectGenerator.getElementObject(element);
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        WebElement pageObj = driver.findElement(By.xpath(pObj.getXpath()));
+        jse.executeScript("arguments[0].style.visibility='visible';",pageObj);
     }
 }
 
