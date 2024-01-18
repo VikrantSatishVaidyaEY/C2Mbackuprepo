@@ -1,0 +1,389 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-05	  CTongo		Initial Version.
+#
+#####################################################################################
+
+PaymentEventPage:
+#Main Tab Page
+  - element_type: ""
+    variable: distribute_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ALL_PAY_DIST_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: add_payment_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_PAY:0$ADD_BTN"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: add_payment_account_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY:1$ACCT_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: add_payment_paymentamount
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY:1$PAY_AMT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: freeze_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ALL_PAY_FREEZE_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+#Tenders Tab Page
+  - element_type: ""
+    variable: add_tender
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="IM_TndrScrol_add"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: add_tender_account
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY_TNDR$PAYOR_ACCT_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: amount_tendered_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY_TNDR$TENDER_AMT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: tender_type_tab
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY_TNDR$TNDR_TYPE_NON_CREDIT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: recalculate_cashback
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CALC_CASH_BACK_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: cancel_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY_TNDR$TNDR_CANCEL_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+#Add Payment Event Pop up
+  - element_type: ""
+    variable: payor_acct_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAYOR_ACCT_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: payment_amount
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAYMENT_AMT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: accntid
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACCT_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: amount_tendered
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="TNDR_TYPE:0$TENDERED_AMT"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: tender_type
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="tenderType_0"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: current_balance
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: (//span[text()="Financial Information"]/following::a)[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: last_payment
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //a[contains(text(),"Last Payment")]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: payment_date
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY_EVENT_INFO"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: payment_status
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY:0$PAY_STAT_MSG"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+
+  - element_type: ""
+    variable: distribution_action
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PEVT_SPCL_ACTN_FLG"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: add_payment_event_ok_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="OK_LBL_LBL"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: save_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="SAVE_BTN_MP"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Search Payment Event Pop up
+  - element_type: ""
+    variable: payment_event_id
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY_EVENT_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: payment_event_id_search_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BU_Main_payEvtSrch"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Cancel Payment Event Pop up
+
+  - element_type: ""
+    variable: payment_event_cancel_reason
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY_TNDR$CAN_RSN_CD2"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: cancel_payment_event_ok_btn
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="PAY_TNDR$TNDR_CANCEL_SW"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: payor_accntid
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //img[@id="IM_PAY_TNDR$PAYOR_ACCT_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: accntid
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="ACCT_ID"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="BU_Main_search"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: take_a_payment_link
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="takePaymentLink"]/span
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
