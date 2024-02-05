@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6d260e4-a5da-46b3-89f2-b8341f51828f" name="Changes" comment=" changes related to CC001 test cases">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/data/pageobjects/yaml/addmeterreaduipage.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/data/pageobjects/yaml/billpage.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/data/pageobjects/yaml/contextmenu.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/data/pageobjects/yaml/dashboard.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/data/pageobjects/yaml/submenu.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/features/manuallyGenerateBill.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cucumber.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/BIL001ManuallyGenerateABill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BIL001ManuallyGenerateABill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/BIL002CancelABillSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BIL002CancelABillSegment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/BIL003CancelRebillingBillSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BIL003CancelRebillingBillSegment.java" afterDir="false" />
@@ -58,6 +65,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN007SearchingForAPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN007SearchingForAPayment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN008SettingUpAutopay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN008SettingUpAutopay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/FIN009CancellingAutopay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FIN009CancellingAutopay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/FeatureRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FeatureRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/FunctionalCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/FunctionalCukesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/MTR001CreateInstallMeterFieldActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/MTR001CreateInstallMeterFieldActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/MTR002CreateExchangeMeterFieldActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/MTR002CreateExchangeMeterFieldActivity.java" afterDir="false" />
@@ -72,11 +80,12 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/TDS002CompleteToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/TDS002CompleteToDo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/TDS003AssigningToDoEntries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/TDS003AssigningToDoEntries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/TestData_InputFileBuilder_Scenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/TestData_InputFileBuilder_Scenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/data/environments.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/environments.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/c2mloginpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/data/pageobjects/yaml/c2mloginpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/features/addNewPremise.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/features/addNewPremise.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/features/createPayment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/features/createPayment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB/features/createPersonWithAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB/features/createPersonWithAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/addmeterreaduipage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/C2M_EYDemo/data/pageobjects/yaml/addmeterreaduipage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/data/pageobjects/yaml/frameobjects.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/data/pageobjects/yaml/frameobjects.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/data/pageobjects/yaml/premisepage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/data/pageobjects/yaml/premisepage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/features/takeACashPayment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CCB_v2-9/features/takeACashPayment.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cucumber.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/feature-scenarios/feature_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/feature-scenarios/feature_0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/feature-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/feature-summary.html" afterDir="false" />
@@ -87,11 +96,11 @@
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01032894717.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_01032894717.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_02007642903.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_02041508332.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_02090033241.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_02090033241.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_02090033241.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0594343437.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0594343437.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0783171777.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_0783171777.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1062405609.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1062405609.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1550261679.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1550261679.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_1550261679.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_509934513.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_509934513.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_6299848.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_781015678.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cluecumber/pages/step-scenarios/step_781015678.html" afterDir="false" />
@@ -107,6 +116,8 @@
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Ordering an Echo Dot in Amazon.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nextgen-testing-platform-2.0.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nextgen-testing-platform-2.0.4.jar" afterDir="false" />
@@ -173,11 +184,7 @@
       <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.11.22.14.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.11.31.24.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumberJSONReport_2023.11.28.11.34.05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CCB/data/environments.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CCB/data/environments.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CCB/data/pageobjects/yaml/c2mloginpage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CCB/data/pageobjects/yaml/c2mloginpage.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CCB/data/pageobjects/yaml/frameobjects.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CCB/data/pageobjects/yaml/frameobjects.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CCB/features/addNewPremise.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CCB/features/addNewPremise.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CCB/features/createPersonWithAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CCB/features/createPersonWithAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/addmeterreaduipage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/C2M_EYDemo/data/pageobjects/yaml/addmeterreaduipage.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/methods/BIL001ManuallyGenerateABill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/BIL001ManuallyGenerateABill.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/methods/BIL002CancelABillSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/BIL002CancelABillSegment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/methods/BIL003CancelRebillingBillSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/methods/BIL003CancelRebillingBillSegment.class" afterDir="false" />
@@ -276,17 +283,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/TB713MA/OneDrive - EY/Documents/GitHub/Oracle-C2M/C2Mbackuprepo/src/test/resources/CCB/features&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TB713MA/OneDrive - EY/Documents/GitHub/Oracle-C2M/C2Mbackuprepo/src/test/resources/CCB/data/pageobjects/yaml&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\src\test\resources\CCB\data\pageobjects\yaml" />
+      <recent name="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\src\test\resources\CCB_v2-9\data\pageobjects\yaml" />
+      <recent name="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\src\test\resources\CCB_v2-9\features" />
+      <recent name="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\src\test\resources" />
       <recent name="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\src\test\resources\CCB\features" />
-      <recent name="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\src\test\resources\CCB\data" />
-      <recent name="C:\Users\TB713MA\OneDrive - EY\Documents\GitHub\Oracle-C2M\C2Mbackuprepo\src\test\resources\CCB\data\pageobjects" />
-      <recent name="C:\Users\FH352RA\OneDrive - EY\Documents\GitHub\C2Mbackuprepo\src\test\resources\CCB\data\pageobjects\yaml" />
-      <recent name="C:\Users\FH352RA\OneDrive - EY\Documents\GitHub\C2Mbackuprepo\src\test\resources\CCB\features" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ngtp-official315\src\test\resources\C2M_EYDemo\features\Custom Tests" />
@@ -891,7 +898,7 @@
       <option name="project" value="LOCAL" />
       <updated>1689280544653</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

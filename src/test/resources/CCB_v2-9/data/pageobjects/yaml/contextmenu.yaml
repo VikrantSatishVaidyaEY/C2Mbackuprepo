@@ -1,0 +1,1168 @@
+#####################################################################################
+#
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-04	  JLonga		Initial Version.
+# 2022-04-26	  AThott		Changed Xpath of perctx_gotocustcont as it is referring to perctx_gotoaccount
+# 2022-05-05	  AThott		Changed Xpath of perctx_gotocustcont as per C2MDEV
+# 2022-05-11	  SAhmad		Changed Xpath of acctctx_gotocollagcyref as per C2MDEV
+# 2022-05-13	  SAhmad		Added Deposit/Tender Control and goto_tndr_cntrl, add_tndr_cntrl element
+# 2022-05-16	  CTongo		Changed variable name for Go to Severance Process from gotosa to gotosevproc
+# 2022-05-24	  SAhmad		Add a pay plan and goto add pay plan element as per C2MDEV
+# 2022-08-16	  SAhmad		Changed Xpath of acctctx_gotosevproc, acctctx_gotopar, acctctx_gotocollagcyref, acctctx_gotopayplan, acctctx_gotocollproc, acctctx_woproc, acctctx_gotopa as per C2MDEV
+#####################################################################################
+
+Context:
+#Search and Add Contextmenu - Do Not Edit
+  - element_type: ""
+    variable: search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Search"]
+    #/html/body/div[1]/ul/li[1]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: add
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Add"]
+    #/html/body/div[1]/ul/li[2]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Person ContextMenu
+    #Person > Go To Person
+  - element_type: ""
+    variable: perctx_gotoperson
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Go To Person"]
+    #//*[@id="CI_CONTEXTPERSON_subMenuItem0x0"]/span[1]
+    #//*[@id="imagePersonOrBusiness"]
+    #
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Person > Add Person Contact
+  - element_type: ""
+    variable: perctx_addpersoncontact
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPERSON_subMenuItem0x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Person > Go to Account
+  - element_type: ""
+    variable: perctx_gotoaccount
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPERSON_subMenuItem1x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Person > Go To Case
+  - element_type: ""
+    variable: perctx_gotocase
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPERSON_subMenuItem1x5"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Person > Go To Control Central
+  - element_type: ""
+    variable: perctx_gotocontrolcentral
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPERSON_subMenuItem0x6"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Person > Go To Customer Contact
+  - element_type: ""
+    variable: perctx_gotocustcont_c2mdemo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPERSON_subMenuItem1x7"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: percntxmnu
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //img[@title="Show Person Context Menu"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type:
+    variable: perctx_gotocustcont
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Go To Customer Contact"]
+    #//*[@id="CI_CONTEXTPERSON_subMenuItem1x7"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Person > Go To Order
+  - element_type: ""
+    variable: perctx_gotoorder
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPERSON_subMenuItem1x8"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Account ContextMenu
+    #Account > Go To Account
+  - element_type: ""
+    variable: acctctx_gotoaccount
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Go To Account"]
+    #//*[@id="CI_CONTEXTACCOUNT_subMenuItem0x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Account Financial History
+  - element_type: ""
+    variable: acctctx_gotoacctfinhist
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem0x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Account Payment History
+  - element_type: ""
+    variable: acctctx_gotoacctpaymthist
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem0x5"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Account/Person Replicator History
+  - element_type: ""
+    variable: acctctx_gotoacctperrep
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem0x7"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Adjustment
+  - element_type: ""
+    variable: acctctx_gotoadjustment
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Go To Adjustment"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Bill
+  - element_type: ""
+    variable: acctctx_gotobill
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Go To Bill"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Bill Segment
+  - element_type: ""
+    variable: acctctx_gotobillseg
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x11"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Billable Charge
+  - element_type: ""
+    variable: acctctx_gotobillcharge
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x12"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Case
+  - element_type: ""
+    variable: acctctx_gotocase
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x14"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Collection Agency Referral
+  - element_type: ""
+    variable: acctctx_gotocollagcyref
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[contains(text(),'Go To Collection Agency Referral')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: acctctx_gotocollagcyref_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x15"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Collection Process
+  - element_type: ""
+    variable: acctctx_gotocollproc
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[contains(text(),'Go To Collection Process')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Control Central
+  - element_type: ""
+    variable: acctctx_gotocontrolcentral
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem0x18"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Customer Contact
+  - element_type: ""
+    variable: acctctx_gotocustcont
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x19"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Landlord Agreement
+  - element_type: ""
+    variable: acctctx_gotolandlordagrmnt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x23"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Order
+  - element_type: ""
+    variable: acctctx_gotoorder
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x29"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Pay Plan
+  - element_type: ""
+    variable: acctctx_gotopayplan
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[contains(text(),'Go To Pay Plan')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: acctctx_gotopayplan_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x32"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Payment
+  - element_type: ""
+    variable: acctctx_gotopayment
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x33"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Payment Arrangement
+  - element_type: ""
+    variable: acctctx_gotopa
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: (//*[contains(text(),'Go To Payment Arrangement')])[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Payment Arrangement Request
+  - element_type: ""
+    variable: acctctx_gotopar
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[contains(text(),'Go To Payment Arrangement Request')] #update xpath for C2MDEV
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Payment Event
+  - element_type: ""
+    variable: acctctx_gotopaymntevt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x37"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account >  Go To SA Billing History
+  - element_type: ""
+    variable: acctctx_sabillhist
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem0x41"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To SA Financial History
+  - element_type: ""
+    variable: acctctx_safinhist
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x42"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To SA Reletionship
+  - element_type: ""
+    variable: acctctx_sarel
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x43"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Service Agreement
+  - element_type: ""
+    variable: acctctx_gotosa
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[contains(text(),'Go To Service Agreement')] #Update xpath for C2MDEV
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Severance Process
+  - element_type: ""
+    variable: acctctx_gotosevproc
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[contains(text(),'Go To Severance Process')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: acctctx_gotosevproc_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x46"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Start/Stop
+  - element_type: ""
+    variable: acctctx_gotostartstop
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Go To Start/Stop"]
+    #//*[@id="CI_CONTEXTACCOUNT_subMenuItem0x42"]/span[1]  #update xpath for C2MDEV
+#    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem0x47"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Write Off
+  - element_type: ""
+    variable: acctctx_gotowo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem0x50"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Account > Go To Write Off Process
+  - element_type: ""
+    variable: acctctx_woproc
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[contains(text(),'Go To Write Off Process')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+#Premise ContextMenu
+    #Premise > Go To Premise
+  - element_type: ""
+    variable: premctx_gotopremise
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPREMISE_subMenuItem0x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Premise > Go To Activity
+  - element_type: ""
+    variable: premctx_gotoactivity
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPREMISE_subMenuItem0x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Premise > Go To Case
+  - element_type: ""
+    variable: premctx_gotocase
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPREMISE_subMenuItem1x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Premise > Go To Control Central
+  - element_type: ""
+    variable: premctx_gotocontrolcentral
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPREMISE_subMenuItem0x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Premise > Go To Customer Contact
+  - element_type: ""
+    variable: premctx_gotocustcont
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPREMISE_subMenuItem1x5"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Premise > Go To Order
+  - element_type: ""
+    variable: premctx_gotoorder
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPREMISE_subMenuItem1x7"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Premise > Go To Outage Call
+  - element_type: ""
+    variable: premctx_gotooutagecall
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPREMISE_subMenuItem1x8"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Premise > Go To Premise Replicator
+  - element_type: ""
+    variable: premctx_gotopremrep
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTPREMISE_subMenuItem1x10"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+    #Premise > Go To Service Point
+  - element_type: ""
+    variable: premctx_gotosp
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Go To Service Point"]
+    #//*[@id="CI_CONTEXTPREMISE_subMenuItem1x17"]/span[1] #update xpath for C2MDEV
+#    xpath: //*[@id="CI_CONTEXTPREMISE_subMenuItem1x11"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Service Agrement ContextMenu
+    #Service Agreement > Go To Service Agreement
+  - element_type: ""
+    variable: sactx_gotosa
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Go To Service Agreement"]
+    #//*[@id="CI_CONTEXTACCOUNT_subMenuItem1x40"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: sactx_gotosa_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTACCOUNT_subMenuItem1x44"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Agreement > Go To 360 View
+  - element_type: ""
+    variable: sactx_gotothreesixtyview
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTSERVICEAGREEMENT_subMenuItem0x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Agreement > Go To Adjustment
+  - element_type: ""
+    variable: sactx_gotoadjustment
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTSERVICEAGREEMENT_subMenuItem1x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Agreement > Go To Bill Segment
+  - element_type: ""
+    variable: sactx_gotobillseg
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTSERVICEAGREEMENT_subMenuItem0x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Agreement > Go To Billage Charge
+  - element_type: ""
+    variable: sactx_gotobillcharge
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTSERVICEAGREEMENT_subMenuItem1x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Agreement > Go To Financial Transaction
+  - element_type: ""
+    variable: sactx_gotoft
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTSERVICEAGREEMENT_subMenuItem0x9"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Agreement > Go To Payment Arrangement for Bills
+  - element_type: ""
+    variable: sactx_gotopabills
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTSERVICEAGREEMENT_subMenuItem1x13"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Agreement > Go To SA Relationship
+  - element_type: ""
+    variable: sactx_gotosarel
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTSERVICEAGREEMENT_subMenuItem1x19"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Agreement > Go To Severance Process
+  - element_type: ""
+    variable: sactx_gotosevproc
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CONTEXTSERVICEAGREEMENT_subMenuItem1x20"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Agreement > Go To Usage Subscription
+  - element_type: ""
+    variable: sactx_goto_usage_sub
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Go To Usage Subscription"]
+    #//*[@id="CI_CONTEXTSERVICEAGREEMENT_subMenuItem0x23"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Service Point ContextMenu
+    #Service Point > Add Field-Related Activity
+  - element_type: ""
+    variable: spctx_gotoaddfa
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_SP_subMenuItem0x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Point > Go To 360 View
+  - element_type: ""
+    variable: spctx_gotothreesixtyview
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_SP_subMenuItem0x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Point > Go To Device
+  - element_type: ""
+    variable: spctx_gotodevice
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_SP_subMenuItem0x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Point > Go To Install Event
+  - element_type: ""
+    variable: spctx_gotoinstallevt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_SP_subMenuItem1x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Point > Go To Usage Subscription
+  - element_type: ""
+    variable: spctx_gotous
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_SP_subMenuItem0x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Service Point > Go To Activity
+  - element_type: ""
+    variable: spctx_gotoactivity
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_SP_subMenuItem1x6"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Usage Subscription ContextMenu
+    #Usage Subscription > Go To Usage Subscription
+  - element_type: ""
+    variable: usctx_gotous
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_US_subMenuItem0x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Usage Subscription > Go To 360 View
+  - element_type: ""
+    variable: usctx_gotothreesixtyview
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_US_subMenuItem0x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Usage Subscription > Go To Service Agreement
+  - element_type: ""
+    variable: usctx_gotosa
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_US_subMenuItem0x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Usage Subscription > Go To Usage Transaction
+  - element_type: ""
+    variable: usctx_gotout
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_US_subMenuItem1x3]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Device ContextMenu
+    #Device > Go To Device
+  - element_type: ""
+    variable: devctx_gotodevice
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_DEVICE_subMenuItem0x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+   #Device > Go To 360 View
+  - element_type: ""
+    variable: devctx_gotothreesixtyview
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_DEVICE_subMenuItem0x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+   #Device > Go To Activity
+  - element_type: ""
+    variable: devctx_gotoactivity
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_DEVICE_subMenuItem1x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+   #Device > Go To Device Configuration
+  - element_type: ""
+    variable: devctx_gotodvccfg
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_DEVICE_subMenuItem1x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+   #Device > Go To Device Event
+  - element_type: ""
+    variable: devctx_gotodvcevt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_DEVICE_subMenuItem1x5"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+   #Device > Go To Install Event
+  - element_type: ""
+    variable: devctx_gotoinstallevt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_DEVICE_subMenuItem0x6"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Device Configuration ContextMenu
+    #Device Configuration > Go To Device Configuration
+  - element_type: ""
+    variable: dcctx_gotodvccfg
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_DEVICECONFIGURATION_subMenuItem1x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Device Configuration > Go To Install Event
+  - element_type: ""
+    variable: dcctx_gotoinstallevt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_DEVICECONFIGURATION_subMenuItem1x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    # Device Configuration > Go To Measuring Component
+  - element_type: ""
+    variable: dcctx_gotomeasrcomp
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_DEVICECONFIGURATION_subMenuItem1x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Measuring Component ContextMenu
+    #Measuring Component > Go To Measuring Component
+  - element_type: ""
+    variable: mcctx_gotomeasrcomp
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_MC_subMenuItem0x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Measuring Component > Go To 360 View
+  - element_type: ""
+    variable: mcctx_gotothreesixtyview
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_MC_subMenuItem0x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+    #Measuring Component > Go To Device
+  - element_type: ""
+    variable: mcctx_gotodevice
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_MC_subMenuItem0x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Install Event ContextMenu
+    #Measuring Component > Go To Measuring Component
+  - element_type: ""
+    variable: mcctx_gotomeasrcomp
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_CONTEXT_MC_subMenuItem0x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Deposit Control Context:
+#  Deposit Control Context >Go To tender Control
+
+  - element_type:
+    variable: goto_tndr_cntrl
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //li[@id='CI_CONTEXTDEPOSITCONTROL_subMenuItem1x2']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  #Go To tender Control >Add
+  - element_type:
+    variable: add_tndr_cntrl
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //li[@id='CI0000000123']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+
+

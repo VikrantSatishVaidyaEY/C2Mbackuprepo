@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         tags = "@zenbook",
         plugin = {"pretty", "html:target/reports/cucumberHtmlReport", "json:target/reports/[CUCABLE:RUNNER].json", "rerun:rerun.txt"},
         features = {"target/parallel/features/[CUCABLE:FEATURE].feature"},
-        glue = { "seleniumutils.applicationlayer", "seleniumutils.frameworklayer", "methods", "env", "stepimplementation", "application", "com.intuit.karate"}
+        glue = { "seleniumutils.applicationlayer", "seleniumutils.frameworklayer", "methods", "stepimplementation", "application", "com.intuit.karate"}
 )
 @RunWith(Cucumber.class)
 //Junit

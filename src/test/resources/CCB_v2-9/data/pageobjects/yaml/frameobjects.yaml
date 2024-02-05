@@ -422,6 +422,17 @@ Frame:
     partiallinktext: ""
     tagname: ""
 
+  - element_type: frame
+    variable: prem_tree_frame
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //iframe[@id='PREM_TREE']
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
 
   - element_type: ""
     variable: premise_geo_tab

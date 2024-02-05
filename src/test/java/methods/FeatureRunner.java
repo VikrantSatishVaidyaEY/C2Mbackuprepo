@@ -17,7 +17,7 @@ import static etaf.helperutils.filehelper.GlobalProperties.getConfigProperties;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@AddPremise",
+        tags = "@addBill or @CreatePayment",
         plugin = {"pretty", "html:target/reports/cucumberHtmlReport", "json:target/reports/cucumberJSONReport.json", "rerun:rerun.txt"},
         features = {"src/test/resources"},
         glue = { "seleniumutils.applicationlayer", "seleniumutils.frameworklayer", "methods", "stepimplementation", "application", "com.intuit.karate"}

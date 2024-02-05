@@ -901,3 +901,27 @@ PremisePage:
     linktext: ""
     partiallinktext: ""
     tagname: ""
+
+  - element_type: ""
+    variable: expand_sp
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //a[contains(text(),'SP')]/ancestor::td[2]/preceding-sibling::td/img
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: show_sp_context_menu
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //a[contains(text(),'SP')]/../../img[@title="Show Context Menu"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

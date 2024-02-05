@@ -52,11 +52,12 @@ Feature: Create a new payment
     And I wait for 5 sec
     And I move to frame frame.main_frame
     And I click element actionbuttons.refresh
-    And I wait for 15 sec
+    And I wait 15 seconds for element frame.dashboard to display
     And I move to frame frame.dashboard
+    And I wait 10 seconds for element paymenteventpage.current_balance to display
     And I validate element paymenteventpage.current_balance has value "0.00"
     And I click element paymenteventpage.last_payment
-    And I wait for 5 sec
+    And I wait for 10 sec
     And I move to frame frame.tabpage_frame
     And I validate element paymenteventpage.payment_date has value "<date>"
     And I move to frame frame.paymentgrid_frame
@@ -70,4 +71,5 @@ Feature: Create a new payment
     Examples:
 
       | searchBy   | accountId  | tenderType | date |
-      | Account ID | 0689608083 |  Cash      | 01‑18‑2024 |
+      | Account ID | 0689608083 |  Cash      | 01‑31‑2024 |
+#      | Account ID | 1086991403 |  Cash      | 01‑31‑2024 |

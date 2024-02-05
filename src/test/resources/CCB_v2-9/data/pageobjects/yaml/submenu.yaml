@@ -1,0 +1,1119 @@
+#####################################################################################
+# CHANGE HISTORY:
+#
+# Date:       	by:    		Reason:
+# 2022-04-06		JLonga		Initial Version.
+# 2022-04-25		AThott		Added Activity Submenu
+# 2022-06-01    CTongo    Update full xpath to span/contains text of element Search and Add,
+#                         this is due to the elements uses different full xpath in C2MDEV for
+#                         Asset Management and other Main Menu options
+# 2022-08-13	Vvaidya		Added code for changed xpath for person submenu
+# 2022-08-16	  SAhmad		Changed Xpath of write_off_process as per C2MDEV
+# 2022-08-16	  VVaidya		Changed Xpath of Person and Premise Submenus to make it Absolute Xpath
+
+#####################################################################################
+
+SubMenu:
+#Search and Add Submenu - Do Not Edit
+  - element_type: ""
+    variable: search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[contains(text(),'Search')]
+#    xpath: /html/body/div[1]/ul/li[1]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: add
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[contains(text(),'Add')]
+#    xpath: /html/body/div[1]/ul/li[2]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#360 Search Sub-Menus
+  - element_type: ""
+    variable: search_by_address
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D2_360SEARCH_subMenuItem0x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: search_by_device
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D2_360SEARCH_subMenuItem0x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: search_by_name
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D2_360SEARCH_subMenuItem0x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Asset Management Search Sub-Menus
+  - element_type: ""
+    variable: asset
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Asset"]
+    #//*[@id="W1_ASSET_subMenuItem1x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: asset_activity
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="W1_ASSET_subMenuItem1x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: asset_activity_generator
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="W1_ASSET_subMenuItem1x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: asset_completion_event
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="W1_ASSET_subMenuItem1x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: asset_inbound_comm
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="W1_ASSET_subMenuItem0x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: asset_location
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="W1_ASSET_subMenuItem1x5"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: asset_replication
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="W1_ASSET_subMenuItem1x6"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: manufacturer
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="W1_ASSET_subMenuItem1x7"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: mass_asset_disp_update
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="W1_ASSET_subMenuItem0x8"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: service_history
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="W1_ASSET_subMenuItem1x10"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: specification
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="W1_ASSET_subMenuItem1x11"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Credit and Collection Sub-Menus
+  - element_type: ""
+    variable: coll_agency_referral
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CREDITANDCOLLECTION_subMenuItem1x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: ""
+    variable: collection_process
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CREDITANDCOLLECTION_subMenuItem1x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: cut_process
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CREDITANDCOLLECTION_subMenuItem0x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: overdue_process
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CREDITANDCOLLECTION_subMenuItem1x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: pay_plan
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CREDITANDCOLLECTION_subMenuItem1x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: payment_arrangement
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CREDITANDCOLLECTION_subMenuItem1x5"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: payment_arrangement_req
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CREDITANDCOLLECTION_subMenuItem1x6"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: payment_arrangement_bills
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CREDITANDCOLLECTION_subMenuItem1x7"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: severance_process
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CREDITANDCOLLECTION_subMenuItem1x8"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: write_off
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CREDITANDCOLLECTION_subMenuItem1x9"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: write_off_process
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CREDITANDCOLLECTION_subMenuItem1x10"] #update xpath for C2MDEV
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Customer Information Sub-Menus
+  - element_type: ""
+    variable: account
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: account_management
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem0x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: acct_per_replicator
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem0x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: bill_print_group
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x5"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: customer_contact
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x8"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: high_bill_complaint
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x10"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: landlord_agreement
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x11"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: loan
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem0x12"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: person
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Person"]
+    #//*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x14"]/span[1]
+    #//*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x13"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: person_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x14"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+  - element_type: ""
+    variable: premise_demo
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x15"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+  - element_type: input
+    variable: premise
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Premise"]
+    #//*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x13"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: premise_mgmt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Premise Management"]
+    #//*[@id="CI_CUSTOMERINFORMATION_subMenuItem0x14"]/span[1]  #update xpath for C2MDEV
+#    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem0x16"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: premise_replicator
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem0x17"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: sa_relationship
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x19"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: service_agreement
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x20"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: service_point
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x23"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: startstop
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem0x25"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: case
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_CUSTOMERINFORMATION_subMenuItem1x27"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Device Sub-Menus
+  - element_type: ""
+    variable: device
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_DEVICE_subMenuItem1x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: device_configuration
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_DEVICE_subMenuItem0x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: measuring_component
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Measuring Component"]
+    #//*[@id="D1_DEVICE_subMenuItem1x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Device Installation Sub-Menus
+  - element_type: ""
+    variable: facility
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_INSTALLATION_subMenuItem1x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: facility
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_INSTALLATION_subMenuItem1x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: install_event
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Install Event"]
+    #//*[@id="D1_INSTALLATION_subMenuItem1x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: network_location
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_INSTALLATION_subMenuItem1x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: route_mgmt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_INSTALLATION_subMenuItem0x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: service_point_qty
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_INSTALLATION_subMenuItem1x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Financial Sub-Menus
+  - element_type: ""
+    variable: adjustment
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[text()="Adjustment"]
+    #//*[@id="CI_FINANCIAL_subMenuItem1x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: bill
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_FINANCIAL_subMenuItem1x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: bill_segment
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_FINANCIAL_subMenuItem1x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: billable_charge
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_FINANCIAL_subMenuItem1x5"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: deposit_control
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_FINANCIAL_subMenuItem1x7"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: financial_transaction
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_FINANCIAL_subMenuItem0x9"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: payment
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_FINANCIAL_subMenuItem1x13"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: payment_event
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_FINANCIAL_subMenuItem1x14"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: statement
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_FINANCIAL_subMenuItem1x20"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: tender_control
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_FINANCIAL_subMenuItem1x21"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Rates Sub-Menus
+  - element_type: ""
+    variable: bill_factor
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_RATES_subMenuItem1x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: bill_factor_value
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_RATES_subMenuItem0x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: calculation_group
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_RATES_subMenuItem1x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: calculation_rule
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_RATES_subMenuItem1x6"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: rate_check
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_RATES_subMenuItem0x7"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: rate_schedule
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_RATES_subMenuItem1x8"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#To Do Sub-Menus
+  - element_type: ""
+    variable: supervisor_to_do_assgnmt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_TODO_subMenuItem0x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: supervisor_to_do_summary
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_TODO_subMenuItem0x1"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: supervisor_user_summary
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_TODO_subMenuItem0x2"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: to_do_dashboard
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_TODO_subMenuItem0x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: to_do_entry
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_TODO_subMenuItem1x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: to_do_list
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_TODO_subMenuItem0x5"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: to_do_mgmt
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_TODO_subMenuItem0x6"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: to_do_search
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_TODO_subMenuItem0x7"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: to_do_summary
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="CI_TODO_subMenuItem0x8"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+#Usage Sub-Menus
+  - element_type: ""
+    variable: tou_map
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D2_USAGE_subMenuItem1x3"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: usage_calc_request
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D2_USAGE_subMenuItem1x4"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: usage_request
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D2_USAGE_subMenuItem0x5"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: usage_subscription
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D2_USAGE_subMenuItem1x6"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: usage_subscription_qty
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D2_USAGE_subMenuItem1x7"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: usage_transaction
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D2_USAGE_subMenuItem1x8"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: initial_measurement_data
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[text()="Initial Measurement Data"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+
+#Communication Sub-Menus
+  - element_type: ""
+    variable: activity
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_COMMUNICATION_subMenuItem1x0"]/span[1]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: go_to_install_event
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //*[@id="D1_INSTALLATION_subMenuItem1x1"]/span[1]
+    #//*[@id="IM_SA_TO_STRT$START_OPT_CD"]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""
+
+  - element_type: ""
+    variable: go_to_meter_read
+    value: ""
+    id: ""
+    class: ""
+    name: ""
+    xpath: //span[contains(text(),'Go To Meter Read')]
+    css: ""
+    linktext: ""
+    partiallinktext: ""
+    tagname: ""

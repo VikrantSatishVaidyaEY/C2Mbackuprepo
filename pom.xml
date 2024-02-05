@@ -30,7 +30,7 @@
         <!--Run time properties updated here will
            override the values in cucumber.properties. Command line: mvn [clean] [install|test|verify] -Dpropertyname=value
         -->
-        <application>EyStoreDemo</application>
+        <application>CCB</application>
         <environment></environment>
         <browser></browser>
         <headless></headless>
